@@ -3,30 +3,28 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-def plot_histogram(data):
+def plot_histogram(data, site, figura):
     names = list(data.keys())
-    values = list(data.values());
+    values = list(data.values())
 
-    values = list(map(int, data.values()))
+    values = list(map(int, values))  # Convert values to integers
 
     # Ordenando os valores
     sorted_indices = sorted(range(len(values)), key=lambda i: values[i])
     sorted_names = [names[i] for i in sorted_indices]
     sorted_values = [values[i] for i in sorted_indices]
     
-    plt.bar(range(len(data)), sorted_values, tick_label=sorted_names);
-    plt.xticks(rotation=90);
-    plt.ylim(0, max(values));
+    plt.bar(range(len(data)), sorted_values, tick_label=sorted_names)
+    plt.xticks(rotation=90)
+    plt.ylim(0, max(values))
     
     # Titulo dos eixos e do gráfico
-    plt.xlabel('Certificado') 
     plt.ylabel('Nº de vagas') 
-    plt.title("Vagas por certificado no 'vagas.com'")
+    plt.title(f"Vagas por competência no '{site}'")
 
-    #plt.show()
-    #Salvando o gráfico
     plt.tight_layout(rect=[0, 0, 1, 0.9])
-    plt.savefig('vagas.png');
+    plt.savefig(f"{figura}.png")
+    plt.close();
 
 def parse_page(url):
     # GET a página
@@ -46,27 +44,86 @@ def parse_page(url):
     else:
         print("Failed to retrieve the web page. Error code:", response.status_code)
 
-basic_url = "https://www.vagas.com.br/vagas-de-";
-urls = ["MTCNA","CCNA","HCIA","JNCIA","ACMA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
-total_urls = len(urls);
-dicionario = {'':0};
-i = 0;
+def vagas_com(vetor):
+    basic_url = "https://www.vagas.com.br/vagas-de-";
+    total_urls = len(vetor);
+    dicionario = {'':0};
+    i = 0;
 
-for url in urls:
-    temp = parse_page(basic_url+url);
-    if temp != None:
-        dicionario[url]=temp;
+    for elemento in vetor:
+        temp = parse_page(basic_url+elemento);
+        if temp != None:
+            dicionario[elemento]=temp;
 
-    i+=1;
-    print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        i+=1;
+        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
 
-temp = ""
+    temp = ""
 
-for key, value in dicionario.items():
-    temp = temp + f"{datetime.now()}, {key}, {value}\n";
+    for key, value in dicionario.items():
+        temp = temp + f"{datetime.now()}, {key}, {value}\n";
+
+    return temp, dicionario
+
+def catho_com(vetor):
+    total_urls = len(vetor);
+    dicionario = {'':0};
+    i = 0;
+
+    for elemento in vetor:
+        temp = parse_page(f"https://www.catho.com.br/vagas/{elemento.lower()}/?q={elemento.upper()}");
+
+        temp = temp.replace(".","");
+
+        if temp != None and temp != "Ops!":
+            dicionario[elemento]=temp;
+
+        i+=1;
+        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+
+    temp = ""
+
+    for key, value in dicionario.items():
+        temp = temp + f"{datetime.now()}, {key}, {value}\n";
+
+    return temp, dicionario
+
+certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","ACMA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
+langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
+
+print("===  vagas.com: Certificados ===")
+temp, dicionario = vagas_com(certs)
 
 file = open("vagas.csv","a");
 file.write(temp);
-file.close()
+file.close();
 
-plot_histogram(dicionario)
+plot_histogram(dicionario,"vagas.com","certificados-vagas");
+
+print("===  vagas.com: Linguagens   ===")
+temp, dicionario = vagas_com(langs)
+
+file = open("vagas.csv","a");
+file.write(temp);
+file.close();
+
+plot_histogram(dicionario,"vagas.com","linguagens-vagas");
+
+print("===  Catho.com: Certificados ===")
+temp, dicionario = catho_com(certs)
+
+file = open("catho.csv","a");
+file.write(temp);
+file.close();
+
+plot_histogram(dicionario,"catho.com","certificados-catho");
+
+print("===  Catho.com: Linguagens   ===")
+temp, dicionario = catho_com(langs)
+
+file = open("catho.csv","a");
+file.write(temp);
+file.close();
+
+plot_histogram(dicionario,"catho.com","linguagens-catho");
+
