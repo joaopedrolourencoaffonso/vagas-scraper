@@ -1,6 +1,6 @@
 # Vagas Scraper
 
-Este script Python "_scrapea_" o site "vagas.com.br" para recuperar o número de vagas para certificações específicas e gera um histograma com base nos dados coletados. O script utiliza a biblioteca de solicitações para fazer solicitações HTTP, a biblioteca BeautifulSoup para analisar o conteúdo HTML e a biblioteca matplotlib para plotar o histograma.
+Este script Python "_raspa_" o site "vagas.com.br" para recuperar o número de vagas para certificações específicas e gera um histograma com base nos dados coletados. O script utiliza a biblioteca de solicitações para fazer solicitações HTTP, a biblioteca BeautifulSoup para analisar o conteúdo HTML e a biblioteca matplotlib para plotar o histograma.
 
 ## Instalação
 
@@ -17,11 +17,20 @@ Este script Python "_scrapea_" o site "vagas.com.br" para recuperar o número de
     ```
     python vagas.py
     ```
-3. O script irá raspar as páginas da web, recuperar o número de vagas de emprego e salvar os dados em um arquivo CSV chamado "vagas.csv".
-4. Além disso, um histograma será plotado usando os dados coletados e a imagem resultante será salva como "vagas.png".
+3. O script irá raspar as páginas da web, recuperar o número de vagas de emprego e salvar os dados em dois arquivo CSV, cada um referente a um site diferente.
+4. Além disso, dois histogramas serão plotados para cada site usando os dados coletados e as imagens resultantes serão salvas no formato png, conforme exemplos abaixo:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/vagas.png" alt="Exemplo de Gráfico" style="width:400px;height:300px;">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-vagas.png" alt="Vagas por certificado no 'vagas'" style="width:400px;height:300px;">
+    
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-catho.png" alt="Vagas por certificado na Catho" style="width:400px;height:300px;">
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/linguagens-vagas.png" alt="Vagas por linguagem no 'vagas'" style="width:400px;height:300px;">
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/linguagens-vagas.png" alt="Vagas por linguagem na Catho" style="width:400px;height:300px;">
 
 ## Contribuindo
 
