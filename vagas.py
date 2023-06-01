@@ -94,8 +94,13 @@ def write_file(name,text):
     file.close();
 
 def execute(to_print,vector,file_name,site_name,figura):
-    print(to_print)
-    temp, dicionario = catho_com(vector)
+    print(to_print);
+
+    if to_print.find("Catho") > 0:
+        temp, dicionario = catho_com(vector)
+
+    if to_print.find("vagas") > 0:
+        temp, dicionario = vagas_com(vector)
 
     write_file(file_name,temp);
 
