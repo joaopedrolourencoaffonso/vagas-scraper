@@ -88,42 +88,25 @@ def catho_com(vetor):
 
     return temp, dicionario
 
+def write_file(name,text):
+    file = open(name,"a");
+    file.write(text);
+    file.close();
+
+def execute(to_print,vector,file_name,site_name,figura):
+    print(to_print)
+    temp, dicionario = catho_com(vector)
+
+    write_file(file_name,temp);
+
+    plot_histogram(dicionario,site_name,figura);
+
 certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","ACMA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
 langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
 
-print("===  vagas.com: Certificados ===")
-temp, dicionario = vagas_com(certs)
 
-file = open("vagas.csv","a");
-file.write(temp);
-file.close();
-
-plot_histogram(dicionario,"vagas.com","certificados-vagas");
-
-print("===  vagas.com: Linguagens   ===")
-temp, dicionario = vagas_com(langs)
-
-file = open("vagas.csv","a");
-file.write(temp);
-file.close();
-
-plot_histogram(dicionario,"vagas.com","linguagens-vagas");
-
-print("===  Catho.com: Certificados ===")
-temp, dicionario = catho_com(certs)
-
-file = open("catho.csv","a");
-file.write(temp);
-file.close();
-
-plot_histogram(dicionario,"catho.com","certificados-catho");
-
-print("===  Catho.com: Linguagens   ===")
-temp, dicionario = catho_com(langs)
-
-file = open("catho.csv","a");
-file.write(temp);
-file.close();
-
-plot_histogram(dicionario,"catho.com","linguagens-catho");
-
+if __name__ == "__main__":
+    execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas");
+    execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas");
+    execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho");
+    execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho");
