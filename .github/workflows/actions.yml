@@ -2,7 +2,7 @@ name: run vagas.py
 
 on:
   schedule:
-    - cron: '20 7 * * 6' # At 00:00 on Monday
+    - cron: '30 7 * * 6' # At 00:00 on Monday
 
 jobs:
   build:
@@ -32,7 +32,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "script executado" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
