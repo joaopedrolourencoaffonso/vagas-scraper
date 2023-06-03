@@ -2,7 +2,7 @@ name: run vagas.py
 
 on:
   schedule:
-    - cron: '40 8 * * 1' # At 00:00 on Monday
+    - cron: '43 7 * * 1' # At 07:43 on Saturday
 
 jobs:
   build:
