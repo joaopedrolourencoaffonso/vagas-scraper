@@ -1,6 +1,0 @@
-# Ignore virtual environments
-venv/
-
-# Ignore Python package dependencies
-*.egg-info/
-dist/
