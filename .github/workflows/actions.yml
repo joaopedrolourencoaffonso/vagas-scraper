@@ -2,7 +2,7 @@ name: Run Webscraper
 
 on:
   schedule:
-    - cron: "17 8 * * 6"  # Run on Saturdays at 08:00 AM in Sao Paulo timezone
+    - cron: "21 8 * * 6"  # Run on Saturdays at 08:25 AM in Sao Paulo timezone
 
 env:
   TZ: America/Sao_Paulo
@@ -35,4 +35,4 @@ jobs:
           git config --global user.email "joaoaffonso@id.uff.br"
           git add *.png *.csv
           git commit -m "Update data"
-          git push
+          git push origin master
