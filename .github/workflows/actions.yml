@@ -2,7 +2,7 @@ name: Run Webscraper
 
 on:
   schedule:
-    - cron: "51 07 * * 6"  # Run on Saturdays at 10:35 AM in America/Sao_Paulo time zone
+    - cron: "0 8 * * 6"  # Run on Saturdays at 08:00 AM in São Paulo timezone
 
 env:
   TZ: America/Sao_Paulo
@@ -28,3 +28,11 @@ jobs:
       - name: Run script
         run: |
           python vagas.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your.email@example.com"
+          git add *.png *.csv
+          git commit -m "Update data"
+          git push
