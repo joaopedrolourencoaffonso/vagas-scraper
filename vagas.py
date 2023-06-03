@@ -32,7 +32,7 @@ def parse_page(url):
 
     # Checando se o get foi bem sucedido
     if response.status_code == 200:
-        # Parseando a página
+        # Parseando a pagina
         soup = BeautifulSoup(response.content, "html.parser")
 
         # Cada página tem único h1 onde tem o número de vagas encontradas
