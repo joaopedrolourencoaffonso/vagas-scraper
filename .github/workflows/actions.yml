@@ -2,7 +2,10 @@ name: Run Webscraper
 
 on:
   schedule:
-    - cron: "35 7 * * 6"  # Run on Saturdays at 07:35 AM
+    - cron: "45 10 * * 6"  # Run on Saturdays at 10:35 AM in America/Sao_Paulo time zone
+
+env:
+  TZ: America/Sao_Paulo
 
 jobs:
   build:
