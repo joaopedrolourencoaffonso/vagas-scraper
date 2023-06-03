@@ -56,7 +56,7 @@ def vagas_com(vetor):
             dicionario[elemento]=temp;
 
         i+=1;
-        #print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
 
     temp = ""
 
@@ -79,7 +79,7 @@ def catho_com(vetor):
             dicionario[elemento]=temp;
 
         i+=1;
-        #print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
 
     temp = ""
 
@@ -94,7 +94,7 @@ def write_file(name,text):
     file.close();
 
 def execute(to_print,vector,file_name,site_name,figura):
-    #print(to_print);
+    print(to_print);
 
     if to_print.find("Catho") > 0:
         temp, dicionario = catho_com(vector)
