@@ -2,7 +2,7 @@ name: Run Webscraper
 
 on:
   schedule:
-    - cron: "5 8 * * 6"  # Run on Saturdays at 08:00 AM in São Paulo timezone
+    - cron: "10 8 * * 6"  # Run on Saturdays at 08:00 AM in São Paulo timezone
 
 env:
   TZ: America/Sao_Paulo
@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your.email@example.com"
+          git config --global user.name "Joao Pedro"
+          git config --global user.email "joaoaffonso@id.uff.br"
           git add *.png *.csv
           git commit -m "Update data"
           git push
