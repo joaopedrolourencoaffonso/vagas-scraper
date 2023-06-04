@@ -16,7 +16,7 @@ def plot_histogram(data, site, figura):
     
     plt.bar(range(len(data)), sorted_values, tick_label=sorted_names)
     plt.xticks(rotation=90)
-    plt.ylim(0, max(values))
+    plt.ylim(0, (1.1)*max(values));#commitar domingo
     
     # Titulo dos eixos e do gráfico
     plt.ylabel('Nº de vagas') 
@@ -47,7 +47,7 @@ def parse_page(url):
 def vagas_com(vetor):
     basic_url = "https://www.vagas.com.br/vagas-de-";
     total_urls = len(vetor);
-    dicionario = {'':0};
+    dicionario = {};#commitar domingo
     i = 0;
 
     for elemento in vetor:
@@ -67,7 +67,7 @@ def vagas_com(vetor):
 
 def catho_com(vetor):
     total_urls = len(vetor);
-    dicionario = {'':0};
+    dicionario = {};#commitar domingo
     i = 0;
 
     for elemento in vetor:
