@@ -2,6 +2,20 @@ import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from datetime import datetime
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+
+
+def carrossel(png_files, output_file):
+    c = canvas.Canvas(output_file, pagesize=letter)
+    width, height = letter;
+
+    for png_file in png_files:
+        c.drawImage(png_file, 0, 0.2*height, width, 0.75*width)
+        c.showPage()
+
+    c.save()
+
 
 def plot_histogram(data, site, figura):
     names = list(data.keys())
@@ -16,7 +30,7 @@ def plot_histogram(data, site, figura):
     
     plt.bar(range(len(data)), sorted_values, tick_label=sorted_names)
     plt.xticks(rotation=90)
-    plt.ylim(0, (1.1)*max(values));#commitar domingo
+    plt.ylim(0, (1.1)*max(values));
     
     # Titulo dos eixos e do gráfico
     plt.ylabel('Nº de vagas') 
@@ -32,7 +46,7 @@ def parse_page(url):
 
     # Checando se o get foi bem sucedido
     if response.status_code == 200:
-        # Parseando a pagina
+        # Parseando a página
         soup = BeautifulSoup(response.content, "html.parser")
 
         # Cada página tem único h1 onde tem o número de vagas encontradas
@@ -47,7 +61,7 @@ def parse_page(url):
 def vagas_com(vetor):
     basic_url = "https://www.vagas.com.br/vagas-de-";
     total_urls = len(vetor);
-    dicionario = {};#commitar domingo
+    dicionario = {};
     i = 0;
 
     for elemento in vetor:
@@ -67,7 +81,7 @@ def vagas_com(vetor):
 
 def catho_com(vetor):
     total_urls = len(vetor);
-    dicionario = {};#commitar domingo
+    dicionario = {};
     i = 0;
 
     for elemento in vetor:
@@ -115,3 +129,5 @@ if __name__ == "__main__":
     execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas");
     execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho");
     execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho");
+
+    carrossel(['certificados-catho.png','certificados-vagas.png','linguagens-vagas.png','linguagens-catho.png'],"carrossel.pdf")
