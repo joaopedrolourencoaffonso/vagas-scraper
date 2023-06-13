@@ -7,7 +7,7 @@ Este script Python "_raspa_" o site "vagas.com.br" para recuperar o número de v
 1. Clone o repositório em sua máquina local ou baixe o arquivo de script.
 2. Instale as dependências necessárias executando o seguinte comando:
     ```
-    pip install requests beautifulsoup4 matplotlib
+    pip install requests beautifulsoup4 matplotlib reportlab
     ```
 
 ## Uso
