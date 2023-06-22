@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
-
+import argparse
 
 def carrossel(png_files, output_file):
     c = canvas.Canvas(output_file, pagesize=letter)
@@ -160,14 +160,57 @@ def execute(to_print,vector,file_name,site_name,figura):
 
 certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","ACMA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
 langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
+databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
+servers = ['Apache','NGINX','LiteSpeed','Wordpress','Microsoft IIS','Tomcat','Lighttpd','Caddy']
+
+
+parser = argparse.ArgumentParser(description='Gerador de relatório sobre competências mais demandadas na área de TI');
+parser.add_argument('--certs',action="store_true",default=False, help='Gera relatório sobre certificados');
+parser.add_argument('--langs',action="store_true",default=False, help='Gera relatório sobre linguagens de programação');
+parser.add_argument('--databases',action="store_true",default=False, help='Gera relatório sobre bancos de dados');
+parser.add_argument('--servers',action="store_true",default=False, help='Gera relatório sobre servidores web');
+
+args = parser.parse_args();
 
 
 if __name__ == "__main__":
-    execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas");
-    execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas");
-    execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho");
-    execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho");
-    execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs");
-    execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs");
+    png_files = [];
 
-    carrossel(['certificados-catho.png','certificados-vagas.png','certificados-infojobs.png','linguagens-vagas.png','linguagens-catho.png','linguagens-infojobs.png'],"carrossel.pdf")
+    if args.certs:
+        execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas");
+        execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho");
+        execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs");
+
+        png_files.append('certificados-vagas.png');
+        png_files.append('certificados-catho.png');
+        png_files.append('certificados-infojobs.png');
+    
+    if args.langs:
+        execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas");
+        execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho");
+        execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs");
+
+        png_files.append('linguagens-vagas.png');
+        png_files.append('linguagens-catho.png');
+        png_files.append('linguagens-infojobs.png');
+    
+    if args.databases:
+        execute("===  vagas.com: Banco de Dados ===",databases,"vagas.csv","vagas.com","databases-vagas");
+        execute("===  Catho.com: Banco de Dados ===",databases,"catho.csv","catho.com","databases-catho");
+        execute("===  infojobs.com: Banco de Dados ===",databases,"infojobs.csv","infojobs.com","databases-infojobs");
+
+        png_files.append('databases-vagas.png');
+        png_files.append('databases-catho.png');
+        png_files.append('databases-infojobs.png');
+    
+    
+    if args.servers:
+        execute("===  vagas.com: Servidores   ===",servers,"vagas.csv","vagas.com","servidores-vagas");
+        execute("===  Catho.com: Servidores   ===",servers,"catho.csv","catho.com","servidores-catho");
+        execute("===  infojobs.com: Servidores   ===",servers,"infojobs.csv","infojobs.com","servidores-infojobs");
+
+        png_files.append('servidores-vagas.png');
+        png_files.append('servidores-catho.png');
+        png_files.append('servidores-infojobs.png');
+
+    carrossel(png_files,"carrossel.pdf");
