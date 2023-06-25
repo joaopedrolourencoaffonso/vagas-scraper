@@ -18,7 +18,7 @@ def carrossel(png_files, output_file):
     c.save()
 
 
-def plot_histogram(data, site, figura):
+def plot_histogram(data, site, figura,color,competencia):
     names = list(data.keys())
     values = list(data.values())
 
@@ -29,13 +29,13 @@ def plot_histogram(data, site, figura):
     sorted_names = [names[i] for i in sorted_indices]
     sorted_values = [values[i] for i in sorted_indices]
     
-    plt.bar(range(len(data)), sorted_values, tick_label=sorted_names)
+    plt.bar(range(len(data)), sorted_values, tick_label=sorted_names,color=color)
     plt.xticks(rotation=90)
     plt.ylim(0, (1.1)*max(values));
     
     # Titulo dos eixos e do gráfico
     plt.ylabel('Nº de vagas') 
-    plt.title(f"Vagas por competência no '{site}'")
+    plt.title(f"Vagas por {competencia} no '{site}'")
 
     plt.tight_layout(rect=[0, 0, 1, 0.9])
     plt.savefig(f"{figura}.png")
@@ -142,23 +142,26 @@ def write_file(name,text):
     file.write(text);
     file.close();
 
-def execute(to_print,vector,file_name,site_name,figura):
+def execute(to_print,vector,file_name,site_name,figura,competencia):
     print(to_print);
 
     if to_print.find("Catho") > 0:
-        temp, dicionario = catho_com(vector)
+        temp, dicionario = catho_com(vector);
+        color = "pink";
 
     if to_print.find("vagas") > 0:
         temp, dicionario = vagas_com(vector);
+        color = "green";
 
     if to_print.find("infojobs") > 0:
         temp, dicionario = infojobs_com(vector);
+        color = "blue";
 
     write_file(file_name,temp);
 
-    plot_histogram(dicionario,site_name,figura);
+    plot_histogram(dicionario,site_name,figura,color,competencia);
 
-certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","ACMA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
+certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
 langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
 databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
 servers = ['Apache','NGINX','LiteSpeed','Wordpress','Microsoft IIS','Tomcat','Lighttpd','Caddy']
@@ -177,27 +180,27 @@ if __name__ == "__main__":
     png_files = [];
 
     if args.certs:
-        execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas");
-        execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho");
-        execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs");
+        execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas","Certificação");
+        execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho","Certificação");
+        execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs","Certificação");
 
         png_files.append('certificados-vagas.png');
         png_files.append('certificados-catho.png');
         png_files.append('certificados-infojobs.png');
     
     if args.langs:
-        execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas");
-        execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho");
-        execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs");
+        execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas","Linguagem");
+        execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho","Linguagem");
+        execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs","Linguagem");
 
         png_files.append('linguagens-vagas.png');
         png_files.append('linguagens-catho.png');
         png_files.append('linguagens-infojobs.png');
     
     if args.databases:
-        execute("===  vagas.com: Banco de Dados ===",databases,"vagas.csv","vagas.com","databases-vagas");
-        execute("===  Catho.com: Banco de Dados ===",databases,"catho.csv","catho.com","databases-catho");
-        execute("===  infojobs.com: Banco de Dados ===",databases,"infojobs.csv","infojobs.com","databases-infojobs");
+        execute("===  vagas.com: Banco de Dados ===",databases,"vagas.csv","vagas.com","databases-vagas","Banco de Dados");
+        execute("===  Catho.com: Banco de Dados ===",databases,"catho.csv","catho.com","databases-catho","Banco de Dados");
+        execute("===  infojobs.com: Banco de Dados ===",databases,"infojobs.csv","infojobs.com","databases-infojobs","Banco de Dados");
 
         png_files.append('databases-vagas.png');
         png_files.append('databases-catho.png');
@@ -205,9 +208,9 @@ if __name__ == "__main__":
     
     
     if args.servers:
-        execute("===  vagas.com: Servidores   ===",servers,"vagas.csv","vagas.com","servidores-vagas");
-        execute("===  Catho.com: Servidores   ===",servers,"catho.csv","catho.com","servidores-catho");
-        execute("===  infojobs.com: Servidores   ===",servers,"infojobs.csv","infojobs.com","servidores-infojobs");
+        execute("===  vagas.com: Servidores   ===",servers,"vagas.csv","vagas.com","servidores-vagas","Servidores");
+        execute("===  Catho.com: Servidores   ===",servers,"catho.csv","catho.com","servidores-catho","Servidores");
+        execute("===  infojobs.com: Servidores   ===",servers,"infojobs.csv","infojobs.com","servidores-infojobs","Servidores");
 
         png_files.append('servidores-vagas.png');
         png_files.append('servidores-catho.png');
