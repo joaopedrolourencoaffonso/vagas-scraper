@@ -161,12 +161,6 @@ def execute(to_print,vector,file_name,site_name,figura,competencia):
 
     plot_histogram(dicionario,site_name,figura,color,competencia);
 
-certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
-langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
-databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
-servers = ['Apache','NGINX','LiteSpeed','Wordpress','Microsoft IIS','Tomcat','Lighttpd','Caddy']
-
-
 parser = argparse.ArgumentParser(description='Gerador de relatório sobre competências mais demandadas na área de TI');
 parser.add_argument('--certs',action="store_true",default=False, help='Gera relatório sobre certificados');
 parser.add_argument('--langs',action="store_true",default=False, help='Gera relatório sobre linguagens de programação');
@@ -180,6 +174,8 @@ if __name__ == "__main__":
     png_files = [];
 
     if args.certs:
+        from variables import certs
+        
         execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas","Certificação");
         execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho","Certificação");
         execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs","Certificação");
@@ -189,6 +185,8 @@ if __name__ == "__main__":
         png_files.append('certificados-infojobs.png');
     
     if args.langs:
+        from variables import langs
+        
         execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas","Linguagem");
         execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho","Linguagem");
         execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs","Linguagem");
@@ -198,6 +196,8 @@ if __name__ == "__main__":
         png_files.append('linguagens-infojobs.png');
     
     if args.databases:
+        from variables import databases
+        
         execute("===  vagas.com: Banco de Dados ===",databases,"vagas.csv","vagas.com","databases-vagas","Banco de Dados");
         execute("===  Catho.com: Banco de Dados ===",databases,"catho.csv","catho.com","databases-catho","Banco de Dados");
         execute("===  infojobs.com: Banco de Dados ===",databases,"infojobs.csv","infojobs.com","databases-infojobs","Banco de Dados");
@@ -208,6 +208,8 @@ if __name__ == "__main__":
     
     
     if args.servers:
+        from variables import servers
+        
         execute("===  vagas.com: Servidores   ===",servers,"vagas.csv","vagas.com","servidores-vagas","Servidores");
         execute("===  Catho.com: Servidores   ===",servers,"catho.csv","catho.com","servidores-catho","Servidores");
         execute("===  infojobs.com: Servidores   ===",servers,"infojobs.csv","infojobs.com","servidores-infojobs","Servidores");
