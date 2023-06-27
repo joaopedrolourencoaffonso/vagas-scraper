@@ -27,10 +27,7 @@ Este script Python "_raspa_" o site "vagas.com.br" para recuperar o número de v
   <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-catho.png" alt="Vagas por certificado na Catho" style="width:400px;height:300px;">
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/linguagens-vagas.png" alt="Vagas por linguagem no 'vagas'" style="width:400px;height:300px;">
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/linguagens-catho.png" alt="Vagas por linguagem na Catho" style="width:400px;height:300px;">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-infojobs.png" alt="Vagas por linguagem no 'vagas'" style="width:400px;height:300px;">
 
 ## Contribuindo
 
