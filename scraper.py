@@ -87,7 +87,7 @@ def vagas_com(vetor):
     temp = ""
 
     for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()}, {key}, {value}\n";
+        temp = temp + f"{datetime.now()},vagas.com,{key}, {value}\n";
 
     return temp, dicionario
 
@@ -110,7 +110,7 @@ def catho_com(vetor):
     temp = ""
 
     for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()}, {key}, {value}\n";
+        temp = temp + f"{datetime.now()},catho.com,{key}, {value}\n";
 
     return temp, dicionario
 
@@ -133,7 +133,7 @@ def infojobs_com(vetor):
     temp = ""
 
     for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()}, {key}, {value}\n";
+        temp = temp + f"{datetime.now()},infojobs.com,{key}, {value}\n";
 
     return temp, dicionario
 
@@ -176,9 +176,9 @@ if __name__ == "__main__":
     if args.certs:
         from variables import certs
         
-        execute("===  vagas.com: Certificados ===",certs,"vagas.csv","vagas.com","certificados-vagas","Certificação");
-        execute("===  Catho.com: Certificados ===",certs,"catho.csv","catho.com","certificados-catho","Certificação");
-        execute("===  infojobs.com: Certificados ===",certs,"infojobs.csv","infojobs.com","certificados-infojobs","Certificação");
+        execute("===  vagas.com: Certificados ===",certs,"registro.csv","vagas.com","certificados-vagas","Certificação");
+        execute("===  Catho.com: Certificados ===",certs,"registro.csv","catho.com","certificados-catho","Certificação");
+        execute("===  infojobs.com: Certificados ===",certs,"registro.csv","infojobs.com","certificados-infojobs","Certificação");
 
         png_files.append('certificados-vagas.png');
         png_files.append('certificados-catho.png');
@@ -187,9 +187,9 @@ if __name__ == "__main__":
     if args.langs:
         from variables import langs
         
-        execute("===  vagas.com: Linguagens   ===",langs,"vagas.csv","vagas.com","linguagens-vagas","Linguagem");
-        execute("===  Catho.com: Linguagens   ===",langs,"catho.csv","catho.com","linguagens-catho","Linguagem");
-        execute("===  infojobs.com: Linguagens   ===",langs,"infojobs.csv","infojobs.com","linguagens-infojobs","Linguagem");
+        execute("===  vagas.com: Linguagens   ===",langs,"registro.csv","vagas.com","linguagens-vagas","Linguagem");
+        execute("===  Catho.com: Linguagens   ===",langs,"registro.csv","catho.com","linguagens-catho","Linguagem");
+        execute("===  infojobs.com: Linguagens   ===",langs,"registro.csv","infojobs.com","linguagens-infojobs","Linguagem");
 
         png_files.append('linguagens-vagas.png');
         png_files.append('linguagens-catho.png');
@@ -198,9 +198,9 @@ if __name__ == "__main__":
     if args.databases:
         from variables import databases
         
-        execute("===  vagas.com: Banco de Dados ===",databases,"vagas.csv","vagas.com","databases-vagas","Banco de Dados");
-        execute("===  Catho.com: Banco de Dados ===",databases,"catho.csv","catho.com","databases-catho","Banco de Dados");
-        execute("===  infojobs.com: Banco de Dados ===",databases,"infojobs.csv","infojobs.com","databases-infojobs","Banco de Dados");
+        execute("===  vagas.com: Banco de Dados ===",databases,"registro.csv","vagas.com","databases-vagas","Banco de Dados");
+        execute("===  Catho.com: Banco de Dados ===",databases,"registro.csv","catho.com","databases-catho","Banco de Dados");
+        execute("===  infojobs.com: Banco de Dados ===",databases,"registro.csv","infojobs.com","databases-infojobs","Banco de Dados");
 
         png_files.append('databases-vagas.png');
         png_files.append('databases-catho.png');
@@ -210,9 +210,9 @@ if __name__ == "__main__":
     if args.servers:
         from variables import servers
         
-        execute("===  vagas.com: Servidores   ===",servers,"vagas.csv","vagas.com","servidores-vagas","Servidores");
-        execute("===  Catho.com: Servidores   ===",servers,"catho.csv","catho.com","servidores-catho","Servidores");
-        execute("===  infojobs.com: Servidores   ===",servers,"infojobs.csv","infojobs.com","servidores-infojobs","Servidores");
+        execute("===  vagas.com: Servidores   ===",servers,"registro.csv","vagas.com","servidores-vagas","Servidores");
+        execute("===  Catho.com: Servidores   ===",servers,"registro.csv","catho.com","servidores-catho","Servidores");
+        execute("===  infojobs.com: Servidores   ===",servers,"registro.csv","infojobs.com","servidores-infojobs","Servidores");
 
         png_files.append('servidores-vagas.png');
         png_files.append('servidores-catho.png');
