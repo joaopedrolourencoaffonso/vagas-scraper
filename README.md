@@ -21,13 +21,13 @@ Este script Python "_raspa_" o site "vagas.com.br" para recuperar o número de v
 4. Além disso, dois histogramas serão plotados para cada site usando os dados coletados e as imagens resultantes serão salvas no formato png, conforme exemplos abaixo:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-vagas.png" alt="Vagas por certificado no 'vagas'" style="width:400px;height:300px;">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/graficos/certificados-vagas.png" alt="Vagas por certificado no 'vagas'" style="width:400px;height:300px;">
     
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-catho.png" alt="Vagas por certificado na Catho" style="width:400px;height:300px;">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/graficos/certificados-catho.png" alt="Vagas por certificado na Catho" style="width:400px;height:300px;">
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/certificados-infojobs.png" alt="Vagas por linguagem no 'vagas'" style="width:400px;height:300px;">
+  <img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/graficos/certificados-infojobs.png" alt="Vagas por linguagem no 'vagas'" style="width:400px;height:300px;">
 
 ## Contribuindo
 
