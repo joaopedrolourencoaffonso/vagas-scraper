@@ -7,18 +7,21 @@ from reportlab.pdfgen import canvas
 import argparse
 
 def carrossel(png_files, output_file):
+    from variables import diretorio_de_imagens
     c = canvas.Canvas(output_file, pagesize=letter)
     width, height = letter;
 
     for png_file in png_files:
         #c.drawImage(png_file, 0, 0.2*height, width, 0.8*height)
-        c.drawImage(png_file, 0, 0.2*height, width, 0.75*width)
+        c.drawImage(f"{diretorio_de_imagens}{png_file}", 0, 0.2*height, width, 0.75*width)
         c.showPage()
 
     c.save()
 
 
 def plot_histogram(data, site, figura,color,competencia):
+    from variables import diretorio_de_imagens
+    
     names = list(data.keys())
     values = list(data.values())
 
@@ -38,7 +41,7 @@ def plot_histogram(data, site, figura,color,competencia):
     plt.title(f"Vagas por {competencia} no '{site}'")
 
     plt.tight_layout(rect=[0, 0, 1, 0.9])
-    plt.savefig(f"{figura}.png")
+    plt.savefig(f"{diretorio_de_imagens}{figura}.png")
     plt.close();
 
 def parse_page(url):

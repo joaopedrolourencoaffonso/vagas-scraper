@@ -2,3 +2,4 @@ certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","NSE","ITIL","COBIT","AZURE","MCS
 langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
 databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
 servers = ['Apache','NGINX','LiteSpeed','Wordpress','Microsoft IIS','Tomcat','Lighttpd','Caddy']
+diretorio_de_imagens = ".\\graficos\\"
