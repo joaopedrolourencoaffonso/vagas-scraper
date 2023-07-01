@@ -150,15 +150,15 @@ def execute(to_print,vector,file_name,site_name,figura,competencia):
 
     if to_print.find("Catho") > 0:
         temp, dicionario = catho_com(vector);
-        color = "pink";
+        color = "#ff0066";
 
     if to_print.find("vagas") > 0:
         temp, dicionario = vagas_com(vector);
-        color = "green";
+        color = "#00cc66";
 
     if to_print.find("infojobs") > 0:
         temp, dicionario = infojobs_com(vector);
-        color = "blue";
+        color = "#003399";
 
     write_file(file_name,temp);
 
