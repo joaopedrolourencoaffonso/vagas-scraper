@@ -1,4 +1,5 @@
 diretorio_de_imagens = ".\\graficos\\"
+arquivos_pdf = ".\\PDFs\\"
 
 #Certificações
 

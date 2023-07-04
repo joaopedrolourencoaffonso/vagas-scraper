@@ -586,3 +586,70 @@ Data,Site,Competencia,numero_de_vagas
 2023-06-30 06:26:50.508140,infojobs.com,Apache, 23
 2023-06-30 06:26:50.508140,infojobs.com,Wordpress, 85
 2023-06-30 06:26:50.508140,infojobs.com,Tomcat, 18
+2023-07-04 06:58:26.905179,vagas.com,CCNA, 1
+2023-07-04 06:58:26.905179,vagas.com,JNCIA, 1
+2023-07-04 06:58:26.905179,vagas.com,PCNSA, 1
+2023-07-04 06:58:26.905179,vagas.com,NSE, 1
+2023-07-04 06:58:26.905179,vagas.com,ITIL, 29
+2023-07-04 06:58:26.905179,vagas.com,COBIT, 9
+2023-07-04 06:58:26.905179,vagas.com,AZURE, 33
+2023-07-04 06:58:26.905179,vagas.com,MCSE, 3
+2023-07-04 06:58:26.906137,vagas.com,AWS, 37
+2023-07-04 06:58:26.906137,vagas.com,COMPTIA, 1
+2023-07-04 06:58:26.906137,vagas.com,CISSP, 4
+2023-07-04 06:58:26.906137,vagas.com,GCP, 8
+2023-07-04 06:58:26.906137,vagas.com,OCI, 2
+2023-07-04 06:58:26.906137,vagas.com,PMP, 3
+2023-07-04 06:58:26.906137,vagas.com,VMware, 13
+2023-07-04 06:58:31.606689,catho.com,MTCNA, 5
+2023-07-04 06:58:31.606689,catho.com,CCNA, 158
+2023-07-04 06:58:31.606689,catho.com,HCIA, 13
+2023-07-04 06:58:31.606689,catho.com,JNCIA, 3
+2023-07-04 06:58:31.606689,catho.com,NSE, 10
+2023-07-04 06:58:31.606689,catho.com,ITIL, 273
+2023-07-04 06:58:31.606689,catho.com,COBIT, 52
+2023-07-04 06:58:31.606689,catho.com,AZURE, 486
+2023-07-04 06:58:31.606689,catho.com,MCSE, 20
+2023-07-04 06:58:31.606689,catho.com,AWS, 692
+2023-07-04 06:58:31.606689,catho.com,COMPTIA, 30
+2023-07-04 06:58:31.606689,catho.com,UniFi, 8
+2023-07-04 06:58:31.606689,catho.com,CISSP, 17
+2023-07-04 06:58:31.606689,catho.com,GCP, 106
+2023-07-04 06:58:31.606689,catho.com,OCI, 19
+2023-07-04 06:58:31.606689,catho.com,PMP, 55
+2023-07-04 06:58:31.606689,catho.com,VMware, 147
+2023-07-04 06:58:49.886230,infojobs.com, CCNA, 17
+2023-07-04 06:58:49.886230,infojobs.com, ITIL, 118
+2023-07-04 06:58:49.886230,infojobs.com, COBIT, 17
+2023-07-04 06:58:49.886230,infojobs.com, AZURE, 91
+2023-07-04 06:58:49.886230,infojobs.com, MCSE, 22
+2023-07-04 06:58:49.886230,infojobs.com, AWS, 122
+2023-07-04 06:58:49.886230,infojobs.com, GCP, 18
+2023-07-04 06:58:49.886230,infojobs.com, VMware, 43
+2023-07-04 06:58:59.101066,vagas.com,python, 57
+2023-07-04 06:58:59.101066,vagas.com,Linguagem C++, 13
+2023-07-04 06:58:59.101066,vagas.com,JavaScript, 36
+2023-07-04 06:58:59.101066,vagas.com,TypeScript, 7
+2023-07-04 06:58:59.102079,vagas.com,PHP, 12
+2023-07-04 06:58:59.102079,vagas.com,Kotlin, 1
+2023-07-04 06:58:59.102079,vagas.com,Java, 42
+2023-07-04 06:58:59.102079,vagas.com,Ruby on Rails, 2
+2023-07-04 06:58:59.102079,vagas.com,shellscript, 1
+2023-07-04 06:59:02.723046,catho.com,python, 561
+2023-07-04 06:59:02.723046,catho.com,Linguagem C++, 31
+2023-07-04 06:59:02.723046,catho.com,JavaScript, 1064
+2023-07-04 06:59:02.723046,catho.com,TypeScript, 199
+2023-07-04 06:59:02.723046,catho.com,PHP, 466
+2023-07-04 06:59:02.723046,catho.com,Swift, 6
+2023-07-04 06:59:02.723046,catho.com,Kotlin, 96
+2023-07-04 06:59:02.723046,catho.com,Java, 885
+2023-07-04 06:59:02.723046,catho.com,Ruby on Rails, 22
+2023-07-04 06:59:02.723046,catho.com,shellscript, 17
+2023-07-04 06:59:02.723046,catho.com,Rust, 3
+2023-07-04 06:59:16.044042,infojobs.com, python, 218
+2023-07-04 06:59:16.044042,infojobs.com, Linguagem C++, 24
+2023-07-04 06:59:16.044042,infojobs.com, JavaScript, 313
+2023-07-04 06:59:16.044042,infojobs.com, TypeScript, 35
+2023-07-04 06:59:16.044042,infojobs.com, PHP, 118
+2023-07-04 06:59:16.044042,infojobs.com, Java, 247
+2023-07-04 06:59:16.045056,infojobs.com, Ruby on Rails, 25

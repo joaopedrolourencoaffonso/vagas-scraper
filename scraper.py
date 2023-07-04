@@ -262,8 +262,8 @@ if __name__ == "__main__":
         png_files.append("languages-vagas.png")
         png_files.append("languages-catho.png")
         png_files.append("languages-infojobs.png")
-        
-    carrossel(png_files,"carrossel-temp.pdf");
 
     if args.completo:
-        combine_pdfs(["Capa.pdf","carrossel-temp.pdf","fim.pdf"],"carrossel.pdf")
+        from variables import arquivos_pdf
+        carrossel(png_files,f"{arquivos_pdf}carrossel-temp.pdf");
+        combine_pdfs([f"{arquivos_pdf}Capa.pdf",f"{arquivos_pdf}carrossel-temp.pdf",f"{arquivos_pdf}fim.pdf"],f"{arquivos_pdf}carrossel.pdf")
