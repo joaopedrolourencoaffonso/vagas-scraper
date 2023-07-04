@@ -2,24 +2,26 @@ import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from datetime import datetime
-from reportlab.lib.pagesizes import letter
+from reportlab.lib.pagesizes import letter, landscape
 from reportlab.pdfgen import canvas
+import PyPDF2
 import argparse
+from tqdm import tqdm
 
 def carrossel(png_files, output_file):
     from variables import diretorio_de_imagens
-    c = canvas.Canvas(output_file, pagesize=letter)
+    
+    c = canvas.Canvas(output_file, pagesize=landscape(letter))
     width, height = letter;
 
     for png_file in png_files:
-        #c.drawImage(png_file, 0, 0.2*height, width, 0.8*height)
-        c.drawImage(f"{diretorio_de_imagens}{png_file}", 0, 0.2*height, width, 0.75*width)
+        c.drawImage(f"{diretorio_de_imagens}{png_file}", 0.15*width, 0.15*height, width, 0.75*width)
         c.showPage()
 
     c.save()
 
 
-def plot_histogram(data, site, figura,color,competencia):
+def plot_histogram(data, site, figura,color,caracteristica):
     from variables import diretorio_de_imagens
     
     names = list(data.keys())
@@ -38,13 +40,30 @@ def plot_histogram(data, site, figura,color,competencia):
     
     # Titulo dos eixos e do gráfico
     plt.ylabel('Nº de vagas') 
-    plt.title(f"Vagas por {competencia} no '{site}'")
+    plt.title(f"Vagas por {caracteristica} no '{site}'")
 
     plt.tight_layout(rect=[0, 0, 1, 0.9])
     plt.savefig(f"{diretorio_de_imagens}{figura}.png")
     plt.close();
 
-def parse_page(url):
+def parse_catho_com(url):
+    # GET a página
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        # Parseando a página
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        # Cada página tem único h1 onde tem o número de vagas encontradas
+        h1_elements = soup.find_all("h1")
+
+        # Retorna o número de vagas
+        for h1 in h1_elements:
+            return h1.text.split(" ")[0]
+    else:
+        print("Failed to retrieve the web page. Error code:", response.status_code)
+        
+def parse_vagas_com(url):
     # GET a página
     response = requests.get(url)
 
@@ -72,103 +91,129 @@ def parse_info_jobs(url):
     else:
         return None
 
-
-def vagas_com(vetor):
-    basic_url = "https://www.vagas.com.br/vagas-de-";
-    total_urls = len(vetor);
-    dicionario = {};
-    i = 0;
-
-    for elemento in vetor:
-        temp = parse_page(basic_url+elemento);
-        if temp != None:
-            dicionario[elemento]=temp;
-
-        i+=1;
-        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
-
-    temp = ""
-
-    for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()},vagas.com,{key}, {value}\n";
-
-    return temp, dicionario
-
-def catho_com(vetor):
-    total_urls = len(vetor);
-    dicionario = {};
-    i = 0;
-
-    for elemento in vetor:
-        temp = parse_page(f"https://www.catho.com.br/vagas/{elemento.lower()}/?q={elemento.upper()}");
-
-        temp = temp.replace(".","");
-
-        if temp != None and temp != "Ops!":
-            dicionario[elemento]=temp;
-
-        i+=1;
-        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
-
-    temp = ""
-
-    for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()},catho.com,{key}, {value}\n";
-
-    return temp, dicionario
-
-def infojobs_com(vetor):
-    total_urls = len(vetor);
+def pega_infojobs_com(catalogo):
+    total_urls = len(catalogo);
     dicionario = {};
     i = 0;
     
-    for elemento in vetor:
-        x = parse_info_jobs(f"https://www.infojobs.com.br/empregos.aspx?palabra={elemento}")
+    #print("====Infojobs.com====");
+    progress_bar = tqdm(total=total_urls, unit='%', ncols=80)
+
+    for elemento in catalogo:
+        x = parse_info_jobs(catalogo[elemento])
         
         temp = x.split('Vagas de Emprego')[0];
         
-        if temp != "":
+        if temp != None and temp != 'Ops!' and temp != "":
+            temp = temp.replace(".","");
             dicionario[elemento] = int(temp);
 
         i+=1;
-        print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        
+        #print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        progress_bar.set_description(f'Infojobs.com: {i}/{total_urls}');
+        progress_bar.update(1);
+
+    progress_bar.close();
 
     temp = ""
 
     for key, value in dicionario.items():
-        temp = temp + f"{datetime.now()},infojobs.com,{key}, {value}\n";
+        temp = temp + f"{datetime.now()},infojobs.com, {key}, {value}\n";
 
     return temp, dicionario
 
-def write_file(name,text):
-    file = open(name,"a");
+def pega_vagas_com(catalogo):
+    total_urls = len(catalogo);
+    dicionario = {};
+    i = 0;
+
+    #print("====Vagas.com====");
+    progress_bar = tqdm(total=total_urls, unit='%', ncols=80)
+
+    for elemento in catalogo:
+        temp = parse_vagas_com(catalogo[elemento]);
+        
+        if temp != None and temp != 'Ops!' and temp != "":
+            temp = temp.replace(".","");
+            dicionario[elemento]=int(temp);
+
+        i+=1;
+        
+        #print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        progress_bar.set_description(f'Vagas.com: {i}/{total_urls}');
+        progress_bar.update(1);
+
+    progress_bar.close();
+
+    registro = ""
+
+    for key, value in dicionario.items():
+        registro = registro + f"{datetime.now()},vagas.com,{key}, {value}\n";
+
+    return registro, dicionario
+
+def pega_catho_com(catalogo):
+    total_urls = len(catalogo);
+    dicionario = {};
+    i = 0;
+
+    #print("====Catho.com====");
+    progress_bar = tqdm(total=total_urls, unit='%', ncols=80)
+
+    for elemento in catalogo:
+        temp = parse_catho_com(catalogo[elemento]);
+        
+        if temp != None and temp != 'Ops!' and temp != "":
+            temp = temp.replace(".","");
+            dicionario[elemento]=int(temp);
+
+        i+=1;
+        
+        #print(f"Status: {format((100*i)/total_urls, '.2f')}%", end='\r')
+        progress_bar.set_description(f'Catho.com: {i}/{total_urls}');
+        progress_bar.update(1);
+
+    progress_bar.close();
+
+    registro = ""
+
+    for key, value in dicionario.items():
+        registro = registro + f"{datetime.now()},catho.com,{key}, {value}\n";
+
+    return registro, dicionario
+
+
+def registra_no_csv(text):
+    file = open("registro.csv","a");
     file.write(text);
     file.close();
 
-def execute(to_print,vector,file_name,site_name,figura,competencia):
-    print(to_print);
 
-    if to_print.find("Catho") > 0:
-        temp, dicionario = catho_com(vector);
-        color = "#ff0066";
+def combine_pdfs(input_files, output_file):
+    pdf_writer = PyPDF2.PdfWriter()
 
-    if to_print.find("vagas") > 0:
-        temp, dicionario = vagas_com(vector);
-        color = "#00cc66";
+    # Iterate through each input PDF file
+    for file in input_files:
+        with open(file, 'rb') as pdf_file:
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
+            # Merge each page of the input PDF into the output PDF writer
+            for page_num in range(len(pdf_reader.pages)):
+                page = pdf_reader.pages[page_num]
+                pdf_writer.add_page(page)
 
-    if to_print.find("infojobs") > 0:
-        temp, dicionario = infojobs_com(vector);
-        color = "#003399";
+    # Write the combined PDF to the output file
+    with open(output_file, 'wb') as output:
+        pdf_writer.write(output)
 
-    write_file(file_name,temp);
+    #print(f"Combined PDF files into '{output_file}'.")
 
-    plot_histogram(dicionario,site_name,figura,color,competencia);
 
-parser = argparse.ArgumentParser(description='Gerador de relatório sobre competências mais demandadas na área de TI');
+
+parser = argparse.ArgumentParser(description='Gerador de relatório sobre área de TI');
 parser.add_argument('--certs',action="store_true",default=False, help='Gera relatório sobre certificados');
-parser.add_argument('--langs',action="store_true",default=False, help='Gera relatório sobre linguagens de programação');
-parser.add_argument('--databases',action="store_true",default=False, help='Gera relatório sobre bancos de dados');
-parser.add_argument('--servers',action="store_true",default=False, help='Gera relatório sobre servidores web');
+parser.add_argument('--langs',action="store_true",default=False, help='Gera relatório sobre linguagens');
+parser.add_argument('--completo',action="store_true",default=False, help='Gera relatório pdf completo');
 
 args = parser.parse_args();
 
@@ -177,48 +222,48 @@ if __name__ == "__main__":
     png_files = [];
 
     if args.certs:
-        from variables import certs
+        print("---- Extraindo informações sobre certificados ----\n");
         
-        execute("===  vagas.com: Certificados ===",certs,"registro.csv","vagas.com","certificados-vagas","Certificação");
-        execute("===  Catho.com: Certificados ===",certs,"registro.csv","catho.com","certificados-catho","Certificação");
-        execute("===  infojobs.com: Certificados ===",certs,"registro.csv","infojobs.com","certificados-infojobs","Certificação");
+        from variables import vagas_certs, catho_certs, infojobs_certs
 
-        png_files.append('certificados-vagas.png');
-        png_files.append('certificados-catho.png');
-        png_files.append('certificados-infojobs.png');
-    
+        registro, dicionario = pega_vagas_com(vagas_certs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "vagas.com", "certificados-vagas","#00cc66","Certificação");
+
+        registro, dicionario = pega_catho_com(catho_certs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "catho.com", "certificados-catho","#ff0066","Certificação");
+
+        registro, dicionario = pega_infojobs_com(infojobs_certs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "infojobs.com", "certificados-infojobs","#003399","Certificação");
+
+        png_files.append("certificados-vagas.png")
+        png_files.append("certificados-catho.png")
+        png_files.append("certificados-infojobs.png")
+
     if args.langs:
-        from variables import langs
+        print("---- Extraindo informações sobre Linguagens de Programação ----\n");
         
-        execute("===  vagas.com: Linguagens   ===",langs,"registro.csv","vagas.com","linguagens-vagas","Linguagem");
-        execute("===  Catho.com: Linguagens   ===",langs,"registro.csv","catho.com","linguagens-catho","Linguagem");
-        execute("===  infojobs.com: Linguagens   ===",langs,"registro.csv","infojobs.com","linguagens-infojobs","Linguagem");
+        from variables import vagas_langs, catho_langs, infojobs_langs
 
-        png_files.append('linguagens-vagas.png');
-        png_files.append('linguagens-catho.png');
-        png_files.append('linguagens-infojobs.png');
-    
-    if args.databases:
-        from variables import databases
+        registro, dicionario = pega_vagas_com(vagas_langs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "vagas.com", "languages-vagas","#00cc66","Linguagem de Programação");
+
+        registro, dicionario = pega_catho_com(catho_langs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "catho.com", "languages-catho","#ff0066","Linguagem de Programação");
+
+        registro, dicionario = pega_infojobs_com(infojobs_langs);
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "infojobs.com", "languages-infojobs","#003399","Linguagem de Programação");
+
+        png_files.append("languages-vagas.png")
+        png_files.append("languages-catho.png")
+        png_files.append("languages-infojobs.png")
         
-        execute("===  vagas.com: Banco de Dados ===",databases,"registro.csv","vagas.com","databases-vagas","Banco de Dados");
-        execute("===  Catho.com: Banco de Dados ===",databases,"registro.csv","catho.com","databases-catho","Banco de Dados");
-        execute("===  infojobs.com: Banco de Dados ===",databases,"registro.csv","infojobs.com","databases-infojobs","Banco de Dados");
+    carrossel(png_files,"carrossel-temp.pdf");
 
-        png_files.append('databases-vagas.png');
-        png_files.append('databases-catho.png');
-        png_files.append('databases-infojobs.png');
-    
-    
-    if args.servers:
-        from variables import servers
-        
-        execute("===  vagas.com: Servidores   ===",servers,"registro.csv","vagas.com","servidores-vagas","Servidores");
-        execute("===  Catho.com: Servidores   ===",servers,"registro.csv","catho.com","servidores-catho","Servidores");
-        execute("===  infojobs.com: Servidores   ===",servers,"registro.csv","infojobs.com","servidores-infojobs","Servidores");
-
-        png_files.append('servidores-vagas.png');
-        png_files.append('servidores-catho.png');
-        png_files.append('servidores-infojobs.png');
-
-    carrossel(png_files,"carrossel.pdf");
+    if args.completo:
+        combine_pdfs(["Capa.pdf","carrossel-temp.pdf","fim.pdf"],"carrossel.pdf")
