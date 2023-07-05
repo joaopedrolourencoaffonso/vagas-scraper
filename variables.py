@@ -107,6 +107,60 @@ infojobs_langs={'python':'https://www.infojobs.com.br/empregos.aspx?palabra=pyth
 'Rust':'https://www.infojobs.com.br/empregos.aspx?palabra=Rust&categoria=70,74',
 'Pearl':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=Pearl'}
 
+# Banco de Dados
+# no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 04/07/2023
+vagas_databases={'Elasticsearch':"https://www.vagas.com.br/vagas-de-elasticsearch?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+'MariaDB':'https://www.vagas.com.br/vagas-de-MariaDB?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'MySQL':'https://www.vagas.com.br/vagas-de-MySQL?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'OracleDB':'https://www.vagas.com.br/vagas-de-OracleDB?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'PostgreSQL':'https://www.vagas.com.br/vagas-de-PostgreSQL?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'MongoDB':'https://www.vagas.com.br/vagas-de-MongoDB?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'SQLite':'https://www.vagas.com.br/vagas-de-SQLite?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Redis DB':'https://www.vagas.com.br/vagas-de-Redis-DB?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Cassandra':'https://www.vagas.com.br/vagas-de-Cassandra?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'IBM DB2':'https://www.vagas.com.br/vagas-de-IBM-DB2?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'GraphQL':'https://www.vagas.com.br/vagas-de-GraphQL?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Microsoft SQL Server':'https://www.vagas.com.br/vagas-de-Microsoft-SQL-Server?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Firebase':'https://www.vagas.com.br/vagas-de-Firebase?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'DynamoDB':'https://www.vagas.com.br/vagas-de-DynamoDB?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
+}
+
+# na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria" - 04/07/2023
+catho_databases={'Elasticsearch':"https://www.catho.com.br/vagas/elasticsearch/?q=Elasticsearch&area_id%5B0%5D=51&area_id%5B1%5D=52",
+'MariaDB':'https://www.catho.com.br/vagas/mariadb/?q=MariaDB&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'MySQL':'https://www.catho.com.br/vagas/mysql/?q=MySQL&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'OracleDB':'https://www.catho.com.br/vagas/oracledb/?q=OracleDB&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'PostgreSQL':'https://www.catho.com.br/vagas/postgresql/?q=PostgreSQL&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'MongoDB':'https://www.catho.com.br/vagas/mongodb/?q=MongoDB&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'SQLite':'https://www.catho.com.br/vagas/SQLite/?q=SQLite&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Redis DB':'https://www.catho.com.br/vagas/Redis%20DB/?q=Redis%20DB&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Cassandra':'https://www.catho.com.br/vagas/Cassandra/?q=Cassandra&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'IBM DB2':'https://www.catho.com.br/vagas/IBM%20DB2/?q=IBM%20DB2&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'GraphQL':'https://www.catho.com.br/vagas/GraphQL/?q=GraphQL&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Microsoft SQL Server':'https://www.catho.com.br/vagas/Microsoft%20SQL%20Server/?q=Microsoft%20SQL%20Server&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Firebase':'https://www.catho.com.br/vagas/Firebase/?q=Firebase&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'DynamoDB':'https://www.catho.com.br/vagas/DynamoDB/?q=DynamoDB&area_id%5B0%5D=51&area_id%5B1%5D=52'
+}
+
+
+infojobs_databases={'Elasticsearch':"https://www.infojobs.com.br/empregos.aspx?palabra=Elasticsearch&categoria=70,74",
+'MariaDB':'https://www.infojobs.com.br/empregos.aspx?palabra=MariaDB&categoria=70,74',
+'MySQL':'https://www.infojobs.com.br/empregos.aspx?palabra=MySQL&categoria=70,74',
+'OracleDB':'https://www.infojobs.com.br/empregos.aspx?palabra=OracleDB&categoria=70,74',
+'PostgreSQL':'https://www.infojobs.com.br/empregos.aspx?palabra=PostgreSQL&categoria=70,74',
+'MongoDB':'https://www.infojobs.com.br/empregos.aspx?palabra=MongoDB&categoria=70,74',
+'SQLite':'https://www.infojobs.com.br/empregos.aspx?palabra=SQLite&categoria=70,74',
+'Redis DB':'https://www.infojobs.com.br/empregos.aspx?palabra=Redis%20DB&categoria=70,74',
+'Cassandra':'https://www.infojobs.com.br/empregos.aspx?palabra=Cassandra&categoria=70,74',
+'IBM DB2':'https://www.infojobs.com.br/empregos.aspx?palabra=IBM%20DB2&categoria=70,74',
+'GraphQL':'https://www.infojobs.com.br/empregos.aspx?palabra=GraphQL&categoria=70,74',
+'Microsoft SQL Server':'https://www.infojobs.com.br/empregos.aspx?palabra=Microsoft%20SQL%20Server&categoria=70,74',
+'Firebase':'https://www.infojobs.com.br/empregos.aspx?palabra=Firebase&categoria=70,74',
+'DynamoDB':'https://www.infojobs.com.br/empregos.aspx?palabra=DynamoDB&categoria=70,74'
+}
+
+
+
 #certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
 #langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
 #databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
