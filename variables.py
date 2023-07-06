@@ -142,7 +142,7 @@ catho_databases={'Elasticsearch':"https://www.catho.com.br/vagas/elasticsearch/?
 'DynamoDB':'https://www.catho.com.br/vagas/DynamoDB/?q=DynamoDB&area_id%5B0%5D=51&area_id%5B1%5D=52'
 }
 
-
+#na infojobs foram utilizados os filtros "Engenharia" e "Informática, TI, Telecomunicações" da opção "Área Profissional" - 04/07/2023
 infojobs_databases={'Elasticsearch':"https://www.infojobs.com.br/empregos.aspx?palabra=Elasticsearch&categoria=70,74",
 'MariaDB':'https://www.infojobs.com.br/empregos.aspx?palabra=MariaDB&categoria=70,74',
 'MySQL':'https://www.infojobs.com.br/empregos.aspx?palabra=MySQL&categoria=70,74',
@@ -159,9 +159,120 @@ infojobs_databases={'Elasticsearch':"https://www.infojobs.com.br/empregos.aspx?p
 'DynamoDB':'https://www.infojobs.com.br/empregos.aspx?palabra=DynamoDB&categoria=70,74'
 }
 
+# webframeworks
+# escolhidos com base em pesquisa do statista: https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/ - acessado no dia 05/07/2023
+# no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 04/07/2023
+vagas_webframeworks={'Node.js':'https://www.vagas.com.br/vagas-de-Node.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+  'React.js':'https://www.vagas.com.br/vagas-de-React.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'jQuery':'https://www.vagas.com.br/vagas-de-jQuery?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Express.js':'https://www.vagas.com.br/vagas-de-Express.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Angular.js':'https://www.vagas.com.br/vagas-de-Angular?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'Vue.js':'https://www.vagas.com.br/vagas-de-Vue.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'ASP.NET':'https://www.vagas.com.br/vagas-de-ASP.NET?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'Django':'https://www.vagas.com.br/vagas-de-Django?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+     'Flask':'https://www.vagas.com.br/vagas-de-Flask?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Next.js':'https://www.vagas.com.br/vagas-de-Next.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Laravel':'https://www.vagas.com.br/vagas-de-Laravel?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'FastAPI':'https://www.vagas.com.br/vagas-de-FastAPI?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'Svelte':'https://www.vagas.com.br/vagas-de-Svelte?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Nuxt.js':'https://www.vagas.com.br/vagas-de-Nuxt.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
+}
 
+# na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria" - 05/07/2023
+catho_databases={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.js&area_id%5B0%5D=51&area_id%5B1%5D=52",
+  'React.js':'https://www.catho.com.br/vagas/React.js/?q=React.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+    'jQuery':'https://www.catho.com.br/vagas/jQuery/?q=jQuery&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Express.js':'https://www.catho.com.br/vagas/Express.js/?q=Express.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'Angular.js':'https://www.catho.com.br/vagas/Angular.js/?q=Angular.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+    'Vue.js':'https://www.catho.com.br/vagas/Vue.js/?q=Vue.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'ASP.NET':'https://www.catho.com.br/vagas/ASP.NET/?q=ASP.NET&area_id%5B0%5D=51&area_id%5B1%5D=52',
+    'Django':'https://www.catho.com.br/vagas/Django/?q=Django&area_id%5B0%5D=51&area_id%5B1%5D=52',
+     'Flask':'https://www.catho.com.br/vagas/Flask/?q=Flask&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'Next.js':'https://www.catho.com.br/vagas/Next.js/?q=Next.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'Laravel':'https://www.catho.com.br/vagas/Laravel.js/?q=Laravel.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'FastAPI':'https://www.catho.com.br/vagas/FastAPI.js/?q=FastAPI.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+    'Svelte':'https://www.catho.com.br/vagas/Svelte.js/?q=Svelte.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'Nuxt.js':'https://www.catho.com.br/vagas/Nuxt.js/?q=Nuxt.js&area_id%5B0%5D=51&area_id%5B1%5D=52'
+}
 
-#certs = ["PCNSA","MTCNA","CCNA","HCIA","JNCIA","NSE","ITIL","COBIT","AZURE","MCSE","AWS","COMPTIA","UniFi","CISSP","GCP","OCI","PMP","VMware"];
-#langs = ['python','Linguagem C++','Linguagem C#','JavaScript','TypeScript','PHP','Swift','Kotlin','Java','Linguagem Go','Ruby','shellscript','Rust','Pearl','linguagem R']
-#databases = ['Elasticsearch','MariaDB','MySQL','OracleDB','PostgresSQL','MongoDB','SQLite','Redis DB','Cassandra','IBM DB2','Splunk','Microsoft SQL Server'];
-#servers = ['Apache','NGINX','LiteSpeed','Wordpress','Microsoft IIS','Tomcat','Lighttpd','Caddy']
+#na infojobs foram utilizados os filtros "Engenharia" e "Informática, TI, Telecomunicações" da opção "Área Profissional" - 05/07/2023
+infojobs_databases={'Node.js':"https://www.infojobs.com.br/empregos.aspx?palabra=Node.js&categoria=70,74",
+  'React.js':'https://www.infojobs.com.br/empregos.aspx?palabra=React.js&categoria=70,74',
+    'jQuery':'https://www.infojobs.com.br/empregos.aspx?palabra=jQuery&categoria=70,74',
+'Express.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Express.js&categoria=70,74',
+'Angular.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Angular.js&categoria=70,74',
+    'Vue.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Vue.js&categoria=70,74',
+   'ASP.NET':'https://www.infojobs.com.br/empregos.aspx?palabra=ASP.NET&categoria=70,742',
+    'Django':'https://www.infojobs.com.br/empregos.aspx?palabra=Django&categoria=70,74',
+     'Flask':'https://www.infojobs.com.br/empregos.aspx?palabra=Flask&categoria=70,74',
+   'Next.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Next.js&categoria=70,74',
+   'Laravel':'https://www.infojobs.com.br/empregos.aspx?palabra=Laravel&categoria=70,74',
+   'FastAPI':'https://www.infojobs.com.br/empregos.aspx?palabra=FastAPI&categoria=70,74',
+    'Svelte':'https://www.infojobs.com.br/empregos.aspx?palabra=Svelte&categoria=70,74',
+   'Nuxt.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Nuxt.js&categoria=70,74'
+}
+
+# Ferramenta de DevTools
+
+# no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 05/07/2023
+vagas_ferramentas = {
+     'Jenkins':'https://www.vagas.com.br/vagas-de-Jenkins?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+     'Ansible':'https://www.vagas.com.br/vagas-de-Ansible?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+      'Zabbix':'https://www.vagas.com.br/vagas-de-Zabbix?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+         'Git':'https://www.vagas.com.br/vagas-de-GIT?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+      'Github':'https://www.vagas.com.br/vagas-de-gihub?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+        'Jira':'https://www.vagas.com.br/vagas-de-Jira?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+       'Maven':'https://www.vagas.com.br/vagas-de-Maven?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+         'Ant':'https://www.vagas.com.br/vagas-de-Apache%20Ant?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+  'Prometheus':'https://www.vagas.com.br/vagas-de-prometheus?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+     'Grafana':'https://www.vagas.com.br/vagas-de-grafana?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+     'Graylog':'https://www.vagas.com.br/vagas-de-graylog?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+      'Bamboo':'https://www.vagas.com.br/vagas-de-bamboo?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+      'Nagios':'https://www.vagas.com.br/vagas-de-Nagios?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+       'Slack':'https://www.vagas.com.br/vagas-de-Slack?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'Selenium':'https://www.vagas.com.br/vagas-de-Selenium?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+       'JUnit':'https://www.vagas.com.br/vagas-de-JUnit?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Mercurial':'https://www.vagas.com.br/vagas-de-Mercurial?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
+}
+
+# na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria" - 06/07/2023
+catho_ferramentas = {
+     'Jenkins':'https://www.catho.com.br/vagas/Jenkins/?q=Jenkins&area_id%5B0%5D=51&area_id%5B1%5D=52',
+     'Ansible':'https://www.catho.com.br/vagas/Ansible/?q=Ansible&area_id%5B0%5D=51&area_id%5B1%5D=52',
+      'Zabbix':'https://www.catho.com.br/vagas/Zabbix/?q=Zabbix&area_id%5B0%5D=51&area_id%5B1%5D=524',
+         'Git':'https://www.catho.com.br/vagas/Git/?q=Git&area_id%5B0%5D=51&area_id%5B1%5D=52',
+      'Github':'https://www.catho.com.br/vagas/Github/?q=Github&area_id%5B0%5D=51&area_id%5B1%5D=52',
+        'Jira':'https://www.catho.com.br/vagas/Jira/?q=Jira&area_id%5B0%5D=51&area_id%5B1%5D=52',
+       'Maven':'https://www.catho.com.br/vagas/Maven/?q=Maven&area_id%5B0%5D=51&area_id%5B1%5D=52',
+         'Ant':'https://www.catho.com.br/vagas/Apache%20Ant/?q=Apache%20Ant&area_id%5B0%5D=51&area_id%5B1%5D=52',
+  'Prometheus':'https://www.catho.com.br/vagas/Prometheus/?q=Prometheus&area_id%5B0%5D=51&area_id%5B1%5D=52',
+     'Grafana':'https://www.catho.com.br/vagas/Grafana/?q=Grafana&area_id%5B0%5D=51&area_id%5B1%5D=52',
+     'Graylog':'https://www.catho.com.br/vagas/Graylog/?q=Graylog&area_id%5B0%5D=51&area_id%5B1%5D=52',
+      'Bamboo':'https://www.catho.com.br/vagas/Bamboo/?q=Bamboo&area_id%5B0%5D=51&area_id%5B1%5D=52',
+      'Nagios':'https://www.catho.com.br/vagas/Nagios/?q=Nagios&area_id%5B0%5D=51&area_id%5B1%5D=52',
+       'Slack':'https://www.catho.com.br/vagas/Slack/?q=Slack&area_id%5B0%5D=51&area_id%5B1%5D=52',
+    'Selenium':'https://www.catho.com.br/vagas/Selenium/?q=Selenium&area_id%5B0%5D=51&area_id%5B1%5D=52',
+       'JUnit':'https://www.catho.com.br/vagas/JUnit/?q=JUnit&area_id%5B0%5D=51&area_id%5B1%5D=52',
+   'Mercurial':'https://www.catho.com.br/vagas/Mercurial/?q=Mercurial&area_id%5B0%5D=51&area_id%5B1%5D=52'
+}
+
+#na infojobs foram utilizados os filtros "Engenharia" e "Informática, TI, Telecomunicações" da opção "Área Profissional" - 06/07/2023
+infojobs_ferramentas = {
+     'Jenkins':'https://www.infojobs.com.br/empregos.aspx?palabra=Jenkins&categoria=70,74',
+     'Ansible':'https://www.infojobs.com.br/empregos.aspx?palabra=Ansible&categoria=70,74',
+      'Zabbix':'https://www.infojobs.com.br/empregos.aspx?palabra=Zabbix&categoria=70,74',
+         'Git':'https://www.infojobs.com.br/empregos.aspx?palabra=Git&categoria=70,74',
+      'Github':'https://www.infojobs.com.br/empregos.aspx?palabra=Github&categoria=70,74',
+        'Jira':'https://www.infojobs.com.br/empregos.aspx?palabra=Jira&categoria=70,74',
+       'Maven':'https://www.infojobs.com.br/empregos.aspx?palabra=Maven&categoria=70,74',
+         'Ant':'https://www.infojobs.com.br/empregos.aspx?palabra=Apache%20Ant&categoria=70,74',
+  'Prometheus':'https://www.infojobs.com.br/empregos.aspx?palabra=Prometheus&categoria=70,74',
+     'Grafana':'https://www.infojobs.com.br/empregos.aspx?palabra=Grafana&categoria=70,74',
+     'Graylog':'https://www.infojobs.com.br/empregos.aspx?palabra=Graylog&categoria=70,74',
+      'Bamboo':'https://www.infojobs.com.br/empregos.aspx?palabra=Bamboo&categoria=70,74',
+      'Nagios':'https://www.infojobs.com.br/empregos.aspx?palabra=Nagios&categoria=70,74',
+       'Slack':'https://www.infojobs.com.br/empregos.aspx?palabra=Slack&categoria=70,74',
+    'Selenium':'https://www.infojobs.com.br/empregos.aspx?palabra=Selenium&categoria=70,74',
+       'JUnit':'https://www.infojobs.com.br/empregos.aspx?palabra=JUnit&categoria=70,74',
+   'Mercurial':'https://www.infojobs.com.br/empregos.aspx?palabra=Mercurial&categoria=70,74'
+}
