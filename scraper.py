@@ -160,6 +160,12 @@ def combine_pdfs(input_files, output_file):
 
     #print(f"Combined PDF files into '{output_file}'.")
 
+def adiciona(png_files, lista):
+    png_files.append(lista[0]);
+    png_files.append(lista[1]);
+    png_files.append(lista[2]);
+
+    return png_files
 
 
 parser = argparse.ArgumentParser(description='Gerador de relatório sobre área de TI');
@@ -193,9 +199,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "certificados-infojobs","#003399","Certificação");
 
-        png_files.append("certificados-vagas.png")
-        png_files.append("certificados-catho.png")
-        png_files.append("certificados-infojobs.png")
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
 
     if args.langs:
         print("---- Extraindo informações sobre Linguagens de Programação ----\n");
@@ -214,9 +218,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "languages-infojobs","#003399","Linguagem de Programação");
 
-        png_files.append("languages-vagas.png")
-        png_files.append("languages-catho.png")
-        png_files.append("languages-infojobs.png")
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
 
     if args.databases:
         print("---- Extraindo informações sobre Bancos de Dados ----\n");
@@ -235,9 +237,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "databases-infojobs","#003399","Banco de Dados");
 
-        png_files.append("databases-vagas.png")
-        png_files.append("databases-catho.png")
-        png_files.append("databases-infojobs.png")
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
 
     if args.webframeworks:
         print("---- Extraindo informações sobre Bancos de Dados ----\n");
@@ -256,9 +256,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "webframeworks-infojobs","#003399","Frameworks Web");
 
-        png_files.append("webframeworks-vagas.png")
-        png_files.append("webframeworks-catho.png")
-        png_files.append("webframeworks-infojobs.png")
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
 
     if args.ferramentas:
         print("---- Extraindo informações sobre DevOps ----\n");
@@ -277,9 +275,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "ferramentas-infojobs","#003399","Ferramentas de Devops");
 
-        png_files.append("ferramentas-vagas.png")
-        png_files.append("ferramentas-catho.png")
-        png_files.append("ferramentas-infojobs.png")
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
 
     if args.completo:
         from variables import arquivos_pdf
