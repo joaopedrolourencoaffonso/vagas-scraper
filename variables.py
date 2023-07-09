@@ -179,7 +179,7 @@ vagas_webframeworks={'Node.js':'https://www.vagas.com.br/vagas-de-Node.js?a[]=10
 }
 
 # na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria" - 05/07/2023
-catho_databases={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.js&area_id%5B0%5D=51&area_id%5B1%5D=52",
+catho_webframeworks={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.js&area_id%5B0%5D=51&area_id%5B1%5D=52",
   'React.js':'https://www.catho.com.br/vagas/React.js/?q=React.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
     'jQuery':'https://www.catho.com.br/vagas/jQuery/?q=jQuery&area_id%5B0%5D=51&area_id%5B1%5D=52',
 'Express.js':'https://www.catho.com.br/vagas/Express.js/?q=Express.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
@@ -196,7 +196,7 @@ catho_databases={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.js&ar
 }
 
 #na infojobs foram utilizados os filtros "Engenharia" e "Informática, TI, Telecomunicações" da opção "Área Profissional" - 05/07/2023
-infojobs_databases={'Node.js':"https://www.infojobs.com.br/empregos.aspx?palabra=Node.js&categoria=70,74",
+infojobs_webframeworks={'Node.js':"https://www.infojobs.com.br/empregos.aspx?palabra=Node.js&categoria=70,74",
   'React.js':'https://www.infojobs.com.br/empregos.aspx?palabra=React.js&categoria=70,74',
     'jQuery':'https://www.infojobs.com.br/empregos.aspx?palabra=jQuery&categoria=70,74',
 'Express.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Express.js&categoria=70,74',

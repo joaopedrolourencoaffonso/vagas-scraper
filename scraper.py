@@ -218,7 +218,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "languages-infojobs","#003399","Linguagem de Programação");
 
-        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
+        png_files = adiciona(png_files,["languages-vagas.png","languages-catho.png","languages-infojobs.png"]);
 
     if args.databases:
         print("---- Extraindo informações sobre Bancos de Dados ----\n");
@@ -237,10 +237,10 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "databases-infojobs","#003399","Banco de Dados");
 
-        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
+        png_files = adiciona(png_files,["databases-vagas.png","databases-catho.png","databases-infojobs.png"]);
 
     if args.webframeworks:
-        print("---- Extraindo informações sobre Bancos de Dados ----\n");
+        print("---- Extraindo informações sobre Frameworks Web ----\n");
         
         from variables import vagas_webframeworks, catho_webframeworks, infojobs_webframeworks
 
@@ -256,7 +256,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "webframeworks-infojobs","#003399","Frameworks Web");
 
-        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
+        png_files = adiciona(png_files,["webframeworks-vagas.png","webframeworks-catho.png","webframeworks-infojobs.png"]);
 
     if args.ferramentas:
         print("---- Extraindo informações sobre DevOps ----\n");
@@ -275,7 +275,7 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "ferramentas-infojobs","#003399","Ferramentas de Devops");
 
-        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
+        png_files = adiciona(png_files,["ferramentas-vagas.png","ferramentas-catho.png","ferramentas-infojobs.png"]);
 
     if args.completo:
         from variables import arquivos_pdf
