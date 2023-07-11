@@ -276,3 +276,36 @@ infojobs_ferramentas = {
        'JUnit':'https://www.infojobs.com.br/empregos.aspx?palabra=JUnit&categoria=70,74',
    'Mercurial':'https://www.infojobs.com.br/empregos.aspx?palabra=Mercurial&categoria=70,74'
 }
+
+# Estados / Região
+
+# no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 11/07/2023
+estados_vagas = {
+      "AC":"https://www.vagas.com.br/vagas-de-tecnologia-em-Acre?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "AL":"https://www.vagas.com.br/vagas-de-tecnologia-em-Alagoas?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "AP":"https://www.vagas.com.br/vagas-de-tecnologia-em-Amap%C3%A1?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "AM":"https://www.vagas.com.br/vagas-de-tecnologia-em-Amazonas?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "BH":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Bahia",
+      "CE":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Cear%C3%A1",
+      "ES":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Esp%C3%ADrito+Santo",
+      "GO":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Goias",
+      "MA":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Maranh%C3%A3o",
+      "MT":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Mato+Grosso",
+      "MS":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Mato+Grosso+do+Sul",
+      "MG":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Minas+Gerais",
+      "PA":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Par%C3%A1",
+      "PB":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Para%C3%ADba",
+      "PR":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Paran%C3%A1",
+      "PE":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Pernambuco",
+      "PI":"https://www.vagas.com.br/vagas-de-tecnologia-em-Piau%C3%AD?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "RJ":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Rio+de+Janeiro",
+      "RN":"https://www.vagas.com.br/vagas-de-tecnologia-em-Rio-Grande-do-Norte?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "RS":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Rio+Grande+do+Sul",
+      "RO":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Rond%C3%B4nia",
+      "RR":"https://www.vagas.com.br/vagas-de-tecnologia-em-Roraima?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
+      "SC":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Santa+Catarina",
+      "SP":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=S%C3%A3o+Paulo",
+      "SE":"https://www.vagas.com.br/vagas-de-tecnologia-em-Sergipe?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67"
+      "TO":"https://www.vagas.com.br/vagas-de-tecnologia-em-Tocantins?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67"
+      "DF":"https://www.vagas.com.br/vagas-de-tecnologia?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67&e%5B%5D=Distrito+Federal"
+}
