@@ -312,7 +312,7 @@ estados_vagas = {
 }
 
 # na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria", pesquisando pelo termo "tecnologia" - 15/07/2023
-estado_catho = {
+estados_catho = {
       "AC":"https://www.catho.com.br/vagas/tecnologia/ac/?q=tecnologia&estado_id%5B0%5D=1",
       "AL":"https://www.catho.com.br/vagas/tecnologia/al/?q=tecnologia&estado_id%5B0%5D=2",
       "AP":"https://www.catho.com.br/vagas/tecnologia/ap/?q=tecnologia&estado_id%5B0%5D=3",
@@ -340,4 +340,37 @@ estado_catho = {
       "SP":"https://www.catho.com.br/vagas/tecnologia/sp/?q=tecnologia&estado_id%5B0%5D=25",
       "SE":"https://www.catho.com.br/vagas/tecnologia/se/?q=tecnologia&estado_id%5B0%5D=26",
       "TO":"https://www.catho.com.br/vagas/tecnologia/to/?q=tecnologia&estado_id%5B0%5D=27"
+}
+
+#na infojobs foram utilizados os filtros "Informática, TI, Telecomunicações" da opção "Área Profissional" e foi pesquisado pelo nome do respectivo estado.
+#isso pois o site apresenta vagas para "todo o brasil" como disponíveis em cada estado. Os links a seguir apresentam apenas as vagas 'exclusivas' para cada estado - 16/07/2023
+
+estados_infojobs = {
+      "AC":"https://www.infojobs.com.br/empregos.aspx?palabra=Acre&provincia=165&categoria=74",
+      "AL":"https://www.infojobs.com.br/empregos.aspx?palabra=Alagoas&provincia=166&categoria=74",
+      "AP":"https://www.infojobs.com.br/empregos.aspx?palabra=Amap%C3%A1&provincia=167&categoria=74",
+      "AM":"https://www.infojobs.com.br/empregos.aspx?palabra=Amazonas&categoria=74&provincia=168",
+      "BH":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Bahia&provincia=169",
+      "CE":"https://www.infojobs.com.br/empregos.aspx?palabra=Cear%C3%A1&categoria=74&provincia=170",
+      "DF":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Distrito+Federal&provincia=171",
+      "ES":"https://www.infojobs.com.br/empregos.aspx?palabra=Esp%C3%ADrito+Santo&categoria=74&provincia=172",
+      "GO":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Goi%C3%A1s&provincia=190",
+      "MA":"https://www.infojobs.com.br/empregos.aspx?palabra=Maranh%C3%A3o&categoria=74&provincia=173",
+      "MT":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Mato+Grosso&provincia=174",
+      "MS":"https://www.infojobs.com.br/empregos.aspx?palabra=Mato+Grosso+do+Sul&categoria=74&provincia=175",
+      "MG":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Minas+Gerais&provincia=176&iv=8954894",
+      "PA":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=-+PA&provincia=177",
+      "PB":"https://www.infojobs.com.br/empregos.aspx?palabra=Para%C3%ADba&categoria=74&provincia=178",
+      "PR":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Paran%C3%A1&provincia=179",
+      "PE":"https://www.infojobs.com.br/empregos.aspx?palabra=Pernambuco&categoria=74&provincia=180",
+      "PI":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Piau%C3%AD&provincia=181",
+      "RJ":"https://www.infojobs.com.br/empregos.aspx?palabra=Rio+de+Janeiro&categoria=74&provincia=182",
+      "RN":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Rio+Grande+do+Norte&provincia=183",
+      "RS":"https://www.infojobs.com.br/empregos.aspx?palabra=Rio+Grande+do+Sul&categoria=74&provincia=184",
+      "RO":"https://www.infojobs.com.br/empregos.aspx?palabra=Rond%C3%B4nia&categoria=74&provincia=185",
+      "RR":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Roraima&provincia=186",
+      "SC":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Santa+Catarina&provincia=187",
+      "SP":"https://www.infojobs.com.br/empregos.aspx?palabra=S%C3%A3o+Paulo&categoria=74&provincia=64",
+      "SE":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Sergipe&provincia=188",
+      "TO":"https://www.infojobs.com.br/empregos.aspx?palabra=Tocantins&categoria=74&provincia=189"
 }
