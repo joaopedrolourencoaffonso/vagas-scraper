@@ -18,7 +18,7 @@ Para usar o script, siga estas etapas:
     pip install requests beautifulsoup4 matplotlib reportlab pypdf2 argparse tqdm
     ```
 
-2. Personalize o comportamento do script modificando os argumentos da linha de comando. As opções disponíveis incluem `--certs`, `--langs`, `--databases`, `--webframeworks`, `--ferramentas` e `--completo`. Use essas opções para gerar relatórios para competências específicas ou gerar um relatório completo em PDF.
+2. Personalize o comportamento do script modificando os argumentos da linha de comando. As opções disponíveis incluem `--certs`, `--langs`, `--databases`, `--webframeworks`, `--ferramentas`,`--estados`,`PDF` e `--completo`. Use essas opções para gerar relatórios para competências específicas ou gerar um relatório completo em PDF.
 
 3. Execute o script:
     ```bash
