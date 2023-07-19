@@ -21,9 +21,13 @@ Para usar o script, siga estas etapas:
 2. Personalize o comportamento do script modificando os argumentos da linha de comando. As opções disponíveis incluem `--certs`, `--langs`, `--databases`, `--webframeworks`, `--ferramentas` e `--completo`. Use essas opções para gerar relatórios para competências específicas ou gerar um relatório completo em PDF.
 
 3. Execute o script:
-    ```
+    ```bash
+    # Gera arquivos PNG contendo gráficos sobre certificações e bancos de dados mais requisitados
+    python scraper.py --certs --databases
+    # Gera um relatório PDF contendo os gráficos de linguagem de programação e framework web
+    python scraper.py --langs --webframeworks --pdf
     # Gera um relatório PDF contendo todas as opções
-    python scraper.py --certs --langs --databases --webframeworks --ferramentas --completo
+    python scraper.py --completo
     ```
 
 4. O script irá extrair informações de sites de empregos, gerar histogramas e armazenar os resultados em um arquivo CSV chamado `registro.csv`. Histogramas individuais serão salvos como arquivos PNG.
