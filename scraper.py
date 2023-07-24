@@ -1,12 +1,5 @@
-import requests
-from bs4 import BeautifulSoup
-import matplotlib.pyplot as plt
-from datetime import datetime
-from reportlab.lib.pagesizes import letter, landscape
-from reportlab.pdfgen import canvas
-import PyPDF2
 import argparse
-from tqdm import tqdm
+from scraper_funcs import *
 
 parser = argparse.ArgumentParser(description='Gerador de relatório sobre área de TI');
 parser.add_argument('--certs',action="store_true",default=False, help='Gera relatório sobre vagas de emprego por certificados de TI.');

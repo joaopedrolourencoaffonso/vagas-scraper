@@ -1,3 +1,12 @@
+import requests
+from bs4 import BeautifulSoup
+import matplotlib.pyplot as plt
+from tqdm import tqdm
+from datetime import datetime
+from reportlab.lib.pagesizes import letter, landscape
+from reportlab.pdfgen import canvas
+import PyPDF2
+
 def carrossel(png_files, output_file):
     from variables import diretorio_de_imagens
     
