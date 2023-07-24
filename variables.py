@@ -64,6 +64,28 @@ infojobs_certs={"PCNSA":"https://www.infojobs.com.br/empregos.aspx?palabra=PCNSA
 "VMware":"https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=VMware"}
 
 
+#indeed - Sem utilização de filtros pois o site não os disponibiliza - 24/07/2023
+indeed_certs={"PCNSA":"https://br.indeed.com/jobs?q=%22PCNSA%22&l=&vjk=0fb75a4b445ed073",
+"MTCNA":"https://br.indeed.com/jobs?q=%22MTCNA%22&l=&vjk=0cc0801664675145",
+"CCNA":"https://br.indeed.com/jobs?q=%22CCNA%22&l=&vjk=e16d5d717657c896",
+"HCIA":"https://br.indeed.com/jobs?q=%22HCIA%22&l=&vjk=53dc0862882d63ec",
+"JNCIA":"https://br.indeed.com/jobs?q=%22JNCIA%22&l=&vjk=e16d5d717657c896",
+"NSE":"https://br.indeed.com/jobs?q=%22NSE%22&l=&vjk=a66e200244e10b62",
+"ITIL":"https://br.indeed.com/jobs?q=%22ITIL%22",
+"COBIT":"https://br.indeed.com/jobs?q=%22COBIT%22",
+"AZURE":"https://br.indeed.com/jobs?q=%22AZURE%22",
+"MCSE":"https://br.indeed.com/jobs?q=%22MCSE%22",
+"AWS":"https://br.indeed.com/jobs?q=%22AWS%22",
+"COMPTIA":"https://br.indeed.com/jobs?q=%22COMPTIA%22",
+"UniFi":"https://br.indeed.com/jobs?q=%22UniFi%22",
+"CISSP":"https://br.indeed.com/jobs?q=%22CISSP%22",
+"OCI":"https://br.indeed.com/jobs?q=%22OCI%22%2Coracle",
+"GCP":"https://br.indeed.com/jobs?q=%22GCP%22%2Cgoogle",
+"PMP":"https://br.indeed.com/jobs?q=%22PMP%22",
+"VMware":"https://br.indeed.com/jobs?q=%22VMware%22"}
+
+
+
 #Linguagens
 # no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 30/06/2023
 vagas_langs={'python':"https://www.vagas.com.br/vagas-de-python?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
