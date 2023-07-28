@@ -126,6 +126,19 @@ def parse_info_jobs(url):
     else:
         return None
 
+def parse_gupy(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    p_element = soup.find('p', attrs={'data-testid': 'result-total-text'});
+    # Check if the <p> element was found
+    if p_element:
+        result_text = p_element.get_text()
+        result = result_text.split(" ")[0];
+        return result
+        
+    else:
+        return None;
+
 def pega_pagina(catalogo,site):
     total_urls = len(catalogo);
     dicionario = {};
@@ -145,8 +158,12 @@ def pega_pagina(catalogo,site):
         if site == "infojobs.com":
             temp = parse_info_jobs(catalogo[elemento]);
             progress_bar.set_description(f'infojobs.com');
+
+        if site == "gupy.io":
+            temp = parse_gupy(catalogo[elemento]);
+            progress_bar.set_description(f'gupy.io');
             
-        if temp != None and temp != 'Ops!':
+        if temp != None and temp != 'Ops!' and temp != '':
             temp = temp.replace(".","");
             dicionario[elemento] = int(temp);
 
@@ -167,6 +184,9 @@ def pega_pagina(catalogo,site):
         
         if site == "infojobs.com":
             registro = registro + f"{datetime.now()},infojobs.com,{key}, {value}\n";
+        
+        if site == "gupy.io":
+            registro = registro + f"{datetime.now()},gupy.io,{key}, {value}\n";
 
     return registro, dicionario
 

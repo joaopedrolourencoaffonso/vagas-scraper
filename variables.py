@@ -64,6 +64,28 @@ infojobs_certs={"PCNSA":"https://www.infojobs.com.br/empregos.aspx?palabra=PCNSA
 "VMware":"https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=VMware"}
 
 
+#Gupy - sem filtros pois o site não disponibiliza - 28/07/2023
+gupy_certs = {
+   "PCNSA":"https://portal.gupy.io/job-search/term=PCNSA",
+   "MTCNA":"https://portal.gupy.io/job-search/term=MTCNA",
+   "CCNA":"https://portal.gupy.io/job-search/term=CCNA",
+   "HCIA":"https://portal.gupy.io/job-search/term=HCIA",
+   "JNCIA":"https://portal.gupy.io/job-search/term=JNCIA",
+   "NSE":"https://portal.gupy.io/job-search/term=NSE",
+   "ITIL":"https://portal.gupy.io/job-search/term=ITIL",
+   "COBIT":"https://portal.gupy.io/job-search/term=COBIT",
+   "AZURE":"https://portal.gupy.io/job-search/term=Azure",
+   "MCSE":"https://portal.gupy.io/job-search/term=MCSE",
+   "AWS":"https://portal.gupy.io/job-search/term=AWS",
+   "COMPTIA":"https://portal.gupy.io/job-search/term=COMPTIA",
+   "UniFi":"https://portal.gupy.io/job-search/term=UniFi",
+   "CISSP":"https://portal.gupy.io/job-search/term=CISSP",
+   "OCI":"https://portal.gupy.io/job-search/term=oracle cloud",
+   "GCP":"https://portal.gupy.io/job-search/term=GCP",
+   "PMP":"https://portal.gupy.io/job-search/term=PMP",
+   "VMware":"https://portal.gupy.io/job-search/term=VMware"
+}
+
 #indeed - Sem utilização de filtros pois o site não os disponibiliza - 24/07/2023
 indeed_certs={"PCNSA":"https://br.indeed.com/jobs?q=%22PCNSA%22&l=&vjk=0fb75a4b445ed073",
 "MTCNA":"https://br.indeed.com/jobs?q=%22MTCNA%22&l=&vjk=0cc0801664675145",
@@ -82,7 +104,8 @@ indeed_certs={"PCNSA":"https://br.indeed.com/jobs?q=%22PCNSA%22&l=&vjk=0fb75a4b4
 "OCI":"https://br.indeed.com/jobs?q=%22OCI%22%2Coracle",
 "GCP":"https://br.indeed.com/jobs?q=%22GCP%22%2Cgoogle",
 "PMP":"https://br.indeed.com/jobs?q=%22PMP%22",
-"VMware":"https://br.indeed.com/jobs?q=%22VMware%22"}
+"VMware":"https://br.indeed.com/jobs?q=%22VMware%22"
+}
 
 
 

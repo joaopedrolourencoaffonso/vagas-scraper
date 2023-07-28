@@ -20,7 +20,7 @@ if __name__ == "__main__":
     if args.certs or args.completo:
         print("\n---- Extraindo informações sobre certificados ----\n");
         
-        from variables import vagas_certs, catho_certs, infojobs_certs
+        from variables import vagas_certs, catho_certs, infojobs_certs, gupy_certs
 
         registro, dicionario = pega_pagina(vagas_certs,"vagas.com");
         registra_no_csv(registro);
@@ -34,7 +34,11 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "certificados-infojobs","#003399","Certificação");
 
-        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png"]);
+        registro, dicionario = pega_pagina(gupy_certs,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "gupy.io", "certificados-gupy","#000066","Certificação");
+
+        png_files = adiciona(png_files,["certificados-vagas.png","certificados-catho.png","certificados-infojobs.png","certificados-gupy.png"]);
 
     if args.langs or args.completo:
         print("\n---- Extraindo informações sobre Linguagens de Programação ----\n");
@@ -140,4 +144,4 @@ if __name__ == "__main__":
     if args.completo or args.pdf:
         from variables import arquivos_pdf
         carrossel(png_files,f"{arquivos_pdf}carrossel-temp.pdf");
-        combine_pdfs([f"{arquivos_pdf}Capa.pdf",f"{arquivos_pdf}carrossel-temp.pdf",f"{arquivos_pdf}fim.pdf"],f"{arquivos_pdf}carrossel.pdf")
+        combine_pdfs([f"{arquivos_pdf}Capa.pdf",f"{arquivos_pdf}carrossel-temp.pdf",f"{arquivos_pdf}fim.pdf"],f"{arquivos_pdf}relatorio.pdf")
