@@ -43,7 +43,7 @@ if __name__ == "__main__":
     if args.langs or args.completo:
         print("\n---- Extraindo informações sobre Linguagens de Programação ----\n");
         
-        from variables import vagas_langs, catho_langs, infojobs_langs
+        from variables import vagas_langs, catho_langs, infojobs_langs, gupy_langs
 
         registro, dicionario = pega_pagina(vagas_langs,"vagas.com");
         registra_no_csv(registro);
@@ -57,7 +57,11 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "languages-infojobs","#003399","Linguagem de Programação");
 
-        png_files = adiciona(png_files,["languages-vagas.png","languages-catho.png","languages-infojobs.png"]);
+        registro, dicionario = pega_pagina(gupy_langs,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "gupy.io", "languages-gupy","#000066","Linguagem de Programação");
+
+        png_files = adiciona(png_files,["languages-vagas.png","languages-catho.png","languages-infojobs.png", "languages-gupy.png"]);
 
     if args.databases or args.completo:
         print("\n---- Extraindo informações sobre Bancos de Dados ----\n");

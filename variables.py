@@ -152,6 +152,22 @@ infojobs_langs={'python':'https://www.infojobs.com.br/empregos.aspx?palabra=pyth
 'Rust':'https://www.infojobs.com.br/empregos.aspx?palabra=Rust&categoria=70,74',
 'Pearl':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=Pearl'}
 
+# não foram utilizados filtros na gupy pois o site não os disponibiliza - 30/07/2023
+gupy_langs={'python':"https://portal.gupy.io/job-search/term=python",
+'Linguagem C++':"https://portal.gupy.io/job-search/term=Desenvolvedor%20C",
+'JavaScript':"https://portal.gupy.io/job-search/term=JavaScript",
+'TypeScript':"https://portal.gupy.io/job-search/term=TypeScript",
+'PHP':"https://portal.gupy.io/job-search/term=PHP",
+'Swift':"https://portal.gupy.io/job-search/term=mobile%20developer%20(swift)",
+'Kotlin':"https://portal.gupy.io/job-search/term=Developer%20Kotlin",
+'Java':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Java",
+'Ruby on Rails':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Ruby",
+'shellscript':"https://portal.gupy.io/job-search/term=shellscript",
+'Rust':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Rust",
+'Pearl':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Pearl"
+};
+
+
 # Banco de Dados
 # no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 04/07/2023
 vagas_databases={'Elasticsearch':"https://www.vagas.com.br/vagas-de-elasticsearch?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67",
