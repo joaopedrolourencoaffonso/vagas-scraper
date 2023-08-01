@@ -111,7 +111,8 @@ indeed_certs={"PCNSA":"https://br.indeed.com/jobs?q=%22PCNSA%22&l=&vjk=0fb75a4b4
 
 #Linguagens
 # no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 30/06/2023
-vagas_langs={'python':"https://www.vagas.com.br/vagas-de-python?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
+vagas_langs={
+   'python':"https://www.vagas.com.br/vagas-de-python?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Linguagem C++':"https://www.vagas.com.br/vagas-de-Linguagem%20C++?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'JavaScript':"https://www.vagas.com.br/vagas-de-JavaScript?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'TypeScript':"https://www.vagas.com.br/vagas-de-TypeScript?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
@@ -122,7 +123,8 @@ vagas_langs={'python':"https://www.vagas.com.br/vagas-de-python?a%5B%5D=102&a%5B
 'Ruby on Rails':"https://www.vagas.com.br/vagas-de-ruby-on-rails?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'shellscript':"https://www.vagas.com.br/vagas-de-shellscript?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Rust':"https://www.vagas.com.br/vagas-de-Rust?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
-'Pearl':"https://www.vagas.com.br/vagas-de-Pearl?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67"};
+'Pearl':"https://www.vagas.com.br/vagas-de-Pearl?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67"
+};
 
 # na catho foi utilizado o filtro: "informática" > "Marcar todos nessa categoria" - 30/06/2023
 catho_langs={'python':'https://www.catho.com.br/vagas/python/?q=python&area_id%5B0%5D=51&area_id%5B1%5D=52',
@@ -220,6 +222,24 @@ infojobs_databases={'Elasticsearch':"https://www.infojobs.com.br/empregos.aspx?p
 'DynamoDB':'https://www.infojobs.com.br/empregos.aspx?palabra=DynamoDB&categoria=70,74'
 }
 
+# não foram utilizados filtros na gupy pois o site não os disponibiliza - 01/08/2023
+gupy_databases={
+   'Elasticsearch':"https://portal.gupy.io/job-search/term=Elasticsearch",
+   'MariaDB':'https://portal.gupy.io/job-search/term=MariaDB',
+   'MySQL':'https://portal.gupy.io/job-search/term=MySQL',
+   'OracleDB':'https://portal.gupy.io/job-search/term=banco%20de%20dados%20Oracle',
+   'PostgreSQL':'https://portal.gupy.io/job-search/term=PostgreSQL',
+   'MongoDB':'https://portal.gupy.io/job-search/term=MongoDB',
+   'SQLite':'https://portal.gupy.io/job-search/term=SQLite',
+   'Redis DB':'https://portal.gupy.io/job-search/term=Redis%20DB',
+   'Cassandra':'https://portal.gupy.io/job-search/term=Cassandra%20banco%20de%20dados',
+   'IBM DB2':'https://portal.gupy.io/job-search/term=IBM%20DB2',
+   'GraphQL':'https://portal.gupy.io/job-search/term=GraphQL',
+   'Microsoft SQL Server':'https://portal.gupy.io/job-search/term=Microsoft%20SQL%20Server',
+   'Firebase':'https://portal.gupy.io/job-search/term=Firebase',
+   'DynamoDB':'https://portal.gupy.io/job-search/term=DynamoDB'
+}
+
 # webframeworks
 # escolhidos com base em pesquisa do statista: https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/ - acessado no dia 05/07/2023
 # no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 04/07/2023
@@ -271,6 +291,25 @@ infojobs_webframeworks={'Node.js':"https://www.infojobs.com.br/empregos.aspx?pal
    'FastAPI':'https://www.infojobs.com.br/empregos.aspx?palabra=FastAPI&categoria=70,74',
     'Svelte':'https://www.infojobs.com.br/empregos.aspx?palabra=Svelte&categoria=70,74',
    'Nuxt.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Nuxt.js&categoria=70,74'
+}
+
+# não foram utilizados filtros na gupy pois o site não os disponibiliza - 01/08/2023
+gupy_webframeworks={
+   'Node.js':"https://portal.gupy.io/job-search/term=Node.js",
+  'React.js':'https://portal.gupy.io/job-search/term=React.js',
+    'jQuery':'https://portal.gupy.io/job-search/term=jQuery',
+'Express.js':'https://portal.gupy.io/job-search/term=Express.js',
+'Angular.js':'https://portal.gupy.io/job-search/term=Desenvolvedor%20Angular',
+    'Vue.js':'https://portal.gupy.io/job-search/term=Vue.js',
+   'ASP.NET':'https://portal.gupy.io/job-search/term=Desenvolvedor%20ASP.NET',
+      '.NET':'https://portal.gupy.io/job-search/term=Desenvolvedor%20%22.NET%22',
+    'Django':'https://portal.gupy.io/job-search/term=Django',
+     'Flask':'https://portal.gupy.io/job-search/term=Flask',
+   'Next.js':'https://portal.gupy.io/job-search/term=Next.js',
+   'Laravel':'https://portal.gupy.io/job-search/term=Laravel',
+   'FastAPI':'https://portal.gupy.io/job-search/term=FastAPI',
+    'Svelte':'https://portal.gupy.io/job-search/term=Svelte',
+   'Nuxt.js':'https://portal.gupy.io/job-search/term=Nuxt.js'
 }
 
 # Ferramenta de DevTools

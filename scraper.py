@@ -66,7 +66,7 @@ if __name__ == "__main__":
     if args.databases or args.completo:
         print("\n---- Extraindo informações sobre Bancos de Dados ----\n");
         
-        from variables import vagas_databases, catho_databases, infojobs_databases
+        from variables import vagas_databases, catho_databases, infojobs_databases, gupy_databases
 
         registro, dicionario = pega_pagina(vagas_databases,"vagas.com");
         registra_no_csv(registro);
@@ -80,12 +80,16 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "databases-infojobs","#003399","Banco de Dados");
 
-        png_files = adiciona(png_files,["databases-vagas.png","databases-catho.png","databases-infojobs.png"]);
+        registro, dicionario = pega_pagina(gupy_databases,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "gupy.io", "databases-gupy","#000066","Banco de Dados");
+
+        png_files = adiciona(png_files,["databases-vagas.png","databases-catho.png","databases-infojobs.png","databases-gupy.png"]);
 
     if args.webframeworks or args.completo:
         print("\n---- Extraindo informações sobre Frameworks Web ----\n");
         
-        from variables import vagas_webframeworks, catho_webframeworks, infojobs_webframeworks
+        from variables import vagas_webframeworks, catho_webframeworks, infojobs_webframeworks, gupy_webframeworks
 
         registro, dicionario = pega_pagina(vagas_webframeworks,"vagas.com");
         registra_no_csv(registro);
@@ -99,7 +103,11 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "webframeworks-infojobs","#003399","Frameworks Web");
 
-        png_files = adiciona(png_files,["webframeworks-vagas.png","webframeworks-catho.png","webframeworks-infojobs.png"]);
+        registro, dicionario = pega_pagina(gupy_webframeworks,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "gupy.io", "webframeworks-gupy","#000066","Frameworks Web");
+
+        png_files = adiciona(png_files,["webframeworks-vagas.png","webframeworks-catho.png","webframeworks-infojobs.png","webframeworks-gupy.png"]);
 
     if args.ferramentas or args.completo:
         print("\n---- Extraindo informações sobre DevOps ----\n");
@@ -147,5 +155,5 @@ if __name__ == "__main__":
 
     if args.completo or args.pdf:
         from variables import arquivos_pdf
-        carrossel(png_files,f"{arquivos_pdf}carrossel-temp.pdf");
-        combine_pdfs([f"{arquivos_pdf}Capa.pdf",f"{arquivos_pdf}carrossel-temp.pdf",f"{arquivos_pdf}fim.pdf"],f"{arquivos_pdf}relatorio.pdf")
+        carrossel(png_files,f"{arquivos_pdf}carrossel-temp_2.pdf");
+        combine_pdfs([f"{arquivos_pdf}Capa.pdf",f"{arquivos_pdf}carrossel-temp_2.pdf",f"{arquivos_pdf}fim.pdf"],f"{arquivos_pdf}relatorio.pdf")
