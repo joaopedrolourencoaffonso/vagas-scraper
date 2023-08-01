@@ -250,6 +250,7 @@ vagas_webframeworks={'Node.js':'https://www.vagas.com.br/vagas-de-Node.js?a[]=10
 'Angular.js':'https://www.vagas.com.br/vagas-de-Angular?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
     'Vue.js':'https://www.vagas.com.br/vagas-de-Vue.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'ASP.NET':'https://www.vagas.com.br/vagas-de-ASP.NET?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+      '.NET':'https://www.vagas.com.br/vagas-de-Desenvolvedor-%22.NET%22?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
     'Django':'https://www.vagas.com.br/vagas-de-Django?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
      'Flask':'https://www.vagas.com.br/vagas-de-Flask?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'Next.js':'https://www.vagas.com.br/vagas-de-Next.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
@@ -267,6 +268,7 @@ catho_webframeworks={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.j
 'Angular.js':'https://www.catho.com.br/vagas/Angular.js/?q=Angular.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
     'Vue.js':'https://www.catho.com.br/vagas/Vue.js/?q=Vue.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
    'ASP.NET':'https://www.catho.com.br/vagas/ASP.NET/?q=ASP.NET&area_id%5B0%5D=51&area_id%5B1%5D=52',
+      ".NET":'https://www.catho.com.br/vagas/desnevolvedor-net/?q=Desnevolvedor%20%22.NET%22&area_id%5B0%5D=51&area_id%5B1%5D=52'
     'Django':'https://www.catho.com.br/vagas/Django/?q=Django&area_id%5B0%5D=51&area_id%5B1%5D=52',
      'Flask':'https://www.catho.com.br/vagas/Flask/?q=Flask&area_id%5B0%5D=51&area_id%5B1%5D=52',
    'Next.js':'https://www.catho.com.br/vagas/Next.js/?q=Next.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
@@ -284,6 +286,7 @@ infojobs_webframeworks={'Node.js':"https://www.infojobs.com.br/empregos.aspx?pal
 'Angular.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Angular.js&categoria=70,74',
     'Vue.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Vue.js&categoria=70,74',
    'ASP.NET':'https://www.infojobs.com.br/empregos.aspx?palabra=ASP.NET&categoria=70,742',
+      '.NET':'https://www.infojobs.com.br/empregos.aspx?palabra=.NET,+programador&categoria=70&iv=8875989',
     'Django':'https://www.infojobs.com.br/empregos.aspx?palabra=Django&categoria=70,74',
      'Flask':'https://www.infojobs.com.br/empregos.aspx?palabra=Flask&categoria=70,74',
    'Next.js':'https://www.infojobs.com.br/empregos.aspx?palabra=Next.js&categoria=70,74',
