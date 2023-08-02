@@ -243,20 +243,21 @@ gupy_databases={
 # webframeworks
 # escolhidos com base em pesquisa do statista: https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/ - acessado no dia 05/07/2023
 # no vagas foram utilizados os filtros da seção "Área": "Matemática/Estatística", "Informática/T.I.", "Engenharia - Outras", "Telecomunicações", "Internet" - 04/07/2023
-vagas_webframeworks={'Node.js':'https://www.vagas.com.br/vagas-de-Node.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-  'React.js':'https://www.vagas.com.br/vagas-de-React.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-    'jQuery':'https://www.vagas.com.br/vagas-de-jQuery?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-'Express.js':'https://www.vagas.com.br/vagas-de-Express.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+vagas_webframeworks={
+   'Node.js':'https://www.vagas.com.br/vagas-de-Node.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'React.js':'https://www.vagas.com.br/vagas-de-React.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+  'jQuery':'https://www.vagas.com.br/vagas-de-jQuery?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'Express.js':'https://www.vagas.com.br/vagas-de-Express.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
 'Angular.js':'https://www.vagas.com.br/vagas-de-Angular?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-    'Vue.js':'https://www.vagas.com.br/vagas-de-Vue.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-   'ASP.NET':'https://www.vagas.com.br/vagas-de-ASP.NET?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-      '.NET':'https://www.vagas.com.br/vagas-de-Desenvolvedor-%22.NET%22?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
-    'Django':'https://www.vagas.com.br/vagas-de-Django?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-     'Flask':'https://www.vagas.com.br/vagas-de-Flask?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+'Vue.js':'https://www.vagas.com.br/vagas-de-Vue.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+    'ASP.NET':'https://www.vagas.com.br/vagas-de-ASP.NET?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   '.NET':'https://www.vagas.com.br/vagas-de-Desenvolvedor-%22.NET%22?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Django':'https://www.vagas.com.br/vagas-de-Django?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Flask':'https://www.vagas.com.br/vagas-de-Flask?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'Next.js':'https://www.vagas.com.br/vagas-de-Next.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'Laravel':'https://www.vagas.com.br/vagas-de-Laravel?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'FastAPI':'https://www.vagas.com.br/vagas-de-FastAPI?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
-    'Svelte':'https://www.vagas.com.br/vagas-de-Svelte?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
+   'Svelte':'https://www.vagas.com.br/vagas-de-Svelte?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67',
    'Nuxt.js':'https://www.vagas.com.br/vagas-de-Nuxt.js?a[]=102&a[]=17&a[]=24&a[]=68&a[]=67'
 }
 
@@ -268,7 +269,7 @@ catho_webframeworks={'Node.js':"https://www.catho.com.br/vagas/Node.js/?q=Node.j
 'Angular.js':'https://www.catho.com.br/vagas/Angular.js/?q=Angular.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
     'Vue.js':'https://www.catho.com.br/vagas/Vue.js/?q=Vue.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
    'ASP.NET':'https://www.catho.com.br/vagas/ASP.NET/?q=ASP.NET&area_id%5B0%5D=51&area_id%5B1%5D=52',
-      ".NET":'https://www.catho.com.br/vagas/desnevolvedor-net/?q=Desnevolvedor%20%22.NET%22&area_id%5B0%5D=51&area_id%5B1%5D=52'
+      ".NET":'https://www.catho.com.br/vagas/desnevolvedor-net/?q=Desnevolvedor%20%22.NET%22&area_id%5B0%5D=51&area_id%5B1%5D=52',
     'Django':'https://www.catho.com.br/vagas/Django/?q=Django&area_id%5B0%5D=51&area_id%5B1%5D=52',
      'Flask':'https://www.catho.com.br/vagas/Flask/?q=Flask&area_id%5B0%5D=51&area_id%5B1%5D=52',
    'Next.js':'https://www.catho.com.br/vagas/Next.js/?q=Next.js&area_id%5B0%5D=51&area_id%5B1%5D=52',
@@ -380,6 +381,26 @@ infojobs_ferramentas = {
    'Mercurial':'https://www.infojobs.com.br/empregos.aspx?palabra=Mercurial&categoria=70,74'
 }
 
+# não foram utilizados filtros na gupy pois o site não os disponibiliza - 01/08/2023
+gupy_ferramentas = {
+     'Jenkins':'https://portal.gupy.io/job-search/term=Jenkins',
+     'Ansible':'https://portal.gupy.io/job-search/term=Ansible',
+      'Zabbix':'https://portal.gupy.io/job-search/term=Zabbix',
+         'Git':'https://portal.gupy.io/job-search/term=Git',
+      'Github':'https://portal.gupy.io/job-search/term=Github',
+        'Jira':'https://portal.gupy.io/job-search/term=Jira',
+       'Maven':'https://portal.gupy.io/job-search/term=Maven',
+         'Ant':'https://portal.gupy.io/job-search/term=Apache%20Ant',
+  'Prometheus':'https://portal.gupy.io/job-search/term=Prometheus',
+     'Grafana':'https://portal.gupy.io/job-search/term=Grafana',
+     'Graylog':'https://portal.gupy.io/job-search/term=Graylog',
+      'Bamboo':'https://portal.gupy.io/job-search/term=Bamboo',
+      'Nagios':'https://portal.gupy.io/job-search/term=Nagios',
+       'Slack':'https://portal.gupy.io/job-search/term=Slack',
+    'Selenium':'https://portal.gupy.io/job-search/term=Selenium',
+       'JUnit':'https://portal.gupy.io/job-search/term=JUnit',
+   'Mercurial':'https://portal.gupy.io/job-search/term=Mercurial'
+}
 
 # Estados / Região
 
@@ -476,4 +497,35 @@ estados_infojobs = {
       "SP":"https://www.infojobs.com.br/empregos.aspx?palabra=S%C3%A3o+Paulo&categoria=74&provincia=64",
       "SE":"https://www.infojobs.com.br/empregos.aspx?categoria=74&palabra=Sergipe&provincia=188",
       "TO":"https://www.infojobs.com.br/empregos.aspx?palabra=Tocantins&categoria=74&provincia=189"
+}
+
+# na gupy foi pesquisado pelo termo "tecnologia" somado do filtro relacionado ao respectivo estado - 02/08/2023
+estados_gupy = {
+      "AC":"https://portal.gupy.io/job-search/term=tecnologia&state=Acre",
+      "AL":"https://portal.gupy.io/job-search/term=tecnologia&state=Alagoas",
+      "AP":"https://portal.gupy.io/job-search/term=tecnologia&state=Amap%C3%A1",
+      "AM":"https://portal.gupy.io/job-search/term=tecnologia&state=Amazonas",
+      "BH":"https://portal.gupy.io/job-search/term=tecnologia&state=Bahia",
+      "CE":"https://portal.gupy.io/job-search/term=tecnologia&state=Cear%C3%A1",
+      "DF":"https://portal.gupy.io/job-search/term=tecnologia&state=Distrito%20Federal",
+      "ES":"https://portal.gupy.io/job-search/term=tecnologia&state=Esp%C3%ADrito%20Santo",
+      "GO":"https://portal.gupy.io/job-search/term=tecnologia&state=Goi%C3%A1s",
+      "MA":"https://portal.gupy.io/job-search/term=tecnologia&state=Maranh%C3%A3o",
+      "MT":"https://portal.gupy.io/job-search/term=tecnologia&state=Mato%20Grosso",
+      "MS":"https://portal.gupy.io/job-search/term=tecnologia&state=Mato%20Grosso%20do%20Sul",
+      "MG":"https://portal.gupy.io/job-search/term=tecnologia&state=Minas%20Gerais",
+      "PA":"https://portal.gupy.io/job-search/term=tecnologia&state=Par%C3%A1",
+      "PB":"https://portal.gupy.io/job-search/term=tecnologia&state=Para%C3%ADba",
+      "PR":"https://portal.gupy.io/job-search/term=tecnologia&state=Paran%C3%A1",
+      "PE":"https://portal.gupy.io/job-search/term=tecnologia&state=Pernambuco",
+      "PI":"https://portal.gupy.io/job-search/term=tecnologia&state=Piau%C3%AD",
+      "RJ":"https://portal.gupy.io/job-search/term=tecnologia&state=Rio%20de%20Janeiro",
+      "RN":"https://portal.gupy.io/job-search/term=tecnologia&state=Rio%20Grande%20do%20Norte",
+      "RS":"https://portal.gupy.io/job-search/term=tecnologia&state=Rio%20Grande%20do%20Sul",
+      "RO":"https://portal.gupy.io/job-search/term=tecnologia&state=Rond%C3%B4nia",
+      "RR":"https://portal.gupy.io/job-search/term=tecnologia&state=Roraima",
+      "SC":"https://portal.gupy.io/job-search/term=tecnologia&state=Santa%20Catarina",
+      "SP":"https://portal.gupy.io/job-search/term=tecnologia&state=S%C3%A3o%20Paulo",
+      "SE":"https://portal.gupy.io/job-search/term=tecnologia&state=Sergipe",
+      "TO":"https://portal.gupy.io/job-search/term=tecnologia&state=Tocantins"
 }

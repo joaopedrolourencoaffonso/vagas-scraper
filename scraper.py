@@ -112,7 +112,7 @@ if __name__ == "__main__":
     if args.ferramentas or args.completo:
         print("\n---- Extraindo informações sobre DevOps ----\n");
         
-        from variables import vagas_ferramentas, catho_ferramentas, infojobs_ferramentas
+        from variables import vagas_ferramentas, catho_ferramentas, infojobs_ferramentas, gupy_ferramentas
 
         registro, dicionario = pega_pagina(vagas_ferramentas,"vagas.com");
         registra_no_csv(registro);
@@ -126,12 +126,16 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario, "infojobs.com", "ferramentas-infojobs","#003399","Ferramenta de Devops");
 
-        png_files = adiciona(png_files,["ferramentas-vagas.png","ferramentas-catho.png","ferramentas-infojobs.png"]);
+        registro, dicionario = pega_pagina(gupy_ferramentas,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario, "portal.gupy.io", "ferramentas-gupy","#000066","Ferramenta de Devops");
+
+        png_files = adiciona(png_files,["ferramentas-vagas.png","ferramentas-catho.png","ferramentas-infojobs.png","ferramentas-gupy.png"]);
 
     if args.estados or args.completo:
         print("\n---- Extraindo informações sobre Estados ----\n");
         
-        from variables import estados_vagas, estados_infojobs, estados_catho
+        from variables import estados_vagas, estados_infojobs, estados_catho, estados_gupy
 
         registro, dicionario_1 = pega_pagina(estados_vagas,"vagas.com");
         registra_no_csv(registro);
@@ -145,13 +149,17 @@ if __name__ == "__main__":
         registra_no_csv(registro);
         plot_histogram(dicionario_3, "infojobs.com", "estado-infojobs","#003399","Estados");
 
-        total = soma_dicionarios(dicionario_1, dicionario_2, dicionario_3);
+        registro, dicionario_4 = pega_pagina(estados_gupy,"gupy.io");
+        registra_no_csv(registro);
+        plot_histogram(dicionario_4, "portal.gupy.io", "estado-gupy","#000066","Estados");
+
+        total = soma_dicionarios(dicionario_1, dicionario_2, dicionario_3, dicionario_4);
         plot_histogram(total, "total", "total-estados","#ff0000","Estados");
 
         dicionario_de_regioes = soma_regioes(total);
         plot_donut_graph(dicionario_de_regioes,'total-regiao','Vagas por Região')
 
-        png_files = adiciona(png_files,["estado-vagas.png","estado-catho.png","estado-infojobs.png", "total-estados.png",'total-regiao.png']);
+        png_files = adiciona(png_files,["estado-vagas.png","estado-catho.png","estado-infojobs.png", "estado-gupy.png","total-estados.png",'total-regiao.png']);
 
     if args.completo or args.pdf:
         from variables import arquivos_pdf
