@@ -19,8 +19,21 @@ def carrossel(png_files, output_file):
 
     c.save()
 
+def nada_encontrado(site, figura,caracteristica):
+    from variables import diretorio_de_imagens
+    
+    plt.figure(figsize=(8, 4))
+    plt.text(0.5, 0.5, f"Sem vagas envolvendo {caracteristica} no {site}", ha='center', va='center', fontsize=14)
+    plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(f"{diretorio_de_imagens}{figura}.png")
+    plt.close()
 
 def plot_histogram(data, site, figura,color,caracteristica):
+    if not data:
+        nada_encontrado(site, figura,caracteristica);
+        return
+
     from variables import diretorio_de_imagens
     
     names = list(data.keys())
