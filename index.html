@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <head>
+        <title>Vagas Analisadas</title>
+
+        <style>
+          .dropdown {
+              position: relative;
+              display: inline-block;
+          }
+  
+          .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+          }
+  
+          .dropdown:hover .dropdown-content {
+              display: block;
+          }
+
+          body{
+            background-image: url('https://images.unsplash.com/photo-1604937455095-ef2fe3d46fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+          }
+      </style>
+    </head>
+    <body>
+        <p id="vagas">Vagas</p>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Selecione Certificado</button>
+          <div class="dropdown-content">
+              <a href="#" onclick="handleOption('x')">Certificados</a><br>
+              <a href="#" onclick="handleOption('AZURE')">AZURE</a><br>
+              <a href="#" onclick="handleOption('CCNA')">CCNA</a><br>
+              <a href="#" onclick="handleOption('AWS')">AWS</a><br>
+              <a href="#" onclick="handleOption('MCSE')">MCSE</a><br>
+              <a href="#" onclick="handleOption('JNCIA')">JNCIA</a><br>
+              <a href="#" onclick="handleOption('PCNSA')">PCNSA</a><br>
+              <a href="#" onclick="handleOption('NSE')">NSE</a><br>
+              <a href="#" onclick="handleOption('ITIL')">ITIL</a><br>
+              <a href="#" onclick="handleOption('COBIT')">COBIT</a><br>
+              <a href="#" onclick="handleOption('COMPTIA')">COMPTIA</a><br>
+              <a href="#" onclick="handleOption('CISSP')">CISSP</a><br>
+              <a href="#" onclick="handleOption('GCP')">GCP</a><br>
+              <a href="#" onclick="handleOption('OCI')">OCI</a><br>
+              <a href="#" onclick="handleOption('PMP')">PMP</a><br>
+              <a href="#" onclick="handleOption('VMware')">VMware</a><br>
+          </div>
+      </div>
+
+      <!--Efeito de hover desativado para evitar o bug de múltiplos gráficos. Preciso verificar-->
+      <div style="pointer-events: none;display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: 0 auto;background-color: #f5f5dc;border-radius: 12px;">
+        <canvas id="vagascom" style="width:100%;max-width:600px;"></canvas>
+        <canvas id="infojobs" style="width:100%;max-width:600px;"></canvas>
+        <canvas id="catho" style="width:100%;max-width:600px;"></canvas>
+        <canvas id="gupy" style="width:100%;max-width:600px;"></canvas>
+      </div>
+
+<script>
+  function extractFirstAndLast(list) {
+    return list.map(item => {
+        const values = item.split(",");
+        return [values[0], values[values.length - 1]];
+    });
+  }
+
+  function createGraph(data, graph, titulo, color) {
+    const dates = data.map(item => item[0]);
+    const values = data.map(item => parseInt(item[1].trim(), 10));
+
+    const ctx = document.getElementById(graph).getContext('2d');
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // Limpa o canvas
+
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: dates,
+            datasets: [{
+                label: 'Resultados de Busca',
+                data: values,
+                borderColor: color,
+                backgroundColor: 'rgba(0, 0, 255, 0.2)',
+            }]
+        },
+        options: {
+            title: {
+                display: true,
+                text: titulo,
+                fontSize: 16
+            },
+            scales: {
+                x: {
+                    type: 'time',
+                    time: {
+                        unit: 'day',
+                    },
+                },
+                y: {
+                    beginAtZero: true,
+                }
+            },
+            hover: {
+                mode: null, // Disable hover effect
+            },
+        }
+    });
+}
+
+
+  async function fetchAndFilter(searchString) {
+            const url = "https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/registro.csv";
+            const response = await fetch(url);
+            const text = await response.text();
+            
+            const lines = text.split('\n');
+            
+            let filteredLines = lines.filter(line => line.includes(searchString));
+            filteredLines_vagascom = filteredLines.filter(line => line.includes("vagas.com"));
+            filteredLines_catho = filteredLines.filter(line => line.includes("catho.com"));
+            filteredLines_infojobs = filteredLines.filter(line => line.includes("infojobs.com"));
+            filteredLines_gupy = filteredLines.filter(line => line.includes("gupy.io"));
+
+            const valores_vagascom = extractFirstAndLast(filteredLines_vagascom);
+            const valores_catho = extractFirstAndLast(filteredLines_catho);
+            const valores_infojobs = extractFirstAndLast(filteredLines_infojobs);
+            const valores_gupy = extractFirstAndLast(filteredLines_gupy);
+            
+            createGraph(valores_vagascom,'vagascom','Resultados de Busca para ' + searchString + ' no vagas.com','#00cc66');
+            createGraph(valores_catho,'infojobs','Resultados de Busca para ' + searchString + ' no catho.com','#ff0066');
+            createGraph(valores_infojobs,'catho','Resultados de Busca para ' + searchString + ' no infojobs.com','#003399');
+            createGraph(valores_gupy,'gupy','Resultados de Busca para ' + searchString + ' no gupy.io','#000066');
+            
+            //Essa parte serve para escrever no formato tabela
+            /*
+            const result = filteredLines.join('\n');
+            const fraseParagraph = document.getElementById("vagas");
+            fraseParagraph.textContent = result;
+            */
+  }
+
+  //
+  function handleOption(option) {
+    if (option !== 'x') {
+        fetchAndFilter(option);
+    }
+  }
+
+  //Input
+  //const searchString = "CCNA";
+  //fetchAndFilter(searchString);
+</script>
+    </body>
+    
+</html>

@@ -23,7 +23,7 @@ def nada_encontrado(site, figura,caracteristica):
     from variables import diretorio_de_imagens
     
     plt.figure(figsize=(8, 4))
-    plt.text(0.5, 0.5, f"Sem vagas envolvendo {caracteristica} no {site}", ha='center', va='center', fontsize=14)
+    plt.text(0.5, 0.5, f"Sem resultados no {site}", ha='center', va='center', fontsize=14)
     plt.axis('off')
     plt.tight_layout()
     plt.savefig(f"{diretorio_de_imagens}{figura}.png")
