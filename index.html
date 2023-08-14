@@ -25,6 +25,30 @@
               display: block;
           }
 
+          .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .dropbtn {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+        }
+
+        .dropbtn:hover {
+            background-color: #555555;
+            color: white;
+        }
+
           body{
             background-image: url('https://images.unsplash.com/photo-1604937455095-ef2fe3d46fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
             background-repeat: no-repeat;
@@ -37,8 +61,9 @@
         <p id="vagas">Vagas</p>
         
         <div class="dropdown">
-          <button class="dropbtn">Selecione Certificado</button>
+          <button class="button dropbtn">Selecione Opção</button>
           <div class="dropdown-content">
+              <!--CERTIFICADOS-->
               <a href="#" onclick="handleOption('x')">Certificados</a><br>
               <a href="#" onclick="handleOption('AZURE')">AZURE</a><br>
               <a href="#" onclick="handleOption('CCNA')">CCNA</a><br>
@@ -67,6 +92,12 @@
       </div>
 
 <script>
+  function getLastEightElements(input) {
+    const lastIndex = input.length - 1;
+    const startIndex = Math.max(lastIndex - 7, 0);
+    return input.slice(startIndex, lastIndex + 1);
+  }
+
   function extractFirstAndLast(list) {
     return list.map(item => {
         const values = item.split(",");
@@ -130,10 +161,15 @@
             filteredLines_infojobs = filteredLines.filter(line => line.includes("infojobs.com"));
             filteredLines_gupy = filteredLines.filter(line => line.includes("gupy.io"));
 
-            const valores_vagascom = extractFirstAndLast(filteredLines_vagascom);
-            const valores_catho = extractFirstAndLast(filteredLines_catho);
-            const valores_infojobs = extractFirstAndLast(filteredLines_infojobs);
-            const valores_gupy = extractFirstAndLast(filteredLines_gupy);
+            let valores_vagascom = extractFirstAndLast(filteredLines_vagascom);
+            let valores_catho = extractFirstAndLast(filteredLines_catho);
+            let valores_infojobs = extractFirstAndLast(filteredLines_infojobs);
+            let valores_gupy = extractFirstAndLast(filteredLines_gupy);
+
+            valores_vagascom = getLastEightElements(valores_vagascom);
+            valores_catho = getLastEightElements(valores_catho);
+            valores_infojobs = getLastEightElements(valores_infojobs);
+            valores_gupy = getLastEightElements(valores_gupy);
             
             createGraph(valores_vagascom,'vagascom','Resultados de Busca para ' + searchString + ' no vagas.com','#00cc66');
             createGraph(valores_catho,'infojobs','Resultados de Busca para ' + searchString + ' no catho.com','#ff0066');
@@ -154,6 +190,7 @@
         fetchAndFilter(option);
     }
   }
+
   //Input
   //const searchString = "CCNA";
   //fetchAndFilter(searchString);
