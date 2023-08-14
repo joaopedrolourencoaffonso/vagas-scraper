@@ -1,5 +1,7 @@
 # vagas-scraper
 
+<p align="center"><a href="https://joaopedrolourencoaffonso.github.io/vagas-scraper/"><img src="https://github.com/joaopedrolourencoaffonso/vagas-scraper/blob/master/logo.jpeg?raw=true" width="250" height="250"></a></p>
+
 Este script Python foi desenvolvido para web scraping de sites de empregos e geração de um relatório sobre o número de vagas abertas relacionadas a diferentes competências na área de TI. O script utiliza várias bibliotecas, incluindo `requests`, `BeautifulSoup`, `matplotlib`, `reportlab`, `PyPDF2`, `argparse` e `tqdm`.
 
 ## Características
