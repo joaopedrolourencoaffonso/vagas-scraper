@@ -61,10 +61,10 @@
     <body>
         <p id="vagas">Vagas</p>
         
-        <div class="dropdown">
+        <!--<div class="dropdown">
           <button class="button dropbtn">Selecione Opção</button>
           <div class="dropdown-content">
-              <!--CERTIFICADOS-->
+              <!--CERTIFICADOS-!->
               <a href="#" onclick="handleOption('x')">Certificados</a><br>
               <a href="#" onclick="handleOption('AZURE')">AZURE</a><br>
               <a href="#" onclick="handleOption('CCNA')">CCNA</a><br>
@@ -82,7 +82,40 @@
               <a href="#" onclick="handleOption('PMP')">PMP</a><br>
               <a href="#" onclick="handleOption('VMware')">VMware</a><br>
           </div>
-      </div>
+      </div>-->
+
+      <!-- TRABALHAR NISSO!-->
+     <!--<label for="language">Selecione a competência:</label><br>-->
+      <select name="language" id="language" onchange="handleOption(this.value)">
+        <option value="x" selected disabled>Selecione uma opção</option>
+        <option value="Programação" disabled>CERTIFICADOS</option>-->
+        <option value="AZURE">Azure</option>
+        <option value="CCNA">CCNA</option>
+        <option value="AWS">AWS</option>
+        <option value="JNCIA">JNCIA</option>
+        <option value="PCNSA">PCNSA</option>
+        <option value="NSE">NSE</option>
+        <option value="ITIL">ITIL</option>
+        <option value="COBIT">COBIT</option>
+        <option value="COMPTIA">COMPTIA</option>
+        <option value="CISSP">CISSP</option>
+        <option value="GCP">GCP</option>
+        <option value="OCI">OCI</option>
+        <option value="PMP">PMP</option>
+        <option value="VMware">VMware</option>
+        <option value="Programação" disabled>Linguagem de Programação</option>-->
+        <option value="JavaScript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="Linguagem C++">C++</option>
+        <option value="TypeScript">TypeScript</option>
+        <option value="PHP">PHP</option>
+        <option value="Ruby on Rails">Ruby on Rails</option>
+        <option value="shellscript">shellscript</option>
+        <option value="Swift">Swift</option>
+        <option value="Pearl">Pearl</option>
+        <option value="Rust">Rust</option>
+      </select>
+      <p></p>
 
       <!--Efeito de hover desativado para evitar o bug de múltiplos gráficos. Preciso verificar-->
       <div style="pointer-events: none;display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: 0 auto;background-color: #f5f5dc;border-radius: 12px;">
