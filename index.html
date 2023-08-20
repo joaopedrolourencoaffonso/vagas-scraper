@@ -18,6 +18,16 @@
             background-color: #f5f5dc;
             border-radius: 12px;
           }
+
+          .box2{
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-between; 
+            max-width: 1200px; 
+            margin: 0 auto;
+            background-color: #f5f5dc;
+            border-radius: 12px;
+          }
           
           .dropdown {
               position: relative;
@@ -205,10 +215,12 @@
 
       <br>
 
-      <div class="box">
+      <div class="box2" id="explicacao">
         <h2 id="nome"></h2>
+        <br>
         <p id="texto"></p>
-        <a href="">Saiba mais!</a>
+        <br>
+        <a href="" target="_blank"></a>
       </div>
 
 <script>
@@ -232,7 +244,7 @@
     const ctx = document.getElementById(graph).getContext('2d');
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // Limpa o canvas
 
-    const TituloSemVirgulas = titulo.split(",").join('');
+    //const TituloSemVirgulas = titulo.split(",").join('');
 
     const myChart = new Chart(ctx, {
         type: 'line',
@@ -248,7 +260,7 @@
         options: {
             title: {
                 display: true,
-                text: TituloSemVirgulas,
+                text: titulo,
                 fontSize: 16
             },
             scales: {
@@ -278,6 +290,8 @@
             const lines = text.split('\n');
             
             let filteredLines = lines.filter(line => line.includes(searchString));
+            const TituloSemVirgulas = searchString.split(",").join('');
+            
             filteredLines_vagascom = filteredLines.filter(line => line.includes("vagas.com"));
             filteredLines_catho = filteredLines.filter(line => line.includes("catho.com"));
             filteredLines_infojobs = filteredLines.filter(line => line.includes("infojobs.com"));
@@ -292,13 +306,13 @@
             valores_catho = getLastEightElements(valores_catho);
             valores_infojobs = getLastEightElements(valores_infojobs);
             valores_gupy = getLastEightElements(valores_gupy);
-            
-            createGraph(valores_vagascom,'vagascom','Resultados de Busca para ' + searchString + ' no vagas.com','#00cc66');
-            createGraph(valores_catho,'infojobs','Resultados de Busca para ' + searchString + ' no catho.com','#ff0066');
-            createGraph(valores_infojobs,'catho','Resultados de Busca para ' + searchString + ' no infojobs.com','#003399');
-            createGraph(valores_gupy,'gupy','Resultados de Busca para ' + searchString + ' no gupy.io','#000066');
 
-            fetchDataAndPopulate();
+            fetchDataAndPopulate(TituloSemVirgulas);
+            
+            createGraph(valores_vagascom,'vagascom','Resultados de Busca para ' + TituloSemVirgulas + ' no vagas.com','#00cc66');
+            createGraph(valores_catho,'infojobs','Resultados de Busca para ' + TituloSemVirgulas + ' no catho.com','#ff0066');
+            createGraph(valores_infojobs,'catho','Resultados de Busca para ' + TituloSemVirgulas + ' no infojobs.com','#003399');
+            createGraph(valores_gupy,'gupy','Resultados de Busca para ' + TituloSemVirgulas + ' no gupy.io','#000066');
             
             //Essa parte serve para escrever no formato tabela
             /*
@@ -314,40 +328,32 @@
         fetchAndFilter(option);
     }
   }
-
-  async function fetchDataAndPopulate() {
+  
+  async function fetchDataAndPopulate(TituloSemVirgulas) {
     try {
-        const response = await fetch('API_URL'); // Replace 'API_URL' with the actual API URL
+        const response = await fetch('https://raw.githubusercontent.com/joaopedrolourencoaffonso/vagas-scraper/master/explicacoes.json'); // Replace 'API_URL' with the actual API URL
         const data = await response.json();
 
-        // Assuming 'data' is an array of objects as provided in your example
-        for (const item of data) {
-            const box = document.createElement('div');
-            box.className = 'box';
+        const matchingItem = data.find(item => item.id === TituloSemVirgulas);
+        if (matchingItem) {
+            const box = document.querySelector('.box2');
 
-            const title = document.createElement('h2');
-            title.textContent = item.id;
-            box.appendChild(title);
+            const title = box.querySelector('h2');
+            title.textContent = matchingItem.id;
 
-            const text = document.createElement('p');
-            text.innerHTML = item.exp;
-            box.appendChild(text);
+            const text = box.querySelector('p');
+            text.innerHTML = matchingItem.exp;
 
-            const link = document.createElement('a');
+            const link = box.querySelector('a');
             link.textContent = 'Saiba mais!';
-            link.href = item.pagina;
-            box.appendChild(link);
-
-            document.body.appendChild(box);
+            link.href = matchingItem.pagina;
+        } else {
+            console.log(`No matching item found for '${TituloSemVirgulas}'.`);
         }
     } catch (error) {
         console.error('Error fetching data:', error);
     }
 }
-
-// Call the function to populate the content when the page loads
-window.onload = fetchDataAndPopulate;
-
 
   //Input
   //const searchString = "CCNA";

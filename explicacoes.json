@@ -45,12 +45,12 @@
         "pagina":"https://www.mercurial-scm.org/about"
     },
     {
-        "id":"Apache Ant",
+        "id":"Ant",
         "exp":"Apache Ant é uma biblioteca Java e ferramenta de linha de comando cuja missão é conduzir processos descritos em arquivos de construção como alvos e pontos de extensão dependentes uns dos outros. O principal uso conhecido do Ant é a construção de aplicativos Java. O Ant fornece várias tarefas integradas que permitem compilar, montar, testar e executar aplicativos Java. O Ant também pode ser usado efetivamente para construir aplicativos não Java, por exemplo, aplicativos C ou C++. De forma mais geral, o Ant pode ser usado para pilotar qualquer tipo de processo que possa ser descrito em termos de alvos e tarefas.",
         "pagina":"https://ant.apache.org/"
     },
     {
-        "id":"Apache Maven",
+        "id":"Maven",
         "exp":"Apache Maven é uma ferramenta de gerenciamento e compreensão de projetos de software. Com base no conceito de um modelo de objeto de projeto (POM), o Maven pode gerenciar a construção, os relatórios e a documentação de um projeto a partir de uma informação central.",
         "pagina":"https://maven.apache.org/"
     },
