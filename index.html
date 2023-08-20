@@ -5,9 +5,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
     <head>
-        <title>Vagas Analisadas</title>
+        <title>Em Demanda!</title>
 
         <style>
+          .box{
+            pointer-events: none;
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-between; 
+            max-width: 1200px; 
+            margin: 0 auto;
+            background-color: #f5f5dc;
+            border-radius: 12px;
+          }
+          
           .dropdown {
               position: relative;
               display: inline-block;
@@ -50,135 +61,152 @@
             color: white;
         }
 
-          body{
+        body{
             background-image: url('https://images.unsplash.com/photo-1604937455095-ef2fe3d46fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
-          }
+            font-family: 'Trebuchet MS', sans-serif
+        }
+        select {
+            background-color: white;
+            color: black;
+            padding: 6px;
+            width: 200px;
+            border: none;
+            font-size: 15px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+            -webkit-appearance: button;
+            appearance: button;
+            outline: none;
+        }
       </style>
     </head>
     <body>
-        <p id="vagas">Vagas</p>
+        <h1 id="vagas">Em Demanda!</h1>
 
       <!-- TRABALHAR NISSO!-->
      <!--<label for="language">Selecione a competência:</label><br>-->
       <select name="language" id="language" onchange="handleOption(this.value)">
         <option value="x" selected disabled>Selecione uma opção</option>
-        <option value="Programação" disabled>CERTIFICADOS</option>-->
-        <option value="AZURE">Azure</option>
-        <option value="CCNA">CCNA</option>
-        <option value="AWS">AWS</option>
-        <option value="JNCIA">JNCIA</option>
-        <option value="PCNSA">PCNSA</option>
-        <option value="NSE">NSE</option>
-        <option value="ITIL">ITIL</option>
-        <option value="COBIT">COBIT</option>
-        <option value="COMPTIA">COMPTIA</option>
-        <option value="CISSP">CISSP</option>
-        <option value="GCP">GCP</option>
-        <option value="OCI">OCI</option>
-        <option value="PMP">PMP</option>
-        <option value="VMware">VMware</option>
-        <option value="Programação" disabled>LINGUAGENS DE PROGRAMAÇÃO</option>
-        <option value="JavaScript">JavaScript</option>
-        <option value="python">Python</option>
-        <option value="Linguagem C++">C++</option>
-        <option value="TypeScript">TypeScript</option>
-        <option value="PHP">PHP</option>
-        <option value="Ruby on Rails">Ruby on Rails</option>
-        <option value="shellscript">shellscript</option>
-        <option value="Swift">Swift</option>
-        <option value="Pearl">Pearl</option>
-        <option value="Rust">Rust</option>
+        <option value="CERTIFICADOS" disabled>CERTIFICADOS</option>-->
+        <option value=",AZURE,">Azure</option>
+        <option value=",CCNA,">CCNA</option>
+        <option value=",AWS,">AWS</option>
+        <option value=",JNCIA,">JNCIA</option>
+        <option value=",PCNSA,">PCNSA</option>
+        <option value=",NSE,">NSE</option>
+        <option value=",ITIL,">ITIL</option>
+        <option value=",COBIT,">COBIT</option>
+        <option value=",COMPTIA,">COMPTIA</option>
+        <option value=",CISSP,">CISSP</option>
+        <option value=",GCP,">GCP</option>
+        <option value=",OCI,">OCI</option>
+        <option value=",PMP,">PMP</option>
+        <option value=",VMware,">VMware</option>
+        <option value="Programação," disabled>LINGUAGENS DE PROGRAMAÇÃO</option>
+        <option value=",JavaScript,">JavaScript</option>
+        <option value=",python,">Python</option>
+        <option value=",Linguagem C++,">C++</option>
+        <option value=",TypeScript,">TypeScript</option>
+        <option value=",PHP,">PHP</option>
+        <option value=",Ruby on Rails,">Ruby on Rails</option>
+        <option value=",shellscript,">shellscript</option>
+        <option value=",Swift,">Swift</option>
+        <option value=",Pearl,">Pearl</option>
+        <option value=",Rust,">Rust</option>
         <option value="Bancos de Dados" disabled>BANCO DE DADOS</option>
-        <option value="Elasticsearch">Elasticsearch</option>
-        <option value="MariaDB">MariaDB</option>
-        <option value="MySQL">MySQL</option>
-        <option value="OracleDB">OracleDB</option>
-        <option value="PostgreSQL">PostgreSQL</option>
-        <option value="MongoDB">MongoDB</option>
-        <option value="SQLite">SQLite</option>
-        <option value="Redis DB">Redis DB</option>
-        <option value="Cassandra">Cassandra</option>
-        <option value="IBM DB2">IBM DB2</option>
-        <option value="Redis DB">Redis DB</option>
-        <option value="Cassandra">Cassandra</option>
-        <option value="GraphQL">GraphQL</option>
-        <option value="Microsoft SQL Server">Microsoft SQL Server</option>
-        <option value="Firebase">Firebase</option>
-        <option value="DynamoDB">DynamoDB</option>
+        <option value=",Elasticsearch,">Elasticsearch</option>
+        <option value=",MariaDB,">MariaDB</option>
+        <option value=",MySQL,">MySQL</option>
+        <option value=",OracleDB,">OracleDB</option>
+        <option value=",PostgreSQL,">PostgreSQL</option>
+        <option value=",MongoDB,">MongoDB</option>
+        <option value=",SQLite,">SQLite</option>
+        <option value=",Redis DB,">Redis DB</option>
+        <option value=",Cassandra,">Cassandra</option>
+        <option value=",IBM DB2,">IBM DB2</option>
+        <option value=",GraphQL,">GraphQL</option>
+        <option value=",Microsoft SQL Server,">Microsoft SQL Server</option>
+        <option value=",Firebase,">Firebase</option>
+        <option value=",DynamoDB,">DynamoDB</option>
         <option value="Frameworks Web" disabled>Frameworks Web</option>
-        <option value="Node.js">Node.js</option>
-        <option value="React.js">React.js</option>
-        <option value="jQuery">jQuery</option>
-        <option value="Express.js">Express.js</option>
-        <option value="Angular.js">Angular.js</option>
-        <option value="Vue.js">Vue.js</option>
-        <option value="ASP.NET">ASP.NET</option>
-        <option value=".NET">.NET</option>
-        <option value="Django">Django</option>
-        <option value="Flask">Flask</option>
-        <option value="Next.js">Next.js</option>
-        <option value="Laravel">Laravel</option>
-        <option value="FastAPI">FastAPI</option>
-        <option value="Svelte">Svelte</option>
-        <option value="Nuxt.js">Nuxt.js</option>
-        <option value="Ferramentas DevOps" disabled>Ferramentas DevOps</option>
-        <option value="Jenkins">Jenkins</option>
-        <option value="Ansible">Ansible</option>
-        <option value="Zabbix">Zabbix</option>
-        <option value="Git">Git</option>
-        <option value="Github">Github</option>
-        <option value="Jira">Jira</option>
-        <option value="Maven">Maven</option>
-        <option value="Ant">Ant</option>
-        <option value="Prometheus">Prometheus</option>
-        <option value="Grafana">Grafana</option>
-        <option value="Graylog">Graylog</option>
-        <option value="Bamboo">Bamboo</option>
-        <option value="Nagios">Nagios</option>
-        <option value="Slack">Slack</option>
-        <option value="Selenium">Selenium</option>
-        <option value="JUnit">JUnit</option>
-        <option value="Mercurial">Mercurial</option>
+        <option value=",Node.js,">Node.js</option>
+        <option value=",React.js,">React.js</option>
+        <option value=",jQuery,">jQuery</option>
+        <option value=",Express.js,">Express.js</option>
+        <option value=",Angular.js,">Angular.js</option>
+        <option value=",Vue.js,">Vue.js</option>
+        <option value=",ASP.NET,">ASP.NET</option>
+        <option value=",.NET,">.NET</option>
+        <option value=",Django,">Django</option>
+        <option value=",Flask,">Flask</option>
+        <option value=",Next.js,">Next.js</option>
+        <option value=",Laravel,">Laravel</option>
+        <option value=",FastAPI,">FastAPI</option>
+        <option value=",Svelte,">Svelte</option>
+        <option value=",Nuxt.js,">Nuxt.js</option>
+        <option value=",Ferramentas DevOps" disabled>Ferramentas DevOps</option>
+        <option value=",Jenkins,">Jenkins</option>
+        <option value=",Ansible,">Ansible</option>
+        <option value=",Zabbix",>Zabbix</option>
+        <option value=",Git,">Git</option>
+        <option value=",Github,">Github</option>
+        <option value=",Jira,">Jira</option>
+        <option value=",Maven,">Maven</option>
+        <option value=",Ant,">Ant</option>
+        <option value=",Prometheus,">Prometheus</option>
+        <option value=",Grafana,">Grafana</option>
+        <option value=",Graylog,">Graylog</option>
+        <option value=",Bamboo,">Bamboo</option>
+        <option value=",Nagios,">Nagios</option>
+        <option value=",Slack,">Slack</option>
+        <option value=",Selenium,">Selenium</option>
+        <option value=",JUnit,">JUnit</option>
+        <option value=",Mercurial,">Mercurial</option>
         <option value="ESTADOS" disabled>ESTADOS</option>
-        <option value="AC">Acre</option>
-        <option value="AL">Alagoas</option>
-        <option value="AP">Amapá</option>
-        <option value="AM">Amazonas</option>
-        <option value="BH">Bahia</option>
-        <option value="CE">Ceará</option>
-        <option value="ES">Espírito Santo</option>
-        <option value="GO">Goiânia</option>
-        <option value="MA">Maranhão</option>
-        <option value="MT">Mato Grosso</option>
-        <option value="MS">Mato Grosso do Sul</option>
-        <option value="MG">Minas Gerais</option>
-        <option value="PA">Pará</option>
-        <option value="PB">Paraíba</option>
-        <option value="PR">Paraná</option>
-        <option value="PE">Pernambuco</option>
-        <option value="PI">Piauí</option>
-        <option value="RJ">Rio de Janeiro</option>
-        <option value="RN">Rio Grande do Norte</option>
-        <option value="RS">Rio Grande do Sul</option>
-        <option value="RO">Rondônia</option>
-        <option value="RR">Roraima</option>
-        <option value="SC">Santa Catarina</option>
-        <option value="SP">São Paulo</option>
-        <option value="SE">Sergipe</option>
-        <option value="TO">Tocantins</option>
-        <option value="DF">Distrito Federal</option>
+        <option value=",AC,">Acre</option>
+        <option value=",AL,">Alagoas</option>
+        <option value=",AP,">Amapá</option>
+        <option value=",AM,">Amazonas</option>
+        <option value=",BH,">Bahia</option>
+        <option value=",CE,">Ceará</option>
+        <option value=",ES,">Espírito Santo</option>
+        <option value=",GO,">Goiânia</option>
+        <option value=",MA,">Maranhão</option>
+        <option value=",MT,">Mato Grosso</option>
+        <option value=",MS,">Mato Grosso do Sul</option>
+        <option value=",MG,">Minas Gerais</option>
+        <option value=",PA,">Pará</option>
+        <option value=",PB,">Paraíba</option>
+        <option value=",PR,">Paraná</option>
+        <option value=",PE,">Pernambuco</option>
+        <option value=",PI,">Piauí</option>
+        <option value=",RJ,">Rio de Janeiro</option>
+        <option value=",RN,">Rio Grande do Norte</option>
+        <option value=",RS,">Rio Grande do Sul</option>
+        <option value=",RO,">Rondônia</option>
+        <option value=",RR,">Roraima</option>
+        <option value=",SC,">Santa Catarina</option>
+        <option value=",SP,">São Paulo</option>
+        <option value=",SE,">Sergipe</option>
+        <option value=",TO,">Tocantins</option>
+        <option value=",DF,">Distrito Federal</option>
       </select>
       <p></p>
 
       <!--Efeito de hover desativado para evitar o bug de múltiplos gráficos. Preciso verificar-->
-      <div style="pointer-events: none;display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: 0 auto;background-color: #f5f5dc;border-radius: 12px;">
+      <div class="box">
         <canvas id="vagascom" style="width:100%;max-width:600px;"></canvas>
         <canvas id="infojobs" style="width:100%;max-width:600px;"></canvas>
         <canvas id="catho" style="width:100%;max-width:600px;"></canvas>
         <canvas id="gupy" style="width:100%;max-width:600px;"></canvas>
+      </div>
+
+      <br>
+
+      <div class="box">
+        <p>Em breve!</p>
       </div>
 
 <script>
@@ -202,6 +230,8 @@
     const ctx = document.getElementById(graph).getContext('2d');
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // Limpa o canvas
 
+    const TituloSemVirgulas = titulo.split(",").join('');
+
     const myChart = new Chart(ctx, {
         type: 'line',
         data: {
@@ -216,7 +246,7 @@
         options: {
             title: {
                 display: true,
-                text: titulo,
+                text: TituloSemVirgulas,
                 fontSize: 16
             },
             scales: {
