@@ -1,1 +1,87 @@
-1 
+[
+    {
+        "id":"Grafana",
+        "exp":"O software de código aberto Grafana permite consultar, visualizar, alertar e explorar suas métricas, logs e rastreamentos onde quer que estejam armazenados. O Grafana OSS fornece ferramentas para transformar seus dados de banco de dados de série temporal (TSDB) em gráficos e visualizações perspicazes. A estrutura do plug-in Grafana OSS também permite que você conecte outras fontes de dados, como bancos de dados NoSQL/SQL, ferramentas de tíquete como Jira ou ServiceNow e ferramentas de CI/CD como GitLab. <br> Depois de instalar o Grafana e configurar seu primeiro painel usando as instruções em Introdução ao Grafana, você terá muitas opções para escolher, dependendo de seus requisitos. Por exemplo, se você deseja visualizar dados e estatísticas meteorológicas sobre sua casa inteligente, pode criar uma lista de reprodução. Se você for o administrador de uma empresa e estiver gerenciando o Grafana para várias equipes, poderá configurar o provisionamento e a autenticação.",
+        "pagina":"https://grafana.com/docs/grafana/latest/introduction/"
+    },
+    {
+        "id":"Graylog",
+        "exp":"Hoje em dia, lidamos com uma abundância de dados. Esses dados vêm de várias fontes, como dispositivos, aplicativos e sistemas operacionais. Um Log Management System (LMS) centralizado como o Graylog fornece um meio de agregar, organizar e dar sentido a todos esses dados. <br> Os arquivos de log são essencialmente arquivos de texto. Eles contêm uma abundância de informações - nome do aplicativo, endereço IP, registro de data e hora e destino de origem. Todos os aplicativos e até mesmo os próprios sistemas operacionais criam esses logs contendo grandes quantidades de dados, que precisam ser analisados se quisermos fazer algum sentido. <br> Um LMS também deve ser eficiente na coleta e análise de petabytes de dados. Depois de analisados, os dados de log podem fornecer informações extremamente úteis para investigações forenses, caça a ameaças e análise de negócios em geral. Seja qual for o caso de uso, o Graylog pode ajudar as empresas a analisar mais profundamente seus dados e economizar tempo e recursos humanos.",
+        "pagina":"https://graylog.org/"
+    },
+    {
+        "id":"Prometheus",
+        "exp":"O Prometheus é um kit de ferramentas de monitoramento e alerta de sistemas de código aberto originalmente construído no SoundCloud. Desde a sua criação em 2012, muitas empresas e organizações adotaram o Prometheus, e o projeto tem uma comunidade de desenvolvedores e usuários muito ativa. Agora é um projeto autônomo de código aberto e mantido independentemente de qualquer empresa. Para enfatizar isso e esclarecer a estrutura de governança do projeto, o Prometheus ingressou na Cloud Native Computing Foundation em 2016 como o segundo projeto hospedado, depois do Kubernetes. <br> O Prometheus coleta e armazena suas métricas como dados de séries temporais, ou seja, as informações das métricas são armazenadas com o carimbo de data/hora em que foram registradas, juntamente com pares chave-valor opcionais chamados rótulos.",
+        "pagina":"https://prometheus.io/docs/introduction/overview/"
+    },
+    {
+        "id":"Bamboo",
+        "exp":"Entrega contínua, do código à implantação. <br> Automação do fluxo de trabalho: Libere o poder do desenvolvimento ágil com fluxos de trabalho automatizados do código à implantação.<br>Recuperação de desastres integrada: Mantenha as equipes online e no caminho certo com resiliência de compilação e alta disponibilidade. <br>Escale com confiança: Aumente a capacidade e mantenha o desempenho à medida que sua organização cresce.",
+        "pagina":"https://www.atlassian.com/software/bamboo"
+    },
+    {
+        "id":"Nagios",
+        "exp":"O Nagios monitora toda a sua infraestrutura de TI para garantir que sistemas, aplicativos, serviços e processos de negócios estejam funcionando corretamente. Em caso de falha, o Nagios pode alertar a equipe técnica sobre o problema, permitindo que eles iniciem os processos de correção antes que as interrupções afetem os processos de negócios, usuários finais ou clientes. Com o Nagios, você nunca terá que explicar por que uma interrupção invisível na infraestrutura prejudicou os resultados da sua organização.",
+        "pagina":"https://www.nagios.org/about/"
+    },
+    {
+        "id":"Slack",
+        "exp":"O Slack é um app de mensagens para empresas que conecta as pessoas às informações de que elas precisam. Reunindo pessoas para trabalhar como uma equipe unificada, o Slack transforma a forma como as organizações se comunicam.",
+        "pagina":"https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+    },
+    {
+        "id":"Selenium",
+        "exp":"O Selenium automatiza os navegadores. É isso! <br> Principalmente para automatizar aplicativos da Web para fins de teste, mas certamente não se limita apenas a isso. <br>Tarefas chatas de administração baseadas na web também podem (e devem) ser automatizadas.",
+        "pagina":"https://www.selenium.dev/"
+    },
+    {
+        "id":"JUnit",
+        "exp":"A plataforma JUnit serve como base para o lançamento de estruturas de teste na JVM. Ele também define a API TestEngine para desenvolver uma estrutura de teste executada na plataforma. Além disso, a plataforma fornece um Console Launcher para iniciar a plataforma a partir da linha de comando e o JUnit Platform Suite Engine para executar um conjunto de teste personalizado usando um ou mais mecanismos de teste na plataforma. Suporte de primeira classe para a plataforma JUnit também existe em IDEs populares (consulte IntelliJ IDEA, Eclipse, NetBeans e Visual Studio Code) e ferramentas de construção (consulte Gradle, Maven e Ant).",
+        "pagina":"https://junit.org/junit5/docs/current/user-guide/"
+    },
+    {
+        "id":"Mercurial",
+        "exp":"O Mercurial é uma ferramenta gratuita e distribuída de gerenciamento de controle de código-fonte. Ele oferece a você o poder de lidar com projetos de qualquer tamanho com eficiência usando uma interface intuitiva. É fácil de usar e difícil de quebrar, tornando-o ideal para quem trabalha com arquivos versionados.",
+        "pagina":"https://www.mercurial-scm.org/about"
+    },
+    {
+        "id":"Apache Ant",
+        "exp":"Apache Ant é uma biblioteca Java e ferramenta de linha de comando cuja missão é conduzir processos descritos em arquivos de construção como alvos e pontos de extensão dependentes uns dos outros. O principal uso conhecido do Ant é a construção de aplicativos Java. O Ant fornece várias tarefas integradas que permitem compilar, montar, testar e executar aplicativos Java. O Ant também pode ser usado efetivamente para construir aplicativos não Java, por exemplo, aplicativos C ou C++. De forma mais geral, o Ant pode ser usado para pilotar qualquer tipo de processo que possa ser descrito em termos de alvos e tarefas.",
+        "pagina":"https://ant.apache.org/"
+    },
+    {
+        "id":"Apache Maven",
+        "exp":"Apache Maven é uma ferramenta de gerenciamento e compreensão de projetos de software. Com base no conceito de um modelo de objeto de projeto (POM), o Maven pode gerenciar a construção, os relatórios e a documentação de um projeto a partir de uma informação central.",
+        "pagina":"https://maven.apache.org/"
+    },
+    {
+        "id":"Jira",
+        "exp":"O Jira Software é a ferramenta nº 1 de gerenciamento ágil de projetos usada pelas equipes para planejar, monitorar, lançar e dar suporte a softwares de alto nível com confiança. É a fonte única de informações de todo o ciclo de vida de desenvolvimento, permitindo que as equipes autônomas tenham o contexto necessário para que ajam com rapidez e atendam ao meta de negócios mais importantes. Seja para gerenciar projetos simples ou protegidos como práticas de DevOps, com o Jira Software as equipes avançam no trabalho, permaneceram estáveis e se comunicam sobre o contexto com mais facilidade.",
+        "pagina":"https://www.atlassian.com/br/software/jira/guides/getting-started/introduction#what-is-jira-software"
+    },
+    {
+        "id":"GitHub",
+        "exp":"GitHub é uma plataforma de hospedagem de código para controle de versão e colaboração. Permite que você e outras pessoas trabalhem em conjunto em projetos de qualquer lugar.",
+        "pagina":"https://github.com/github/brasil"
+    },
+    {
+        "id":"Git",
+        "exp":"O Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.",
+        "pagina":"https://git-scm.com/"
+    },
+    {
+        "id":"Zabbix",
+        "exp":"O Zabbix é um software que monitora numerosos parâmetros de rede, a saúde e integridade de servidores, máquinas virtuais, aplicações, serviços, banco de dados, websites, a nuvem e muito mais. O Zabbix usa um mecanismo flexível de notificação que permite aos usuários configurar alertas baseados em e-mail para praticamente qualquer evento. Isso permite uma resposta rápida para problemas do servidor. O Zabbix oferece um excelente recurso de relatórios e visualização de dados baseados em dados armazenados. Isso torna o Zabbix ideal para gerenciamento de capacidade.",
+        "pagina":"https://www.zabbix.com/documentation/current/pt/manual/introduction/about"
+    },
+    {
+        "id":"Ansible",
+        "exp":"Ansible® é um aplicativo de software de automação de TI de código aberto e linha de comando escrito em Python. Ele pode configurar sistemas, implantar software e orquestrar fluxos de trabalho avançados para oferecer suporte à implantação de aplicativos, atualizações do sistema e muito mais.<br>Os principais pontos fortes do Ansible são a simplicidade e a facilidade de uso. Ele também tem um forte foco em segurança e confiabilidade, apresentando peças móveis mínimas. Ele usa o OpenSSH para transporte (com outros transportes e modos pull como alternativas) e usa uma linguagem legível por humanos projetada para começar rapidamente sem muito treinamento.",
+        "pagina":"https://www.ansible.com/overview/how-ansible-works"
+    },
+    {
+        "id":"Jenkins",
+        "exp":"Construa grandes coisas em qualquer escala! <br> O principal servidor de automação de código aberto, Jenkins, fornece centenas de plug-ins para dar suporte à criação, implantação e automação de qualquer projeto.",
+        "pagina":"https://www.jenkins.io/"
+    }
+]

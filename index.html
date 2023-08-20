@@ -206,7 +206,9 @@
       <br>
 
       <div class="box">
-        <p>Em breve!</p>
+        <h2 id="nome"></h2>
+        <p id="texto"></p>
+        <a href="">Saiba mais!</a>
       </div>
 
 <script>
@@ -295,6 +297,8 @@
             createGraph(valores_catho,'infojobs','Resultados de Busca para ' + searchString + ' no catho.com','#ff0066');
             createGraph(valores_infojobs,'catho','Resultados de Busca para ' + searchString + ' no infojobs.com','#003399');
             createGraph(valores_gupy,'gupy','Resultados de Busca para ' + searchString + ' no gupy.io','#000066');
+
+            fetchDataAndPopulate();
             
             //Essa parte serve para escrever no formato tabela
             /*
@@ -310,6 +314,40 @@
         fetchAndFilter(option);
     }
   }
+
+  async function fetchDataAndPopulate() {
+    try {
+        const response = await fetch('API_URL'); // Replace 'API_URL' with the actual API URL
+        const data = await response.json();
+
+        // Assuming 'data' is an array of objects as provided in your example
+        for (const item of data) {
+            const box = document.createElement('div');
+            box.className = 'box';
+
+            const title = document.createElement('h2');
+            title.textContent = item.id;
+            box.appendChild(title);
+
+            const text = document.createElement('p');
+            text.innerHTML = item.exp;
+            box.appendChild(text);
+
+            const link = document.createElement('a');
+            link.textContent = 'Saiba mais!';
+            link.href = item.pagina;
+            box.appendChild(link);
+
+            document.body.appendChild(box);
+        }
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
+// Call the function to populate the content when the page loads
+window.onload = fetchDataAndPopulate;
+
 
   //Input
   //const searchString = "CCNA";
