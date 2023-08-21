@@ -1,5 +1,95 @@
 [
     {
+        "id":"CCNA",
+        "exp":"Ter uma certificação reconhecida pelo setor é um bom começo se você busca começar com o pé direito e seguir uma carreira na área de tecnologia ou se você deseja mudar de carreira. <br> Embora seja verdade que é possível conseguir um emprego sem certificação, ter uma certificação Cisco Certified Network Associate (CCNA), CyberOps Associate ou DevNet Associate no seu currículo tornará você mais visível para os recrutadores.",
+        "pagina":"https://www.netacad.com/pt-br/careers/career-advice/certification-advice/why-get-cisco-certified"
+    },
+    {
+        "id":"MTCNA",
+        "exp":"Essa certificação demonstra que o aluno estará familiarizado com o software RouterOS e RouterBOARD produtos e poder conectar o cliente ao Internet. Ele também poderá configurar, gerenciar, solucionar problemas básicos de um roteador MikroTik e fornecer serviços básicos aos clientes.",
+        "pagina":"https://mikrotik.com/training/about"
+    },
+    {
+        "id":"HCIA",
+        "exp":"Demonstra o bom domínio dos conceitos e valores dos serviços em nuvem, a arquitetura e o ecossistema de serviços da HUAWEI CLOUD e a gestão e aplicação de serviços informáticos, serviços de armazenamento, serviços de rede, serviços de segurança, serviços de gestão e monitorização, bases de dados relacionais, serviços de vídeo em nuvem CDN e serviços de aplicações inovadoras.",
+        "pagina":"https://www.huaweicloud.com/intl/pt-br/activity/tech_community/hcia_cloudservice.html"
+    },
+    {
+        "id":"JNCIA",
+        "exp":"A certificação JNCIA-Junos é projetada para profissionais de rede com conhecimento intermediário-iniciante de rede. O exame escrito verifica sua compreensão da funcionalidade principal do Juniper Networks Junos OS. <br> Como o JNCIA-Junos fornece uma compreensão básica do sistema operacional principal da Juniper Networks, ele serve como a certificação de linha de base para várias faixas de certificação: <br> - Trilha de Certificação Enterprise Routing and Switching <br> - Trilha de Certificação de Roteamento e Comutação de Provedor de Serviços",
+        "pagina":"https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html"
+    },
+    {
+        "id":"PCNSA",
+        "exp":"A certificação PCNSA abrange como operar e gerenciar os firewalls de última geração da Palo Alto Networks. <br> A tecnologia da Palo Alto Networks é altamente integrada e automatizada. O portfólio de produtos da Palo Alto Networks compreende várias tecnologias separadas trabalhando em uníssono para evitar ataques cibernéticos bem-sucedidos. Aqueles que obtêm a certificação Palo Alto Networks Certified Network Security Administrator (PCNSA) demonstram sua capacidade de operar o firewall da Palo Alto Networks para proteger as redes contra ameaças cibernéticas de ponta.",
+        "pagina":"https://www.paloaltonetworks.com/services/education/palo-alto-networks-certified-network-security-administrator"
+    },
+    {
+        "id":"NSE",
+        "exp":"O Fortinet Training Institute fornece certificação e treinamento no crescente campo da segurança cibernética. O programa inclui uma ampla variedade de treinamento individualizado, conduzido por instrutor e virtual, bem como exercícios práticos e experimentais que demonstram o domínio de conceitos complexos de segurança de rede. Reserve uma de nossas aulas agendadas ou inscreva-se para um aprendizado personalizado para sua organização.",
+        "pagina":"https://www.fortinet.com/nse-training"
+    },
+    {
+        "id":"ITIL",
+        "exp":"A Fundação ITIL foi concebida para dar aos profissionais uma compreensão básica do quadro ITIL. Centra-se na sensibilização e compreensão em vez de ser capaz de aplicar os princípios ITIL. Os princípios básicos da Gestão de Serviços de TI como prática são abrangidos, tal como o ciclo de vida ITIL.<br>Alguns dos tópicos abordados na Fundação ITIL incluem:<br>- A Gestão de Serviços de TI como prática.<br>- Ciclo de Serviço ITIL<br>- Tecnologia e arquitectura<br>- Competência e formação",
+        "pagina":"https://grafana.com/docs/grafana/latest/introduction/"
+    },
+    {
+        "id":"COBIT",
+        "exp":"COBIT, abreviação de Control Objectives for Information and Related Technologies, é uma estrutura reconhecida globalmente projetada para governar e gerenciar processos de tecnologia da informação (TI) dentro das organizações. Essa estrutura abrangente oferece diretrizes e práticas recomendadas para alinhar as operações de TI com os objetivos estratégicos de negócios, garantindo a utilização ideal de recursos, gerenciamento de riscos e conformidade regulamentar. O COBIT fornece uma abordagem estruturada para aumentar a eficácia e a eficiência dos processos de TI, reforçando assim a transparência operacional e a responsabilidade. As empresas apreciam o COBIT por sua capacidade de estabelecer uma estrutura sistemática para governança de TI, permitindo uma tomada de decisão clara e facilitando uma integração perfeita de iniciativas de tecnologia com metas organizacionais abrangentes. Sua ênfase no gerenciamento de riscos e nos mecanismos de controle aumenta a capacidade das empresas de proteger ativos críticos, cumprir os padrões do setor e se adaptar ao cenário dinâmico de TI. Como resultado, o COBIT contribui significativamente para o estabelecimento de ambientes de TI resilientes e de alto desempenho, alinhando os esforços tecnológicos com o sucesso sustentável dos negócios.",
+        "pagina":"https://isaca.org/resources/cobit"
+    },
+    {
+        "id":"AZURE",
+        "exp":"Não importa se você é novo no campo ou um profissional experiente, dominar as noções básicas do Microsoft Azure pode ajudar você a começar sua carreira e a preparar-se para se aprofundar nas muitas oportunidades técnicas que o Azure oferece. <br>Essa certificação valida seu conhecimento fundamental dos conceitos de nuvem em geral e do Azure em particular. Como candidato a essa certificação, você pode descrever os componentes arquitetônicos do Azure e os serviços do Azure, como computação, sistema de rede e armazenamento, bem como recursos e ferramentas para proteger, controlar e administrar o Azure.",
+        "pagina":"https://learn.microsoft.com/pt-br/certifications/azure-fundamentals/"
+    },
+    {
+        "id":"MCSE",
+        "exp":"Observação: Esta certificação foi desativada no dia 31 de março de 2017. Saiba mais sobre a certificação de substituição,<br>A certificação Microsoft Certified Solutions Expert (MCSE): Server Infrastructure atesta que você possui as habilidades necessárias para administrar data centers modernos e altamente eficazes, com especialização em gerenciamento de identidades, gerenciamento de sistemas, virtualização, armazenamento e sistemas de rede.<br>A obtenção de uma certificação MCSE: Server Infrastructure irá qualificá-lo para trabalhos como especialista em suporte informático e analista de segurança da informação.",
+        "pagina":"https://www.microsoft.com/pt-br/learning/mcse-server-infrastructure-certification.aspx"
+    },
+    {
+        "id":"AWS",
+        "exp":"Uma das maiores empresas do mundo, os produtos Amazon já são padrão de mercado. Você pode começar a trilha de certificações pela ACCP ('AWS Certified Cloud Practitioner') validando sua compreensão básica e de alto nível dos serviços, da terminologia e da Nuvem AWS.  Esse é um bom ponto de partida na jornada de certificação da AWS para indivíduos sem experiência anterior em TI ou nuvem que estão migrando para uma carreira na nuvem ou para funcionários da linha de negócios que buscam conhecimento básico sobre a nuvem.",
+        "pagina":"https://aws.amazon.com/pt/certification/"
+    },
+    {
+        "id":"COMPTIA",
+        "exp":"A CompTIA oferece uma gama diversificada de produtos que atendem a todas as etapas da jornada de um profissional de TI. Desde certificações básicas como A+ e Network+ que solidificam as habilidades básicas, até certificações avançadas como Security+ e Cloud+ que se aprofundam em domínios especializados, a CompTIA cobre todo o espectro. Suas certificações são referências reconhecidas pelo setor, validadas por especialistas e altamente consideradas pelos empregadores. <br> Os profissionais de TI procuram as certificações CompTIA por vários motivos. Em primeiro lugar, as certificações são neutras em relação ao fornecedor, concentrando-se nos princípios e práticas essenciais aplicáveis a uma variedade de tecnologias. Essa versatilidade garante que os indivíduos estejam preparados para se adaptar a várias funções e tendências tecnológicas. Em segundo lugar, a preparação completa e o processo de exame garantem aos empregadores a proficiência e a dedicação do candidato. As certificações CompTIA são reconhecidas globalmente, abrindo portas para lucrativas oportunidades de trabalho.",
+        "pagina":"https://www.comptia.org/brand"
+    },
+    {
+        "id":"UniFi",
+        "exp":"Desde 2012, o programa de certificação da Ubiquiti Academy se expandiu rapidamente, supervisionando o treinamento de mais de 10.000 alunos em todo o mundo. Hoje, a Ubiquiti oferece sete cursos diferentes com escopo e nível de especialização variados para que você possa iniciar ou desenvolver sua carreira nas indústrias de banda larga (ISP), empresarial e solar.",
+        "pagina":"https://www.ui.com/training/"
+    },
+    {
+        "id":"CISSP",
+        "exp":"Acelere sua carreira em cibersegurança com a certificação CISSP. Ganhar o CISSP prova que você tem o que é preciso para projetar, implementar e gerenciar com eficácia o melhor programa de segurança cibernética da categoria.<br>Com um CISSP, você valida sua experiência e se torna um membro do ISC2, desbloqueando uma ampla gama de recursos exclusivos, ferramentas educacionais e oportunidades de networking ponto a ponto.<br>Prove suas habilidades, avance em sua carreira, ajude a ganhar o salário que deseja e obtenha o apoio de uma comunidade de líderes de segurança cibernética aqui para apoiá-lo ao longo de sua carreira.",
+        "pagina":"https://www.isc2.org/certifications/cissp"
+    },
+    {
+        "id":"GCP",
+        "exp":"- 87% dos usuários com uma Certificação em Google Cloud têm mais confiança com as habilidades relacionadas à nuvem. <br>- As certificações de TI do Google Cloud estão entre as que garantiram a maior remuneração em 2022.<br>- Mais de uma em cada quatro pessoas com Certificação em Google Cloud assumiram cargos de liderança ou de mais responsabilidade onde trabalham",
+        "pagina":"https://cloud.google.com/learn/certification?hl=pt-br"
+    },
+    {
+        "id":"OCI",
+        "exp":"A Certificação Oracle permite que os profissionais demonstrem habilidades sob demanda, reduzam o tempo de execução do projeto, melhorem o desempenho geral do trabalho e aumentem seu potencial de ganhos - tudo isso enquanto aumentam a confiança no trabalho.",
+        "pagina":"https://education.oracle.com/pt_BR/certification-benefits"
+    },
+    {
+        "id":"PMP",
+        "exp":"Desde 1984, o Project Management Institute tem se dedicado ao desenvolvimento e manutenção de um rigoroso Programa de Certificação Profissional, com base em um exame, visando o avanço da profissão de Gerenciamento de Projetos e o reconhecimento das conquistas individuais nesta área. A Certificação Project Management Professional (PMP®) do PMI® é a credencial profissional mais reconhecida e respeitada em termos mundiais no que tange ao Gerenciamento de Projetos. Em 1999, o PMI tornou-se a primeira organização no mundo a ter seu Programa de Certificação reconhecido pela International Organization for Standardization (ISO) 9001.<br>Para obter a Certificação PMP, o profissional deve satisfazer a determinados requisitos de educação e experiência, concordar e aderir ao Código de Conduta Profissional (Code of Professional Conduct) e passar no Exame de Certificação PMP.",
+        "pagina":"https://pmisp.org.br/pmp/"
+    },
+    {
+        "id":"VMware",
+        "exp":"As certificações VMware validam as habilidades essenciais necessárias para integrar e gerenciar a tecnologia que impulsiona os resultados de negócios desejados por nossos clientes. As certificações abrangem várias áreas de tecnologia, com níveis para iniciantes e especialistas.",
+        "pagina":"https://www.vmware.com/br/learning/certification.html"
+    },
+    {
         "id":"Grafana",
         "exp":"O software de código aberto Grafana permite consultar, visualizar, alertar e explorar suas métricas, logs e rastreamentos onde quer que estejam armazenados. O Grafana OSS fornece ferramentas para transformar seus dados de banco de dados de série temporal (TSDB) em gráficos e visualizações perspicazes. A estrutura do plug-in Grafana OSS também permite que você conecte outras fontes de dados, como bancos de dados NoSQL/SQL, ferramentas de tíquete como Jira ou ServiceNow e ferramentas de CI/CD como GitLab. <br> Depois de instalar o Grafana e configurar seu primeiro painel usando as instruções em Introdução ao Grafana, você terá muitas opções para escolher, dependendo de seus requisitos. Por exemplo, se você deseja visualizar dados e estatísticas meteorológicas sobre sua casa inteligente, pode criar uma lista de reprodução. Se você for o administrador de uma empresa e estiver gerenciando o Grafana para várias equipes, poderá configurar o provisionamento e a autenticação.",
         "pagina":"https://grafana.com/docs/grafana/latest/introduction/"
