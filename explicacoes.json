@@ -71,7 +71,7 @@
     },
     {
         "id":"GCP",
-        "exp":"- 87% dos usuários com uma Certificação em Google Cloud têm mais confiança com as habilidades relacionadas à nuvem. <br>- As certificações de TI do Google Cloud estão entre as que garantiram a maior remuneração em 2022.<br>- Mais de uma em cada quatro pessoas com Certificação em Google Cloud assumiram cargos de liderança ou de mais responsabilidade onde trabalham",
+        "exp":"<br>- 87% dos usuários com uma Certificação em Google Cloud têm mais confiança com as habilidades relacionadas à nuvem. <br>- As certificações de TI do Google Cloud estão entre as que garantiram a maior remuneração em 2022.<br>- Mais de uma em cada quatro pessoas com Certificação em Google Cloud assumiram cargos de liderança ou de mais responsabilidade onde trabalham",
         "pagina":"https://cloud.google.com/learn/certification?hl=pt-br"
     },
     {
@@ -173,5 +173,10 @@
         "id":"Jenkins",
         "exp":"Construa grandes coisas em qualquer escala! <br> O principal servidor de automação de código aberto, Jenkins, fornece centenas de plug-ins para dar suporte à criação, implantação e automação de qualquer projeto.",
         "pagina":"https://www.jenkins.io/"
+    },
+    {
+        "id":"python",
+        "exp":"Python é uma linguagem de programação interpretada de alto nível conhecida por sua simplicidade e legibilidade. Desenvolvido no final da década de 1980, o Python ganhou ampla popularidade devido às suas aplicações versáteis em vários domínios. Sua sintaxe, semelhante à linguagem natural, o torna amigável e acessível tanto para iniciantes quanto para programadores experientes.<br>O Python encontra os principais casos de uso em desenvolvimento web, análise de dados, computação científica, automação, inteligência artificial e muito mais. No desenvolvimento web, frameworks como Django e Flask permitem que os desenvolvedores criem sites robustos e dinâmicos de forma eficiente. Cientistas e analistas de dados contam com bibliotecas Python como NumPy, pandas e Matplotlib para manipular, visualizar e extrair insights de conjuntos de dados complexos.<br>O papel do Python na inteligência artificial e no aprendizado de máquina é significativo. Bibliotecas como TensorFlow, Keras e PyTorch capacitam pesquisadores e engenheiros a criar e implantar modelos avançados de IA para tarefas como reconhecimento de imagem, processamento de linguagem natural e análise preditiva.<br>Qualquer pessoa interessada em programação deve considerar aprender Python. Sua sintaxe amigável para iniciantes e extensa documentação o tornam um excelente ponto de partida para iniciantes. Estudantes, desenvolvedores, analistas de dados, cientistas e profissionais em vários domínios podem se beneficiar da flexibilidade e facilidade de uso do Python. Sua crescente comunidade e vasto ecossistema de bibliotecas e estruturas garantem que Python continuará a ser uma habilidade valiosa no mundo da tecnologia em rápida evolução.",
+        "pagina":"https://www.python.org/about/"
     }
 ]
