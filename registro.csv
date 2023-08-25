@@ -47,7 +47,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-04 06:58:59.102079,vagas.com,Kotlin, 1
 2023-07-04 06:58:59.102079,vagas.com,Java, 42
 2023-07-04 06:58:59.102079,vagas.com,Ruby on Rails, 2
-2023-07-04 06:58:59.102079,vagas.com,shellscript, 1
+2023-07-04 06:58:59.102079,vagas.com,shell script, 1
 2023-07-04 06:59:02.723046,catho.com,python, 561
 2023-07-04 06:59:02.723046,catho.com,Linguagem C++, 31
 2023-07-04 06:59:02.723046,catho.com,JavaScript, 1064
@@ -57,7 +57,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-04 06:59:02.723046,catho.com,Kotlin, 96
 2023-07-04 06:59:02.723046,catho.com,Java, 885
 2023-07-04 06:59:02.723046,catho.com,Ruby on Rails, 22
-2023-07-04 06:59:02.723046,catho.com,shellscript, 17
+2023-07-04 06:59:02.723046,catho.com,shell script, 17
 2023-07-04 06:59:02.723046,catho.com,Rust, 3
 2023-07-04 06:59:16.044042,infojobs.com, python, 218
 2023-07-04 06:59:16.044042,infojobs.com, Linguagem C++, 24
@@ -153,7 +153,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-09 09:20:22.010538,vagas.com,Kotlin, 2
 2023-07-09 09:20:22.010538,vagas.com,Java, 40
 2023-07-09 09:20:22.010538,vagas.com,Ruby on Rails, 2
-2023-07-09 09:20:22.010538,vagas.com,shellscript, 1
+2023-07-09 09:20:22.010538,vagas.com,shell script, 1
 2023-07-09 09:20:24.919133,catho.com,python, 1088
 2023-07-09 09:20:24.919133,catho.com,Linguagem C++, 107
 2023-07-09 09:20:24.919133,catho.com,JavaScript, 1384
@@ -163,7 +163,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-09 09:20:24.919133,catho.com,Kotlin, 102
 2023-07-09 09:20:24.919133,catho.com,Java, 1367
 2023-07-09 09:20:24.919133,catho.com,Ruby on Rails, 64
-2023-07-09 09:20:24.919133,catho.com,shellscript, 14
+2023-07-09 09:20:24.919133,catho.com,shell script, 14
 2023-07-09 09:20:24.919133,catho.com,Rust, 5
 2023-07-09 09:20:37.363557,infojobs.com,python, 218
 2023-07-09 09:20:37.363557,infojobs.com,Linguagem C++, 25
@@ -305,7 +305,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-16 08:00:11.461914,vagas.com,Kotlin, 2
 2023-07-16 08:00:11.461914,vagas.com,Java, 45
 2023-07-16 08:00:11.461914,vagas.com,Ruby on Rails, 2
-2023-07-16 08:00:11.461914,vagas.com,shellscript, 1
+2023-07-16 08:00:11.461914,vagas.com,shell script, 1
 2023-07-16 08:00:31.053926,catho.com,python, 664
 2023-07-16 08:00:31.053926,catho.com,Linguagem C++, 35
 2023-07-16 08:00:31.053926,catho.com,JavaScript, 1226
@@ -315,7 +315,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-16 08:00:31.053926,catho.com,Kotlin, 111
 2023-07-16 08:00:31.053926,catho.com,Java, 996
 2023-07-16 08:00:31.053926,catho.com,Ruby on Rails, 32
-2023-07-16 08:00:31.053926,catho.com,shellscript, 14
+2023-07-16 08:00:31.053926,catho.com,shell script, 14
 2023-07-16 08:00:31.053926,catho.com,Rust, 4
 2023-07-16 08:00:45.760703,infojobs.com,python, 223
 2023-07-16 08:00:45.760703,infojobs.com,Linguagem C++, 33
@@ -548,7 +548,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-24 06:59:37.146315,catho.com,Kotlin, 115
 2023-07-24 06:59:37.146315,catho.com,Java, 1442
 2023-07-24 06:59:37.146315,catho.com,Ruby on Rails, 107
-2023-07-24 06:59:37.146315,catho.com,shellscript, 13
+2023-07-24 06:59:37.146315,catho.com,shell script, 13
 2023-07-24 06:59:37.146315,catho.com,Rust, 4
 2023-07-24 06:59:47.095219,infojobs.com,python, 246
 2023-07-24 06:59:47.095219,infojobs.com,Linguagem C++, 33
@@ -884,7 +884,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-30 06:35:38.061596,vagas.com,Kotlin, 3
 2023-07-30 06:35:38.061596,vagas.com,Java, 34
 2023-07-30 06:35:38.061596,vagas.com,Ruby on Rails, 3
-2023-07-30 06:35:38.061596,vagas.com,shellscript, 1
+2023-07-30 06:35:38.061596,vagas.com,shell script, 1
 2023-07-30 06:36:01.462727,catho.com,python, 905
 2023-07-30 06:36:01.462727,catho.com,Linguagem C++, 109
 2023-07-30 06:36:01.462727,catho.com,JavaScript, 1447
@@ -894,7 +894,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-07-30 06:36:01.462727,catho.com,Kotlin, 86
 2023-07-30 06:36:01.462727,catho.com,Java, 1302
 2023-07-30 06:36:01.462727,catho.com,Ruby on Rails, 100
-2023-07-30 06:36:01.462727,catho.com,shellscript, 13
+2023-07-30 06:36:01.462727,catho.com,shell script, 13
 2023-07-30 06:36:01.462727,catho.com,Rust, 2
 2023-07-30 06:36:14.361310,infojobs.com,python, 257
 2023-07-30 06:36:14.361310,infojobs.com,Linguagem C++, 40
@@ -1472,7 +1472,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-06 08:19:46.224056,vagas.com,Kotlin, 4
 2023-08-06 08:19:46.224056,vagas.com,Java, 36
 2023-08-06 08:19:46.224056,vagas.com,Ruby on Rails, 2
-2023-08-06 08:19:46.224056,vagas.com,shellscript, 2
+2023-08-06 08:19:46.224056,vagas.com,shell script, 2
 2023-08-06 08:19:49.134780,catho.com,python, 947
 2023-08-06 08:19:49.134780,catho.com,Linguagem C++, 108
 2023-08-06 08:19:49.134780,catho.com,JavaScript, 1482
@@ -1482,7 +1482,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-06 08:19:49.134780,catho.com,Kotlin, 86
 2023-08-06 08:19:49.134780,catho.com,Java, 1297
 2023-08-06 08:19:49.134780,catho.com,Ruby on Rails, 100
-2023-08-06 08:19:49.134780,catho.com,shellscript, 12
+2023-08-06 08:19:49.134780,catho.com,shell script, 12
 2023-08-06 08:19:49.134780,catho.com,Rust, 3
 2023-08-06 08:20:03.502820,infojobs.com,python, 260
 2023-08-06 08:20:03.502820,infojobs.com,Linguagem C++, 48
@@ -1493,7 +1493,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-06 08:20:03.502820,infojobs.com,Kotlin, 14
 2023-08-06 08:20:03.502820,infojobs.com,Java, 249
 2023-08-06 08:20:03.502820,infojobs.com,Ruby on Rails, 18
-2023-08-06 08:20:03.502820,infojobs.com,shellscript, 1
+2023-08-06 08:20:03.502820,infojobs.com,shell script, 1
 2023-08-06 08:20:03.502820,infojobs.com,Rust, 2
 2023-08-06 08:20:15.418926,gupy.io,python, 34
 2023-08-06 08:20:15.418926,gupy.io,Linguagem C++, 38
@@ -1865,7 +1865,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-13 06:36:26.524094,vagas.com,Kotlin, 2
 2023-08-13 06:36:26.524094,vagas.com,Java, 33
 2023-08-13 06:36:26.524094,vagas.com,Ruby on Rails, 3
-2023-08-13 06:36:26.524094,vagas.com,shellscript, 1
+2023-08-13 06:36:26.524094,vagas.com,shell script, 1
 2023-08-13 06:36:35.210639,catho.com,python, 1084
 2023-08-13 06:36:35.210639,catho.com,Linguagem C++, 75
 2023-08-13 06:36:35.210639,catho.com,JavaScript, 1402
@@ -1875,7 +1875,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-13 06:36:35.210639,catho.com,Kotlin, 91
 2023-08-13 06:36:35.210639,catho.com,Java, 1305
 2023-08-13 06:36:35.210639,catho.com,Ruby on Rails, 63
-2023-08-13 06:36:35.210639,catho.com,shellscript, 10
+2023-08-13 06:36:35.210639,catho.com,shell script, 10
 2023-08-13 06:36:35.210639,catho.com,Rust, 1
 2023-08-13 06:36:46.137982,infojobs.com,python, 272
 2023-08-13 06:36:46.137982,infojobs.com,Linguagem C++, 49
@@ -1886,7 +1886,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-13 06:36:46.137982,infojobs.com,Kotlin, 14
 2023-08-13 06:36:46.137982,infojobs.com,Java, 244
 2023-08-13 06:36:46.137982,infojobs.com,Ruby on Rails, 16
-2023-08-13 06:36:46.137982,infojobs.com,shellscript, 1
+2023-08-13 06:36:46.137982,infojobs.com,shell script, 1
 2023-08-13 06:36:46.137982,infojobs.com,Rust, 2
 2023-08-13 06:36:54.955533,gupy.io,python, 38
 2023-08-13 06:36:54.955533,gupy.io,Linguagem C++, 38
@@ -2185,7 +2185,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-20 06:30:23.109105,catho.com,Kotlin, 92
 2023-08-20 06:30:23.109105,catho.com,Java, 1099
 2023-08-20 06:30:23.109105,catho.com,Ruby on Rails, 65
-2023-08-20 06:30:23.109105,catho.com,shellscript, 10
+2023-08-20 06:30:23.109105,catho.com,shell script, 10
 2023-08-20 06:30:23.109105,catho.com,Rust, 2
 2023-08-20 06:30:32.835385,infojobs.com,python, 267
 2023-08-20 06:30:32.835385,infojobs.com,Linguagem C++, 48
@@ -2196,7 +2196,7 @@ Data,Site,Caracteristica,numero_de_vagas
 2023-08-20 06:30:32.835385,infojobs.com,Kotlin, 13
 2023-08-20 06:30:32.835385,infojobs.com,Java, 243
 2023-08-20 06:30:32.835385,infojobs.com,Ruby on Rails, 15
-2023-08-20 06:30:32.835385,infojobs.com,shellscript, 1
+2023-08-20 06:30:32.835385,infojobs.com,shell script, 1
 2023-08-20 06:30:32.835385,infojobs.com,Rust, 2
 2023-08-20 06:30:41.953352,gupy.io,python, 34
 2023-08-20 06:30:41.953352,gupy.io,Linguagem C++, 36

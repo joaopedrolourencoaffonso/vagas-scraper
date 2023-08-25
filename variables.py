@@ -121,7 +121,7 @@ vagas_langs={
 'Kotlin':"https://www.vagas.com.br/vagas-de-Kotlin?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Java':"https://www.vagas.com.br/vagas-de-Java?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Ruby on Rails':"https://www.vagas.com.br/vagas-de-ruby-on-rails?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
-'shellscript':"https://www.vagas.com.br/vagas-de-shellscript?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
+'shell script':"https://www.vagas.com.br/vagas-de-shell%20script?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Rust':"https://www.vagas.com.br/vagas-de-Rust?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67",
 'Pearl':"https://www.vagas.com.br/vagas-de-Pearl?a%5B%5D=102&a%5B%5D=17&a%5B%5D=24&a%5B%5D=68&a%5B%5D=67"
 };
@@ -136,7 +136,7 @@ catho_langs={'python':'https://www.catho.com.br/vagas/python/?q=python&area_id%5
 'Kotlin':'https://www.catho.com.br/vagas/kotlin/?q=Kotlin&area_id%5B0%5D=51&area_id%5B1%5D=52',
 'Java':'https://www.catho.com.br/vagas/java/?q=Java&area_id%5B0%5D=51&area_id%5B1%5D=52',
 'Ruby on Rails':'https://www.catho.com.br/vagas/ruby-on-rails/?q=Ruby%20on%20Rails&area_id%5B0%5D=51&area_id%5B1%5D=52',
-'shellscript':'https://www.catho.com.br/vagas/shellscript/?q=shellscript&area_id%5B0%5D=51&area_id%5B1%5D=52',
+'shell script':'https://www.catho.com.br/vagas/shell%20script/?q=shell%20script&area_id%5B0%5D=51&area_id%5B1%5D=52',
 'Rust':'https://www.catho.com.br/vagas/rust/?q=Rust&area_id%5B0%5D=51&area_id%5B1%5D=52',
 'Pearl':'https://www.catho.com.br/vagas/pearl/?q=Pearl&area_id%5B0%5D=51&area_id%5B1%5D=52'};
 
@@ -150,7 +150,7 @@ infojobs_langs={'python':'https://www.infojobs.com.br/empregos.aspx?palabra=pyth
 'Kotlin':'https://www.infojobs.com.br/empregos.aspx?palabra=Kotlin&categoria=70,74',
 'Java':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=Java',
 'Ruby on Rails':'https://www.infojobs.com.br/empregos.aspx?palabra=Ruby+on+Rails&categoria=70,74',
-'shellscript':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=shellscript',
+'shell script':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=shell%20sscript',
 'Rust':'https://www.infojobs.com.br/empregos.aspx?palabra=Rust&categoria=70,74',
 'Pearl':'https://www.infojobs.com.br/empregos.aspx?categoria=70,74&palabra=Pearl'}
 
@@ -164,7 +164,7 @@ gupy_langs={'python':"https://portal.gupy.io/job-search/term=python",
 'Kotlin':"https://portal.gupy.io/job-search/term=Developer%20Kotlin",
 'Java':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Java",
 'Ruby on Rails':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Ruby",
-'shellscript':"https://portal.gupy.io/job-search/term=shellscript",
+'shell script':"https://portal.gupy.io/job-search/term=shell%20sscript",
 'Rust':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Rust",
 'Pearl':"https://portal.gupy.io/job-search/term=Desenvolvedor%20Pearl"
 };
