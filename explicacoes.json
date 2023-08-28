@@ -238,5 +238,20 @@
         "id":"Elasticsearch",
         "exp":"<p align='justify'>O Elasticsearch é um mecanismo de análise de dados e busca RESTful distribuído, capaz de atender a um número crescente de casos de uso. Como elemento central do Elastic Stack, ele armazena seus dados centralmente para proporcionar busca rápida, relevância com ajuste fino e analítica poderosa que pode ser ampliada com facilidade.<br><br><b>Faça a busca do seu jeito</b>: O Elasticsearch permite realizar e combinar muitos tipos de buscas — estruturadas, não estruturadas, geográficas, métricas — do jeito que você quiser. Comece simples com uma pergunta e veja aonde ela leva.<br><br><b>Analise em escala</b>: Uma coisa é encontrar os dez melhores documentos que correspondam à sua consulta. Outra coisa bem diferente é, por exemplo, deparar-se com um bilhão de linhas de log. As agregações do Elasticsearch permitem ver um panorama geral para analisar tendências e padrões nos seus dados.<br><br><b>Casos de uso</b>: Dados numéricos, textuais, geográficos, estruturados, não estruturados. Todos os tipos de dados são bem-vindos. A busca de texto integral só arranha a superfície de como as empresas no mundo todo estão dependendo do Elasticsearch para encarar inúmeros desafios.</p>",
         "pagina":"https://www.elastic.co/pt/elasticsearch"
+    },
+    {
+        "id":"MariaDB",
+        "exp":"<p align='justify'>MariaDB Server é um dos bancos de dados relacionais de código aberto mais populares. É feito pelos desenvolvedores originais do MySQL e tem código aberto garantido. Faz parte da maioria das ofertas de nuvem e é padrão na maioria das distribuições Linux.<br><br>Baseia-se nos valores de desempenho, estabilidade e abertura, e a Fundação MariaDB garante que as contribuições serão aceitas com base no mérito técnico. Novas funcionalidades recentes incluem clustering avançado com Galera Cluster 4, recursos de compatibilidade com Oracle Database e Temporal Data Tables, permitindo consultar os dados como estavam em qualquer ponto no passado.</p>",
+        "pagina":"https://mariadb.org/"
+    },
+    {
+        "id":"MySQL",
+        "exp":"<p align='justify'>MySQL é o banco de dados de código aberto mais popular do mundo. De acordo com a DB-Engines, o MySQL é o segundo banco de dados mais popular, atrás apenas do Oracle Database. O MySQL alimenta muitos dos aplicativos mais acessados, incluindo Facebook, Twitter, Netflix, Uber, Airbnb, Shopify e Booking.com.<br><br>Como o MySQL é de código aberto, ele inclui vários recursos desenvolvidos em estreita cooperação com os usuários ao longo de mais de 25 anos. Portanto, é muito provável que seu aplicativo ou linguagem de programação favorita seja compatível com o banco de dados MySQL.</p>",
+        "pagina":"https://www.mysql.com/"
+    },
+    {
+        "id":"PostgreSQL",
+        "exp":"<p align='justify'>PostgreSQL é um poderoso sistema de banco de dados relacional de objeto de código aberto que usa e estende a linguagem SQL combinada com muitos recursos que armazenam e dimensionam com segurança as cargas de trabalho de dados mais complicadas. As origens do PostgreSQL remontam a 1986 como parte do projeto POSTGRES da Universidade da Califórnia em Berkeley e tem mais de 35 anos de desenvolvimento ativo na plataforma central.<br><br>O PostgreSQL conquistou uma forte reputação por sua arquitetura comprovada, confiabilidade, integridade de dados, conjunto robusto de recursos, extensibilidade e dedicação da comunidade de código aberto por trás do software para fornecer soluções inovadoras e de desempenho consistente. O PostgreSQL é executado em todos os principais sistemas operacionais, é compatível com ACID desde 2001 e possui complementos poderosos, como o popular extensor de banco de dados geoespacial PostGIS. Não é nenhuma surpresa que o PostgreSQL tenha se tornado o banco de dados relacional de código aberto preferido de muitas pessoas e organizações.<br><br>Começar a usar o PostgreSQL nunca foi tão fácil - escolha um projeto que você deseja construir e deixe o PostgreSQL armazenar seus dados de forma segura e robusta.</p>",
+        "pagina":"https://www.postgresql.org/"
     }
 ]
