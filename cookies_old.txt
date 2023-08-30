@@ -1,0 +1,16 @@
+curl "https://br.indeed.com/jobs?q=Azure&l=&from=searchOnHP" ^
+  -H "authority: br.indeed.com" ^
+  -H "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" ^
+  -H "accept-language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: gonetap=closed; CTK=1h641ugbvi6jk800; INDEED_CSRF_TOKEN=iZ9AAnp8NnyewPCfIkUi6dtnksLOkE9z; SHARED_INDEED_CSRF_TOKEN=at12pt3OWsH9dVBdI2RhQAZtW97EKgSc; _cfuvid=K.2_SDu6iz1t_6MaeeJkct10RFkYkHHR.TcfgBRR4t0-1690205897254-0-604800000; SURF=GrtG9g6FzuwB7JLFjOXFmwrsbkuF2kzA; OptanonAlertBoxClosed=2023-07-24T13:38:19.659Z; _gcl_au=1.1.1182344818.1690206163; LC=^\^"co=BR^\^"; PREF=^\^"TM=1690206170145:L=^\^"; loctip=1; jaSerpCount=2; RQ=^\^"q=Azure&l=&ts=1690206170186:q=Azure&l=Estado+do+Rio+de+Janeiro&ts=1690206162727^\^"; LV=^\^"LA=1690206170:CV=1690206162:TS=1690205897^\^"; __cf_bm=0NiYt4rlgVu2lYZhSJaS9NoXZzU5_3w81dq0pW0NhAI-1690207195-0-Ab3TqRtWuET2Ddu1Mz0G/lmFokW2iYvVdNchHqcfmN9rhFmWcTfuShn3xvtq28wDKVPvlcH2UlpGsk+jq+7FpF4=; CSRF=zhftrMh1XPrHqXE6SHlpT89ZhWHUYFQN; indeed_rcc=^\^"PREF:LV:CTK:UD:RQ^\^"; UD=^\^"LA=1690206170:CV=1690206162:TS=1690205897^\^"; hpnode=1; ac=Xzhq8CoqEe6e0qnlGaDojw^#XznKgCoqEe6e0qnlGaDojw; OptanonConsent=isGpcEnabled=0&datestamp=Mon+Jul+24+2023+10^%^3A59^%^3A57+GMT-0300+(Hor^%^C3^%^A1rio+Padr^%^C3^%^A3o+de+Bras^%^C3^%^ADlia)&version=202210.1.0&isIABGlobal=false&hosts=&consentId=f0a4fd64-ac8a-48bc-8c39-483274249982&interactionCount=1&landingPath=NotLandingPage&groups=C0001^%^3A1^%^2CC0002^%^3A0^%^2CC0003^%^3A0^%^2CC0004^%^3A0^%^2CC0007^%^3A0&geolocation=^%^3B&AwaitingReconsent=false; JSESSIONID=49C1B64BFD574FC7778970881280387B; PTK=tk=1h64364o125b1000&type=jobsearch&subtype=topsearch" ^
+  -H "referer: https://br.indeed.com/?r=us" ^
+  -H "sec-ch-ua: ^\^"Not/A)Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"115^\^", ^\^"Chromium^\^";v=^\^"115^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: document" ^
+  -H "sec-fetch-mode: navigate" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "sec-fetch-user: ?1" ^
+  -H "upgrade-insecure-requests: 1" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" ^
+  --compressed

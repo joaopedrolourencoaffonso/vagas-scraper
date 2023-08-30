@@ -1,0 +1,2027 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="utf-8"/>
+<meta content="Infojobs Brasil Atividades de Internet, Ltda." name="author">
+<meta content="Vagas de Emprego de Informática, TI, Telecomunicações de Acre em Acre. Temos Novas Vagas com Salários de até?R$2.500,00?Exclusivas para você. Cadastre seu currículo GRÁTIS." name="description"/>
+<meta content="empregos, vagas, vagas emprego, emprego, vaga, currículo, curriculum, site empregos, recursos humanos" name="keywords"/>
+<meta content="INDEX,FOLLOW" name="ROBOTS"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="lanz9a7q6duqp3ctw4b3sm3zx289r5" name="facebook-domain-verification"/>
+<meta content="#ff6f00" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<title>Vagas de Emprego de Acre de Informática, TI, Telecomunicações em Acre | Infojobs</title>
+<link href="https://www.infojobs.com.br/vagas-de-emprego-acre-em-acre.aspx" rel="canonical"/>
+<link href="/apple-touch-icon.png?v=2" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png?v=2" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png?v=2" rel="icon" sizes="16x16" type="image/png"/>
+<link color="#ffffff" href="/safari-pinned-tab.svg?v=2" rel="mask-icon"/>
+<link href="/favicon.ico?v=2" rel="shortcut icon"/>
+<script type="text/javascript">
+  window.gdprAppliesGlobally = true;
+  (function () {
+    function a(e) {
+      if (!window.frames[e]) {
+        if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+        else { setTimeout(function () { a(e) }, 5) }
+      }
+    } function e(n, r, o, c, s) {
+      function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+        if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+        var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+      }
+      if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+    } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e) {
+      var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+    })("e4d8bff7-fd24-44fe-a3a1-7cba4accfc8f")
+  })();
+</script>
+<link as="font" crossorigin="" href="/mf-publicarea/fonts/source-sans-pro-v13-latin-regular.woff2" rel="preload" type="font/woff2">
+<link as="font" crossorigin="" href="/mf-publicarea/fonts/source-sans-pro-v13-latin-600.woff2" rel="preload" type="font/woff2">
+<link as="font" crossorigin="" href="/mf-publicarea/fonts/source-sans-pro-v13-latin-italic.woff2" rel="preload" type="font/woff2">
+<link as="font" crossorigin="" href="/mf-publicarea/fonts/brevesanstitle-medium.woff2" rel="preload" type="font/woff2">
+<link href="/mf-publicarea/css/infojobs.3bd8c0cf29fab133304e.css" rel="stylesheet">
+<script>
+    window.wwwExternalPublicity = true;
+    window.wmExternalPublicity = true;
+        </script>
+<script defer="" src="/mf-publicarea/js/vendors.57ba2e88df76f9834d44.js"></script>
+<script defer="" src="/mf-publicarea/js/app.c0a9babb307633087001.js"></script>
+</link></link></link></link></link></meta></head>
+<body class="vacancylist-index body-desktop" style="margin:0">
+<nav class="navbar navbar-expand-sm ij-navbar js_navbar ij-nav-dark">
+<div class="container-xl pr-0">
+<a class="navbar-brand p-0 pt-4 mr-20" href="/" title="Infojobs - Site de Empregos">
+<img alt="Infojobs" height="44" src="/mf-publicarea/images/common/logo-duotone-white.svg" width="116"/>
+</a>
+<div class="collapse navbar-collapse pl-8">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link text-uppercase small" href="https://www.infojobs.com.br" title="Procurar Vagas de Emprego">Achar Vagas</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-uppercase small" href="/ranking-melhores-empresas.aspx" title="Conheça as melhores empresas">Avaliações de Empresas</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-uppercase small" href="https://www.infojobs.com.br/salarios" title="Salários">Salários</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-uppercase small" href="https://blog.infojobs.com.br" title="Blog">Blog</a>
+</li>
+</ul>
+<div class="d-flex align-items-center mr-16">
+<a class="nav-anchor text-no-wrap small px-8" href="https://www.infojobs.com.br/anunciar-vaga-de-emprego-gratis.aspx" title="Anuncie Vagas de Emprego">Empresas</a>
+<div class="nav-link-separator"></div>
+<a class="nav-anchor text-no-wrap small px-8" href="https://www.infojobs.com.br/company/insertnew.aspx" title="Anunciar Vaga Grátis">Anunciar Vaga</a>
+<div class="nav-link-separator"></div>
+<a class="nav-anchor text-no-wrap small px-8" href="https://www.infojobs.com.br/candidate/" title="Acesse">Login</a>
+<a class="btn btn-xs btn-outline-clear-primary ml-8" href="https://login.infojobs.com.br/cadastrar-curriculo.aspx" title="Cadastre seu currículo GRÁTIS">
+<span class="btn-text">
+            Cadastrar CV
+        </span>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<input id="hdn_isCandidate" type="hidden" value="False"/>
+<main class="main-content">
+<input id="hdn_ListURL" type="hidden" value="https://www.infojobs.com.br/vagas-de-emprego-acre-em-acre.aspx?categoria=74"/>
+<input id="hdn_filterTitle" type="hidden" value="Vagas de Emprego de Acre de Informática, TI, Telecomunicações em Acre"/>
+<input id="hdn_guidSearch" type="hidden" value="1665f7bc-60e5-448d-b508-195f50e96161"/>
+<div id="searchHeader">
+<div class="bg-primary">
+<div class="container-xl pt-8 pb-24">
+<div class="job-location-filter">
+<div class="job-location-filter-keyword">
+<div class="job-location-filter-label">O quê?</div>
+<div class="form-group js_suggestKeywords mt-16 active form-group-suggest js_suggestComponent form-group-xs animated-label">
+<div class="position-relative">
+<div class="input-group">
+<input autocomplete="off" class="form-control form-control-xs js_input" id="keywordsCombo" maxlength="70" name="keywordsCombo" placeholder="Cargo ou palavra-chave" type="text" value="Acre"/>
+<div class="clear-link js_clear" hidden="">
+<span class="icon icon-x-circle icon-block icon-size-12">
+<svg><use xlink:href="#x-circle"></use></svg>
+</span>
+</div>
+</div>
+<div class="js_divListSuggest"></div>
+</div>
+</div>
+</div>
+<div class="job-location-filter-divider">
+</div>
+<div class="job-location-filter-location">
+<div class="job-location-filter-label">Onde?</div>
+<div class="form-group js_suggestLocations mt-16 active form-group-suggest js_suggestComponent form-group-xs animated-label">
+<div class="position-relative">
+<div class="input-group">
+<input =""="" autocomplete="off" class="form-control form-control-xs js_input" data-idlocation2="165" data-idlocation3="0" id="city" maxlength="70" name="city" placeholder="Localização" type="text" value="Acre"/>
+<div class="js_noMatchesWarning" hidden="">
+                    Não há coincidência
+                </div>
+<div class="clear-link js_clear" hidden="">
+<span class="icon icon-x-circle icon-block icon-size-12">
+<svg><use xlink:href="#x-circle"></use></svg>
+</span>
+</div>
+</div>
+<div class="js_divListSuggest"></div>
+</div>
+</div>
+</div>
+<div class="job-location-filter-btn">
+<a class="btn btn-xs btn-primary btn-block jsButton" role="button">
+<span class="btn-text">
+            ACHAR VAGAS
+        </span>
+<div class="spinner" hidden="">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</a>
+</div>
+</div>
+<template id="tmplAlertNoSearchValuesWarning">
+<div class="alert alert-dismissible fade show py-8 px-24 alert-warning w-100 mt-24 mb-0 js_AlertNoSearchValuesWarning">
+<div class="d-flex">
+<span class="pr-8 js_message">Você deve preencher pelo menos um dos campos acima para poder buscar vagas.</span>
+<a aria-label="Close" class="ml-auto alert-close" data-dismiss="alert" href="javascript: void(0);">
+<span class="icon icon-x icon-size-16">
+<svg><use xlink:href="#x"></use></svg>
+</span>
+</a>
+</div>
+</div>
+</template>
+<div class="job-location-filter-alert" hidden="" id="DivNoSearchValuesWarning"></div>
+</div>
+</div>
+<div class="border-bottom bg-white">
+<div class="container-xl">
+<div class="position-relative row no-gutters align-items-center py-16">
+<div class="col">
+<div class="d-flex align-items-center" id="DivSharedVacancyFilters">
+<div class="js_facetContainer facet-container" id="facetWorkMethod">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Modelo de Trabalho</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetSimple">
+<a =""="" class="text-decoration-none" data-key="idw" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;idw=1" href="javascript:void(0);" rel="nofollow" role="button" value="1">
+                                Presencial (3)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="idw" data-url="vagas-de-emprego-acre-em-acre-trabalho-home-office.aspx?categoria=74" href="javascript:void(0);" rel="nofollow" role="button" value="2">
+                                Home office (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="idw" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;idw=3" href="javascript:void(0);" rel="nofollow" role="button" value="3">
+                                Híbrido (0)
+                            </a>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container" id="facetDistance">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Km de você</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetSimple">
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="5">
+                                Até 5 km de você
+                            </a>
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="10">
+                                Até 10 km de você
+                            </a>
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="25">
+                                Até 25 km de você
+                            </a>
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="50">
+                                Até 50 km de você
+                            </a>
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="75">
+                                Até 75 km de você
+                            </a>
+<a =""="" class="text-decoration-none" data-key="sprd" href="javascript:void(0);" rel="nofollow" role="button" value="100">
+                                Até 100 km de você
+                            </a>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container" id="facetRenovationDateRange">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Data de Publicação</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetSimple">
+<a =""="" class="text-decoration-none" data-key="re" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;Antiguedad=1" href="javascript:void(0);" rel="nofollow" role="button" value="1">
+                                Hoje (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="re" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;Antiguedad=2" href="javascript:void(0);" rel="nofollow" role="button" value="2">
+                                Últimos 3 dias (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="re" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;Antiguedad=3" href="javascript:void(0);" rel="nofollow" role="button" value="3">
+                                Última semana (1)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="re" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;Antiguedad=4" href="javascript:void(0);" rel="nofollow" role="button" value="4">
+                                Últimos 15 dias (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="re" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;Antiguedad=5" href="javascript:void(0);" rel="nofollow" role="button" value="5">
+                                Último mês (1)
+                            </a>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container" id="facetSalaryRanges">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Salário</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetSimple">
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=1" href="javascript:void(0);" rel="nofollow" role="button" value="1">
+                                até R$ 1.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=2" href="javascript:void(0);" rel="nofollow" role="button" value="2">
+                                A partir de R$1.000 (2)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=3" href="javascript:void(0);" rel="nofollow" role="button" value="3">
+                                A partir de R$2.000 (2)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=4" href="javascript:void(0);" rel="nofollow" role="button" value="4">
+                                a partir de R$3.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=5" href="javascript:void(0);" rel="nofollow" role="button" value="5">
+                                a partir de R$4.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=6" href="javascript:void(0);" rel="nofollow" role="button" value="6">
+                                a partir de R$5.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=7" href="javascript:void(0);" rel="nofollow" role="button" value="7">
+                                a partir de R$6.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=8" href="javascript:void(0);" rel="nofollow" role="button" value="8">
+                                a partir de R$7.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=9" href="javascript:void(0);" rel="nofollow" role="button" value="9">
+                                a partir de R$8.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=10" href="javascript:void(0);" rel="nofollow" role="button" value="10">
+                                a partir de R$9.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=11" href="javascript:void(0);" rel="nofollow" role="button" value="11">
+                                a partir de R$10.000 (0)
+                            </a>
+<a =""="" class="text-decoration-none" data-key="isr" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;isr=12" href="javascript:void(0);" rel="nofollow" role="button" value="12">
+                                A combinar (1)
+                            </a>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container facet-multiple" id="facetCategory1">
+<div class="chip chip-dark facet-link collapsed js_facet js_isLast">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Área Profissional (1)</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetMultiple">
+<div class="container-xl m-auto">
+<div class="row no-gutters">
+<div class="col-lg-4 col-12 pr-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,51" id="Category1-51" type="checkbox" value="51"/>
+<label class="custom-control-label d-flex" for="Category1-51">
+<span class="text-truncate">
+                        Administração
+                    </span>
+<span>
+                     (4)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,52" id="Category1-52" type="checkbox" value="52"/>
+<label class="custom-control-label d-flex" for="Category1-52">
+<span class="text-truncate">
+                        Agricultura, Pecuária, Veterinária
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,92" id="Category1-92" type="checkbox" value="92"/>
+<label class="custom-control-label d-flex" for="Category1-92">
+<span class="text-truncate">
+                        Alimentação / Gastronomia
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,55" id="Category1-55" type="checkbox" value="55"/>
+<label class="custom-control-label d-flex" for="Category1-55">
+<span class="text-truncate">
+                        Arquitetura, Decoração, Design
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,56" id="Category1-56" type="checkbox" value="56"/>
+<label class="custom-control-label d-flex" for="Category1-56">
+<span class="text-truncate">
+                        Artes
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,57" id="Category1-57" type="checkbox" value="57"/>
+<label class="custom-control-label d-flex" for="Category1-57">
+<span class="text-truncate">
+                        Auditoria
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,58" id="Category1-58" type="checkbox" value="58"/>
+<label class="custom-control-label d-flex" for="Category1-58">
+<span class="text-truncate">
+                        Ciências, Pesquisa
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,59" id="Category1-59" type="checkbox" value="59"/>
+<label class="custom-control-label d-flex" for="Category1-59">
+<span class="text-truncate">
+                        Comercial, Vendas
+                    </span>
+<span>
+                     (20)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,60" id="Category1-60" type="checkbox" value="60"/>
+<label class="custom-control-label d-flex" for="Category1-60">
+<span class="text-truncate">
+                        Comércio Exterior, Importação, Exportação
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,62" id="Category1-62" type="checkbox" value="62"/>
+<label class="custom-control-label d-flex" for="Category1-62">
+<span class="text-truncate">
+                        Compras
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,63" id="Category1-63" type="checkbox" value="63"/>
+<label class="custom-control-label d-flex" for="Category1-63">
+<span class="text-truncate">
+                        Comunicação, TV, Cinema
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,64" id="Category1-64" type="checkbox" value="64"/>
+<label class="custom-control-label d-flex" for="Category1-64">
+<span class="text-truncate">
+                        Construção, Manutenção
+                    </span>
+<span>
+                     (3)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 px-xl-16">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,66" id="Category1-66" type="checkbox" value="66"/>
+<label class="custom-control-label d-flex" for="Category1-66">
+<span class="text-truncate">
+                        Contábil, Finanças, Economia
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,67" id="Category1-67" type="checkbox" value="67"/>
+<label class="custom-control-label d-flex" for="Category1-67">
+<span class="text-truncate">
+                        Cultura, Lazer, Entretenimento
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,69" id="Category1-69" type="checkbox" value="69"/>
+<label class="custom-control-label d-flex" for="Category1-69">
+<span class="text-truncate">
+                        Educação, Ensino, Idiomas
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,70" id="Category1-70" type="checkbox" value="70"/>
+<label class="custom-control-label d-flex" for="Category1-70">
+<span class="text-truncate">
+                        Engenharia
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,71" id="Category1-71" type="checkbox" value="71"/>
+<label class="custom-control-label d-flex" for="Category1-71">
+<span class="text-truncate">
+                        Estética
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,72" id="Category1-72" type="checkbox" value="72"/>
+<label class="custom-control-label d-flex" for="Category1-72">
+<span class="text-truncate">
+                        Hotelaria, Turismo
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,73" id="Category1-73" type="checkbox" value="73"/>
+<label class="custom-control-label d-flex" for="Category1-73">
+<span class="text-truncate">
+                        Industrial, Produção, Fábrica
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" checked="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx" id="Category1-74" type="checkbox" value="74"/>
+<label class="custom-control-label d-flex" for="Category1-74">
+<span class="text-truncate">
+                        Informática, TI, Telecomunicações
+                    </span>
+<span>
+                     (3)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,75" id="Category1-75" type="checkbox" value="75"/>
+<label class="custom-control-label d-flex" for="Category1-75">
+<span class="text-truncate">
+                        Jurídica
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,54" id="Category1-54" type="checkbox" value="54"/>
+<label class="custom-control-label d-flex" for="Category1-54">
+<span class="text-truncate">
+                        Logística
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,77" id="Category1-77" type="checkbox" value="77"/>
+<label class="custom-control-label d-flex" for="Category1-77">
+<span class="text-truncate">
+                        Marketing
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,78" id="Category1-78" type="checkbox" value="78"/>
+<label class="custom-control-label d-flex" for="Category1-78">
+<span class="text-truncate">
+                        Meio Ambiente, Ecologia
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 pl-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,93" id="Category1-93" type="checkbox" value="93"/>
+<label class="custom-control-label d-flex" for="Category1-93">
+<span class="text-truncate">
+                        Moda
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,79" id="Category1-79" type="checkbox" value="79"/>
+<label class="custom-control-label d-flex" for="Category1-79">
+<span class="text-truncate">
+                        Qualidade
+                    </span>
+<span>
+                     (1)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,80" id="Category1-80" type="checkbox" value="80"/>
+<label class="custom-control-label d-flex" for="Category1-80">
+<span class="text-truncate">
+                        Química, Petroquímica
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,81" id="Category1-81" type="checkbox" value="81"/>
+<label class="custom-control-label d-flex" for="Category1-81">
+<span class="text-truncate">
+                        Recursos Humanos
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,82" id="Category1-82" type="checkbox" value="82"/>
+<label class="custom-control-label d-flex" for="Category1-82">
+<span class="text-truncate">
+                        Saúde
+                    </span>
+<span>
+                     (3)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,83" id="Category1-83" type="checkbox" value="83"/>
+<label class="custom-control-label d-flex" for="Category1-83">
+<span class="text-truncate">
+                        Segurança
+                    </span>
+<span>
+                     (2)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,85" id="Category1-85" type="checkbox" value="85"/>
+<label class="custom-control-label d-flex" for="Category1-85">
+<span class="text-truncate">
+                        Serviço Social e Comunitário
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,76" id="Category1-76" type="checkbox" value="76"/>
+<label class="custom-control-label d-flex" for="Category1-76">
+<span class="text-truncate">
+                        Serviços Gerais
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,86" id="Category1-86" type="checkbox" value="86"/>
+<label class="custom-control-label d-flex" for="Category1-86">
+<span class="text-truncate">
+                        Telemarketing
+                    </span>
+<span>
+                     (4)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="categoria" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74,87" id="Category1-87" type="checkbox" value="87"/>
+<label class="custom-control-label d-flex" for="Category1-87">
+<span class="text-truncate">
+                        Transportes
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top mt-16 py-24 row align-items-baseline">
+<div class="col">
+</div>
+<div class="col-auto">
+<a class="btn btn-xs btn-secondary js_BtFacetApplyFilters" role="button">
+<span class="btn-text">
+            Aplicar Filtro
+        </span>
+</a>
+</div>
+<div class="col">
+<a class="btn btn-xs btn-link js_BtFacetCancelFilters disabled" data-url="vagas-de-emprego-acre-em-acre.aspx" href="javascript:void(0);">
+<span class="btn-text">
+            Eliminar este filtro
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container facet-multiple" id="facetContractWorkType">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Contrato</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetMultiple">
+<div class="container-xl m-auto">
+<div class="row no-gutters">
+<div class="col-lg-4 col-12 pr-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=2" id="ContractWorkType-2" type="checkbox" value="2"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-2">
+<span class="text-truncate">
+                        Efetivo – CLT
+                    </span>
+<span>
+                     (3)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=16" id="ContractWorkType-16" type="checkbox" value="16"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-16">
+<span class="text-truncate">
+                        Autônomo
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=17" id="ContractWorkType-17" type="checkbox" value="17"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-17">
+<span class="text-truncate">
+                        Prestador de Serviços (PJ)
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 px-xl-16">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=18" id="ContractWorkType-18" type="checkbox" value="18"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-18">
+<span class="text-truncate">
+                        Cooperado
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=19" id="ContractWorkType-19" type="checkbox" value="19"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-19">
+<span class="text-truncate">
+                        Jovem Aprendiz
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=4" id="ContractWorkType-4" type="checkbox" value="4"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-4">
+<span class="text-truncate">
+                        Estágio
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 pl-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=6" id="ContractWorkType-6" type="checkbox" value="6"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-6">
+<span class="text-truncate">
+                        Temporário
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=15" id="ContractWorkType-15" type="checkbox" value="15"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-15">
+<span class="text-truncate">
+                        Trainee
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="tipocontrato" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;tipocontrato=9" id="ContractWorkType-9" type="checkbox" value="9"/>
+<label class="custom-control-label d-flex" for="ContractWorkType-9">
+<span class="text-truncate">
+                        Outros
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top mt-16 py-24 row align-items-baseline">
+<div class="col">
+</div>
+<div class="col-auto">
+<a class="btn btn-xs btn-secondary js_BtFacetApplyFilters" role="button">
+<span class="btn-text">
+            Aplicar Filtro
+        </span>
+</a>
+</div>
+<div class="col">
+<a class="btn btn-xs btn-link js_BtFacetCancelFilters disabled" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74" href="javascript:void(0);">
+<span class="btn-text">
+            Eliminar este filtro
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container facet-multiple" id="facetWorkingHours">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">Jornada</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetMultiple">
+<div class="container-xl m-auto">
+<div class="row no-gutters">
+<div class="col-lg-4 col-12 pr-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="wo" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;wo=1" id="WorkingHours-1" type="checkbox" value="1"/>
+<label class="custom-control-label d-flex" for="WorkingHours-1">
+<span class="text-truncate">
+                        Período Integral
+                    </span>
+<span>
+                     (3)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="wo" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;wo=2" id="WorkingHours-2" type="checkbox" value="2"/>
+<label class="custom-control-label d-flex" for="WorkingHours-2">
+<span class="text-truncate">
+                        Parcial manhãs
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 px-xl-16">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="wo" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;wo=5" id="WorkingHours-5" type="checkbox" value="5"/>
+<label class="custom-control-label d-flex" for="WorkingHours-5">
+<span class="text-truncate">
+                        Parcial tardes
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="wo" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;wo=6" id="WorkingHours-6" type="checkbox" value="6"/>
+<label class="custom-control-label d-flex" for="WorkingHours-6">
+<span class="text-truncate">
+                        Parcial noites
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 pl-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="wo" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;wo=12" id="WorkingHours-12" type="checkbox" value="12"/>
+<label class="custom-control-label d-flex" for="WorkingHours-12">
+<span class="text-truncate">
+                        Noturno
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top mt-16 py-24 row align-items-baseline">
+<div class="col">
+</div>
+<div class="col-auto">
+<a class="btn btn-xs btn-secondary js_BtFacetApplyFilters" role="button">
+<span class="btn-text">
+            Aplicar Filtro
+        </span>
+</a>
+</div>
+<div class="col">
+<a class="btn btn-xs btn-link js_BtFacetCancelFilters disabled" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74" href="javascript:void(0);">
+<span class="btn-text">
+            Eliminar este filtro
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="js_facetContainer facet-container facet-multiple" id="facetDeficiency1">
+<div class="chip chip-light facet-link collapsed js_facet">
+<div class="chip-text js_chipText cursor-pointer js_hasInteractiveText">PCD</div>
+<a aria-label="Selecionar" class="chip-icon js_chipIcon" rel="nofollow" role="button">
+<span class="icon icon-arrow-bottom icon-block collapse-rotate icon-size-14">
+<svg><use xlink:href="#arrow-bottom"></use></svg>
+</span>
+</a>
+</div>
+<div class="facet-content js_FacetContent">
+<div class="facet-checks js_facetMultiple">
+<div class="container-xl m-auto">
+<div class="row no-gutters">
+<div class="col-lg-4 col-12 pr-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=1" id="Deficiency1-1" type="checkbox" value="1"/>
+<label class="custom-control-label d-flex" for="Deficiency1-1">
+<span class="text-truncate">
+                        Auditiva
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=3" id="Deficiency1-3" type="checkbox" value="3"/>
+<label class="custom-control-label d-flex" for="Deficiency1-3">
+<span class="text-truncate">
+                        Física
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=5" id="Deficiency1-5" type="checkbox" value="5"/>
+<label class="custom-control-label d-flex" for="Deficiency1-5">
+<span class="text-truncate">
+                        Visual
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 px-xl-16">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=4" id="Deficiency1-4" type="checkbox" value="4"/>
+<label class="custom-control-label d-flex" for="Deficiency1-4">
+<span class="text-truncate">
+                        Mental
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=7" id="Deficiency1-7" type="checkbox" value="7"/>
+<label class="custom-control-label d-flex" for="Deficiency1-7">
+<span class="text-truncate">
+                        Reabilitados
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=6" id="Deficiency1-6" type="checkbox" value="6"/>
+<label class="custom-control-label d-flex" for="Deficiency1-6">
+<span class="text-truncate">
+                        Psicossocial
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12 pl-xl-32">
+<div class="facet-checks-item js_facetChecksItem">
+<div class="d-flex justify-content-between align-items-center mb-16">
+<div class="custom-control custom-checkbox min-width-0">
+<input =""="" class="custom-control-input js_checkboxLevel1" data-key="def1" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;def1=2" id="Deficiency1-2" type="checkbox" value="2"/>
+<label class="custom-control-label d-flex" for="Deficiency1-2">
+<span class="text-truncate">
+                        Fala
+                    </span>
+<span>
+                     (0)
+                </span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top mt-16 py-24 row align-items-baseline">
+<div class="col">
+</div>
+<div class="col-auto">
+<a class="btn btn-xs btn-secondary js_BtFacetApplyFilters" role="button">
+<span class="btn-text">
+            Aplicar Filtro
+        </span>
+</a>
+</div>
+<div class="col">
+<a class="btn btn-xs btn-link js_BtFacetCancelFilters disabled" data-url="vagas-de-emprego-acre-em-acre.aspx?categoria=74" href="javascript:void(0);">
+<span class="btn-text">
+            Eliminar este filtro
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-auto caption">
+<a class="btn-link d-inline-block px-8 py-4" href="vagas-de-emprego-acre-em-acre.aspx" id="buttonResetFilters">Apagar Filtros</a>
+</div>
+</div>
+<div hidden="" id="DivAtLeatOneFilterWarning"></div>
+<div class="text-medium text-center mb-16 js_registerAlert">
+                            Seja o primeiro em receber novas vagas similares a esta
+
+
+<a class="btn btn-link ml-16" id="btnRegisterAlert" role="button">
+<span class="icon icon-ring-bell-ringing icon-block mr-8 icon-size-0">
+<svg><use xlink:href="#ring-bell-ringing"></use></svg>
+</span>
+<span class="btn-text">
+            Ativar Aviso de Vagas
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container-xl" id="scrollContent">
+<form action="/vagas" method="get">
+<div class="row no-gutters mb-48">
+<div class="col-12 col-lg pr-24 grid-container" id="columnGrid">
+<div class="my-12" id="resumeVacancies">
+<span class="small text-medium"> 3</span>
+<h1 class="small text-medium d-inline">
+                                Vagas de Emprego de Acre de Informática, TI, Telecomunicações em Acre
+                            </h1>
+<div class="row small text-medium align-items-center mt-16">
+<div class="col" id="sortOptions">
+<span class="font-weight-bolder text-body mr-16">Relevantes</span>
+<a class="mr-16" href="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;campo=griddate&amp;orden=desc" rel='"nofollow"'>Recentes</a>
+<a class="mr-16" href="vagas-de-emprego-acre-em-acre.aspx?categoria=74&amp;campo=distance&amp;orden=asc" rel='"nofollow"'>Próximas</a>
+</div>
+<div class="col-auto caption">
+Página 1 de 1                                </div>
+</div>
+</div>
+<div class="grid" id="filterSideBar">
+<div class="card card-shadow card-shadow-hover text-break mb-16 grid-row js_rowCard active">
+<div class="py-16 pl-24 pr-16 cursor-pointer js_vacancyLoad js_cardLink" data-href="/vaga-de-tecnico-iat-rio-branco-acre-em-acre__8952833.aspx" data-id="8952833" id="vacancy8952833">
+<div class="d-flex">
+<div class="mr-8">
+<div>
+<div class="d-inline js_date" data-value="2023/07/11 09:48:00" hidden="">
+<div class="tag d-inline-block mr-8 tag-outline-premium tag-sm">
+<span>
+        NOVA
+    </span>
+</div>
+</div>
+</div>
+<a class="text-decoration-none" href="/vaga-de-tecnico-iat-rio-branco-acre-em-acre__8952833.aspx">
+<h2 class="h3 font-weight-bold text-body mb-8">
+                        Técnico IAT - Rio Branco-Acre
+                    </h2>
+</a>
+<div class="d-flex align-items-center mb-4">
+<div class="mr-8">
+<div class="text-nowrap" style="line-height:24px;font-size:16px">
+<span class="font-weight-bold text-body">4,4</span>
+<span class="icon icon-star text-rating icon-size-16">
+<svg><use xlink:href="#star"></use></svg>
+</span>
+</div>
+</div>
+<div class="text-body">
+<a class="text-body text-decoration-none" href="https://www.infojobs.com.br/luandre">LUANDRE SERVICOS TEMPORARIOS. (SA-SP)</a>
+</div>
+</div>
+<div class="d-flex mb-12 align-items-center">
+<div class="small text-medium mr-24">
+                            Rio Branco - AC<span class="js_divUserVagaDistance" hidden="">, <span class="js_UserVagaDistance" data-vagalatitude="-9.97379" data-vagalongitude="-67.79973">0</span> Km de você.</span>
+</div>
+<div class="text-medium caption">
+<span class="icon icon-buildings icon-size-12">
+<svg><use xlink:href="#buildings"></use></svg>
+</span>
+
+                        Presencial
+                    </div>
+</div>
+</div>
+<div class="ml-auto d-flex flex-column align-items-end text-nowrap">
+<div class="text-medium small">
+                    11 jul
+                </div>
+</div>
+</div>
+<div class="small text-medium">
+                Manutenção preventiva e corretiva em equipamentos da rede HFC Transceptores, Amplificadores, Passivos, Cabos, Conectores e Fontes de alimentação.
+Gar...
+            </div>
+</div>
+</div>
+<div class="card card-shadow card-shadow-hover text-break mb-16 grid-row js_rowCard">
+<div class="py-16 pl-24 pr-16 cursor-pointer js_vacancyLoad js_cardLink" data-href="/vaga-de-auxiliar-tecnico-em-acre__8903616.aspx" data-id="8903616" id="vacancy8903616">
+<div class="d-flex">
+<div class="mr-8">
+<div>
+<div class="d-inline js_date" data-value="2023/06/16 08:54:00" hidden="">
+<div class="tag d-inline-block mr-8 tag-outline-premium tag-sm">
+<span>
+        NOVA
+    </span>
+</div>
+</div>
+</div>
+<a class="text-decoration-none" href="/vaga-de-auxiliar-tecnico-em-acre__8903616.aspx">
+<h2 class="h3 font-weight-bold text-body mb-8">
+                        Auxiliar Técnico
+                    </h2>
+</a>
+<div class="d-flex align-items-center mb-4">
+<div class="mr-8">
+<div class="text-nowrap" style="line-height:24px;font-size:16px">
+<span class="font-weight-bold text-body">4,5</span>
+<span class="icon icon-star text-rating icon-size-16">
+<svg><use xlink:href="#star"></use></svg>
+</span>
+</div>
+</div>
+<div class="text-body">
+<a class="text-body text-decoration-none" href="https://www.infojobs.com.br/empresa-eb-corporate__-210724.aspx">EB CORPORATE</a>
+</div>
+</div>
+<div class="d-flex mb-12 align-items-center">
+<div class="small text-medium mr-24">
+                            Santa Rosa do Purus - AC<span class="js_divUserVagaDistance" hidden="">, <span class="js_UserVagaDistance" data-vagalatitude="-9.5885609" data-vagalongitude="-70.3360691">0</span> Km de você.</span>
+</div>
+<div class="text-medium caption">
+<span class="icon icon-buildings icon-size-12">
+<svg><use xlink:href="#buildings"></use></svg>
+</span>
+
+                        Presencial
+                    </div>
+</div>
+</div>
+<div class="ml-auto d-flex flex-column align-items-end text-nowrap">
+<div class="text-medium small">
+                    16 jun
+                </div>
+</div>
+</div>
+<div class="small text-medium">
+                Realizar vistorias técnicas em escolas estaduais, municipais e rurais; preenchimento de formulários e de planta baixa.Disponibilidade para viagens (im...
+            </div>
+</div>
+</div>
+<div class="card card-shadow card-shadow-hover text-break mb-16 grid-row js_rowCard">
+<div class="py-16 pl-24 pr-16 cursor-pointer js_vacancyLoad js_cardLink" data-href="/vaga-de-tecnico-laboratorio-ti-em-acre__8667613.aspx" data-id="8667613" id="vacancy8667613">
+<div class="d-flex">
+<div class="mr-8">
+<div>
+<div class="d-inline js_date" data-value="2023/05/26 03:04:00" hidden="">
+<div class="tag d-inline-block mr-8 tag-outline-premium tag-sm">
+<span>
+        NOVA
+    </span>
+</div>
+</div>
+</div>
+<a class="text-decoration-none" href="/vaga-de-tecnico-laboratorio-ti-em-acre__8667613.aspx">
+<h2 class="h3 font-weight-bold text-body mb-8">
+                        Técnico De Laboratório De TI
+                    </h2>
+</a>
+<div class="d-flex align-items-center mb-4">
+<div class="mr-8">
+<div class="text-nowrap" style="line-height:24px;font-size:16px">
+<span class="font-weight-bold text-body">4,3</span>
+<span class="icon icon-star text-rating icon-size-16">
+<svg><use xlink:href="#star"></use></svg>
+</span>
+</div>
+</div>
+<div class="text-body">
+<a class="text-body text-decoration-none" href="https://www.infojobs.com.br/sonda-it">SONDA IT</a>
+</div>
+</div>
+<div class="d-flex mb-12 align-items-center">
+<div class="small text-medium mr-24">
+                            Rio Branco - AC<span class="js_divUserVagaDistance" hidden="">, <span class="js_UserVagaDistance" data-vagalatitude="-9.9702051" data-vagalongitude="-67.8527919">0</span> Km de você.</span>
+</div>
+<div class="text-medium caption">
+<span class="icon icon-buildings icon-size-12">
+<svg><use xlink:href="#buildings"></use></svg>
+</span>
+
+                        Presencial
+                    </div>
+</div>
+</div>
+<div class="ml-auto d-flex flex-column align-items-end text-nowrap">
+<div class="text-medium small">
+                    26 mai
+                </div>
+</div>
+</div>
+<div class="small text-medium">
+                Viva a experiência SONDA
+
+Aqui você transforma sua carreira!
+
+Por que fazer parte da SONDA?
+
+Porque assim como você, amamos o que fazemos, temos...
+            </div>
+</div>
+</div>
+<div class="card card-shadow mt-16 grid-row p-16">
+<div id="afsSlot"></div>
+</div>
+<div class="my-40">
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-auto position-relative detail-container" id="vacancylistDetailContainer">
+<div class="py-16 detail js_detail">
+<div class="card card-shadow px-32 py-20">
+<div class="shadow-loading" id="vacancylistDetail" style="height:1250px; background-image: url(/mf-publicarea/images/common/shadowloading/vacancy-detail.svg);box-shadow: inset 0 -30px 20px -20px #FFF !important;"></div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div class="bg-white border-top">
+<div class="container-xl">
+<section class="container pt-32">
+<h2 class="font-weight-bold mb-40 text-primary">Buscas de Empregos Relacionadas</h2>
+<div class="pb-32">
+<h3 class="font-weight-bold mb-16 text-primary">Localizações Próximas</h3>
+<div class="row">
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-emprego-acre-em-rio-branco,-ac.aspx" title="Vagas de Emprego de Acre em Rio Branco - AC">Rio Branco - AC</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-emprego-acre-em-santa-rosa-do-purus,-ac.aspx" title="Vagas de Emprego de Acre em Santa Rosa do Purus - AC">Santa Rosa do Purus - AC</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+</div>
+<div class="pb-32">
+<h3 class="font-weight-bold mb-16 text-primary">Cargos Similares</h3>
+<div class="row">
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-auxiliar-tecnico-em-acre.aspx" title="Vagas de Auxiliar Técnico em Acre">Auxiliar Técnico</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-tecnico-ti-em-acre.aspx" title="Vagas de Técnico de TI em Acre">Técnico de TI</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+</div>
+<div class="pb-32">
+<h3 class="font-weight-bold mb-16 text-primary">Mais Populares</h3>
+<div class="row">
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-emprego-sem+experi%c3%aancia-em-acre.aspx" title="Vagas de Sem experiência em Acre">Sem experiência</a></li>
+<li class="mb-12"><a href="vagas-de-auxiliar-administrativo-em-acre.aspx" title="Vagas de Auxiliar administrativo em Acre">Auxiliar administrativo</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-informatica-em-acre.aspx" title="Vagas de Informatica em Acre">Informatica</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-emprego-banco+de+dados-em-acre.aspx" title="Vagas de Banco de dados em Acre">Banco de dados</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-analista-em-acre.aspx" title="Vagas de Analista em Acre">Analista</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-espanhol-em-acre.aspx" title="Vagas de Espanhol em Acre">Espanhol</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-aprendiz-em-acre.aspx" title="Vagas de Aprendiz em Acre">Aprendiz</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-t%c3%a9cnico-em-acre.aspx" title="Vagas de Técnico em Acre">Técnico</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-suporte-em-acre.aspx" title="Vagas de Suporte em Acre">Suporte</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-instrutor-informatica-em-acre.aspx" title="Vagas de Instrutor de informática em Acre">Instrutor de informática</a></li>
+<li class="mb-12"><a href="vagas-de-analista-ti-em-acre.aspx" title="Vagas de Analista de ti em Acre">Analista de ti</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-junior-em-acre.aspx" title="Vagas de Junior em Acre">Junior</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-suporte-tecnico-em-acre.aspx" title="Vagas de Suporte técnico em Acre">Suporte técnico</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-primeiro+emprego-em-acre.aspx" title="Vagas de Primeiro emprego em Acre">Primeiro emprego</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-est%c3%a1gio-em-acre.aspx" title="Vagas de Estágio em Acre">Estágio</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<ul class="list-unstyled">
+<li class="mb-12"><a href="vagas-de-digitador-em-acre.aspx" title="Vagas de Digitador em Acre">Digitador</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-estagio+ti-em-acre.aspx" title="Vagas de Estagio ti em Acre">Estagio ti</a></li>
+<li class="mb-12"><a href="vagas-de-emprego-consultor-em-acre.aspx" title="Vagas de Consultor em Acre">Consultor</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="toast-container">
+<div class="toast toast-success hide" data-autohide="true" data-delay="3000" id="Toast">
+<div class="toast-content">
+<div class="js_message"> </div>
+<a class="toast-close js_toastClose" data-dismiss="toast" role="button">
+<span class="icon icon-x icon-size-16">
+<svg><use xlink:href="#x"></use></svg>
+</span>
+</a>
+</div>
+</div>
+</div>
+<template id="tmplAtLeatOneFilterWarning">
+<div class="alert alert-dismissible fade show py-8 px-24 alert-warning w-100 mb-20 js_AlertAtLeastOneFilter">
+<div class="d-flex">
+<span class="pr-8 js_message">Deve haver pelo menos um filtro selecionado</span>
+<a aria-label="Close" class="ml-auto alert-close" data-dismiss="alert" href="javascript: void(0);">
+<span class="icon icon-x icon-size-16">
+<svg><use xlink:href="#x"></use></svg>
+</span>
+</a>
+</div>
+</div>
+</template>
+</main>
+<footer class="bg-white border-top" id="footer">
+<div class="footer-desktop container-xl pt-32">
+<div class="row">
+<div class="col-auto" style="width:345px;">
+<a href="/">
+<img alt="Infojobs.com.br" class="mb-8" height="45" loading="lazy" src="/mf-publicarea/images/common/logo-duotone-indigo.svg" width="116"/>
+</a>
+<div class="text-medium mb-16 caption">
+                    © Infojobs Brasil Atividades de Internet, Ltda.<br/>
+                    Todos os direitos reservados.
+                </div>
+<div class="d-flex align-items-center flex-wrap">
+<img alt="" class="mr-20 mt-16" height="58" loading="lazy" src="/mf-publicarea/images/common/footer/award-topmind25.svg" width="81"/>
+<a href="https://www.infojobs.com.br/blog/ganhamos_o_premio_Top_of_Mind_de_RH__16290.aspx" target="_blank">
+<img alt="" class="mr-20 mt-16" height="58" loading="lazy" src="/mf-publicarea/images/common/footer/award-topmind24.svg" width="81"/>
+</a>
+<img alt="" class="mr-20 mt-16" height="58" loading="lazy" src="/mf-publicarea/images/common/footer/award-topmind23.svg" width="81"/>
+<img alt="" class="mr-20 mt-16" height="80" loading="lazy" src="/mf-publicarea/images/common/footer/award-reclameaqui.svg" width="49"/>
+</div>
+</div>
+<div class="col small">
+<h3 class="h4 font-weight-bold text-primary mb-16">Institucional</h3>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/ajuda/Sobre_InfoJobs__4648.aspx">Quem somos?</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/por-que-infojobs.aspx">Por que usar Infojobs?</a>
+<a class="d-block pb-8 text-medium" href="https://infojobs.pandape.infojobs.com.br/">Trabalhe Conosco</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/politica-de-cookies__15730.aspx">Política de Cookies</a>
+<a class="d-block pb-8 text-medium" href="javascript:Didomi.preferences.show()">Consentimento de Cookies</a>
+<a class="js_showHandtalk d-block pb-8 text-medium" role="button" title="Acesso em libras">Acesso em libras</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/contato.aspx">Fale Conosco</a>
+</div>
+<div class="col small">
+<h3 class="h4 font-weight-bold text-primary mb-16">Empresas</h3>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/ajuda/Ajuda_Empresas__1581.aspx">Ajuda</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/blog/blog-empresas__10147.aspx">Blog</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/anunciar-vaga-de-emprego-gratis.aspx">Anunciar Vagas</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/Company/Candidate1/List.aspx">Buscar candidatos</a>
+<a class="d-block pb-8 text-medium" href="https://www.pandape.com.br/">PandaPé</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/aviso-legal-para-empresas__15726.aspx">Aviso Legal</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/politica-de-privacidade-para-empresas__15729.aspx">Política de Privacidade</a>
+</div>
+<div class="col small">
+<h3 class="h4 font-weight-bold text-primary mb-16">Candidatos</h3>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/ajuda/Ajuda_Candidatos__1579.aspx">Ajuda</a>
+<a class="d-block pb-8 text-medium" href="https://blog.infojobs.com.br">Blog</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/EmpregosMaisBuscados.aspx">Vagas</a>
+<a class="d-block pb-8 text-medium" href="/cargo" title="Guia de Profissões">Guia de Cargos</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/aviso-legal-para-candidatos__15727.aspx">Aviso Legal</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/politica-de-privacidade-para-candidatos__15728.aspx">Política de Privacidade</a>
+<a class="d-block pb-8 text-medium" href="https://www.infojobs.com.br/legal/proteja-se-ao-buscar-emprego__16245.aspx" rel="nofollow">Busca de emprego segura</a>
+</div>
+<div class="col-auto">
+<h3 class="h4 font-weight-bold text-primary mb-16">Siga-nos</h3>
+<div class="d-flex justify-content-between mb-32">
+<a class="btn btn-xs btn-outline-secondary btn-only-icon" href="https://www.facebook.com/infojobs.com.br/" title="Facebook Infojobs">
+<span class="icon icon-sm-facebook icon-block icon-size-0">
+<svg><use xlink:href="#sm-facebook"></use></svg>
+</span>
+</a>
+<a class="btn btn-xs btn-outline-secondary btn-only-icon" href="https://twitter.com/infojobscombr" title="Twitter Infojobs">
+<span class="icon icon-sm-twitter icon-block icon-size-0">
+<svg><use xlink:href="#sm-twitter"></use></svg>
+</span>
+</a>
+<a class="btn btn-xs btn-outline-secondary btn-only-icon" href="https://www.youtube.com/user/InfoJobscombr" title="Youtube Infojobs">
+<span class="icon icon-sm-youtube icon-block icon-size-0">
+<svg><use xlink:href="#sm-youtube"></use></svg>
+</span>
+</a>
+<a class="btn btn-xs btn-outline-secondary btn-only-icon" href="https://www.linkedin.com/company/infojobs" title="Linkedin Infojobs">
+<span class="icon icon-sm-linkedin icon-block icon-size-0">
+<svg><use xlink:href="#sm-linkedin"></use></svg>
+</span>
+</a>
+<a class="btn btn-xs btn-outline-secondary btn-only-icon" href="https://www.instagram.com/infojobsbr/" title="Instagram Infojobs">
+<span class="icon icon-sm-ig icon-block icon-size-0">
+<svg><use xlink:href="#sm-ig"></use></svg>
+</span>
+</a>
+</div>
+<div class="d-flex">
+<a class="btn btn-xs btn-dark btn-large-icon btn-with-additional-text" href="https://play.google.com/store/apps/details?id=com.infojobs.phone&amp;hl=en_US&amp;utm_source=infojobs_organic&amp;utm_campaign=botones_footer&amp;utm_medium=promo_www&amp;referrer=origenvisita%3D644">
+<span class="icon icon-googleplay icon-block mr-8 icon-color icon-size-0">
+<svg><use xlink:href="#googleplay"></use></svg>
+</span>
+<span class="btn-text">
+<span class="btn-additional-text">
+                    DISPONÍVEL NO
+                </span>
+<br/>
+            Google Play
+        </span>
+</a>
+<a class="btn btn-xs btn-dark btn-large-icon btn-with-additional-text ml-8" href="https://apps.apple.com/br/app/infojobs-vagas-de-emprego/id981457216">
+<span class="icon icon-apple-logo icon-block mr-8 icon-color icon-size-0">
+<svg><use xlink:href="#apple-logo"></use></svg>
+</span>
+<span class="btn-text">
+<span class="btn-additional-text">
+                    DISPONÍVEL NA
+                </span>
+<br/>
+            App Store
+        </span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="overlay js_loadingOverlay" hidden="">
+<div class="w-100 h-100 d-flex align-items-center justify-content-center text-white">
+<div class="spinner spinner-lg">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" data-keyboard="false" id="MediaZoomPhoto" tabindex="-1">
+<a class="text-white position-fixed right-0 top-0 m-24 p-8 bg-black-50 rounded-circle" data-dismiss="modal" role="button" style="z-index:10">
+<span class="icon icon-x icon-block icon-size-16">
+<svg><use xlink:href="#x"></use></svg>
+</span>
+</a>
+<div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal-content-transparent">
+<div class="modal-inner-content m-auto">
+<img class="m-auto img-fluid js_mediaSrc" style="object-fit: contain;max-height:80vh;"/>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="modal fade" data-keyboard="false" id="MediaZoomVideo" tabindex="-1">
+<a class="text-white position-fixed right-0 top-0 m-24 p-8 bg-black-50 rounded-circle" data-dismiss="modal" role="button" style="z-index:10">
+<span class="icon icon-x icon-block icon-size-16">
+<svg><use xlink:href="#x"></use></svg>
+</span>
+</a>
+<div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal-content-transparent">
+<div class="modal-inner-content embed-responsive embed-responsive-16by9">
+<iframe allowfullscreen="" class="js_mediaSrc" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+</div>
+<svg hidden="" xmlns="http://www.w3.org/2000/svg">
+<symbol id="x-circle" viewbox="0 0 24 24">
+<path d="M12 22.667C6.112 22.66 1.34 17.889 1.333 12 1.333 6.118 6.118 1.333 12 1.333 17.889 1.34 22.66 6.112 22.667 12 22.66 17.889 17.889 22.66 12 22.667zm0-19.2c-4.705 0-8.533 3.828-8.533 8.533S7.295 20.533 12 20.533s8.533-3.828 8.533-8.533S16.705 3.466 12 3.467zm4.438 3.907c.168.141.334.323.418.524a.974.974 0 0 1 0 .764c-.246.618-1.075 1.176-1.528 1.626L13.602 12l2.116 2.116c.63.63 1.746 1.438.86 2.368-.915.963-1.664.033-2.336-.639L12 13.603l-2.116 2.114c-.633.634-1.436 1.741-2.371.858-.966-.911-.032-1.668.638-2.336L10.398 12l-1.581-1.581c-.497-.497-1.379-1.096-1.661-1.768a.992.992 0 0 1 0-.764c.121-.291.451-.619.741-.741.244-.099.521-.103.764 0 .618.247 1.176 1.075 1.626 1.528l1.712 1.724 1.985-1.986c.586-.585 1.541-1.928 2.449-1.039l.005.001z"></path>
+</symbol>
+<symbol id="x" viewbox="0 0 24 24">
+<path d="m20.627 4.764-1.391-1.391a1.01 1.01 0 0 0-1.413 0L12 9.196 6.177 3.373a1.009 1.009 0 0 0-1.413 0L3.373 4.764a1.009 1.009 0 0 0 0 1.413L9.196 12l-5.823 5.823a1.01 1.01 0 0 0 0 1.413l1.391 1.391a1.005 1.005 0 0 0 1.413 0L12 14.807l5.823 5.82c.381.389 1.03.382 1.413 0l1.391-1.391a1.008 1.008 0 0 0 0-1.413L14.805 12l5.822-5.823a1.005 1.005 0 0 0 0-1.413z"></path>
+</symbol>
+<symbol id="arrow-bottom" viewbox="0 0 24 24">
+<path d="M21.945 9.163c-1.721 1.524-3.441 3.05-5.164 4.575l-3.209 2.842c-.549.485-1.27 1.399-2.087.91-.614-.358-1.148-.994-1.676-1.461l-3.466-3.07-3.251-2.881c-.399-.353-1.167-.822-1.304-1.385-.224-.869 1.243-2.436 2.074-2.316.778.106 1.647 1.211 2.193 1.684l5.947 5.158c1.951-1.654 3.9-3.309 5.851-4.962.658-.559 1.328-1.321 2.088-1.746 1.114-.612 3.024 1.737 2.004 2.652z"></path>
+</symbol>
+<symbol id="buildings" viewbox="0 0 24 24">
+<path d="M22.887 0C23.5 0 24 .537 24 1.2v21.601c0 .662-.5 1.199-1.113 1.199h-7.801c-.615 0-1.113-.537-1.113-1.199V1.2c0-.663.498-1.2 1.113-1.2h7.801zM6.686 0v2.4h2.229c.615 0 1.114.537 1.114 1.199V22.8c0 .662-.499 1.199-1.114 1.199h-7.8C.499 24 0 23.463 0 22.801V3.6c0-.662.499-1.2 1.114-1.2h3.343V0h2.229zM7.8 4.8H2.229v16.8h1.114v-2.4h3.343v2.4H7.8V4.8zm13.971-2.4h-5.572v19.2h1.115v-2.4h3.342v2.4h1.115V2.4zm-1.115 12v2.4h-3.342v-2.4h3.342zM6.686 12v2.4H3.343V12h3.343zm13.97-2.4V12h-3.342V9.6h3.342zM6.686 7.2v2.4H3.343V7.2h3.343zm13.97-2.4v2.4h-3.342V4.8h3.342z"></path>
+</symbol>
+<symbol id="star" viewbox="0 0 24 24">
+<path d="m17.73 14.568 4.869-4.412a1.223 1.223 0 0 0-.825-2.128H16.04l-2.933-6.32a1.219 1.219 0 0 0-2.215.001L7.96 8.03H2.222a1.223 1.223 0 0 0-.822 2.128l4.87 4.412-1.963 6.873a1.218 1.218 0 0 0 1.852 1.349l5.84-3.891 5.84 3.891c.206.142.44.208.677.208a1.218 1.218 0 0 0 1.174-1.556l-1.963-6.875h.003z"></path>
+</symbol>
+<symbol id="user-home" viewbox="0 0 24 24">
+<path d="M12.012 0a2.4 2.4 0 0 1 1.691.708l9.598 9.601c.684.686.887 1.715.516 2.608A2.392 2.392 0 0 1 21.61 14.4h-1.2v9.601h-2.398V13.199c0-.662.535-1.199 1.199-1.199h2.398l-9.598-9.6L2.414 12h2.399a1.2 1.2 0 0 1 1.199 1.199v10.802H3.613V14.4H2.414a2.399 2.399 0 0 1-1.692-4.116l9.599-9.6A2.395 2.395 0 0 1 12.012 0zM12 13c2.07 0 3.75 1.809 3.75 4.039v1.615c0 .445-.336.807-.75.807h-.75v3.231c0 .447-.336.809-.75.809h-3c-.414 0-.75-.361-.75-.809v-3.231H9c-.414 0-.75-.361-.75-.807v-1.615C8.25 14.809 9.929 13 12 13zm0 1.5c-1.242 0-2.25 1.119-2.25 2.5v.832h.75c.414 0 .75.375.75.836v3.333h1.5v-3.333c0-.461.336-.836.75-.836h.75V17c0-1.381-1.008-2.5-2.25-2.5zm0-7a2.25 2.25 0 1 1-.002 4.502A2.25 2.25 0 0 1 12 7.5zM12 9a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5z"></path>
+</symbol>
+<symbol id="disability" viewbox="0 0 24 24">
+<path d="M18.743 15.154c-.009-.036-.021-.102-.031-.15l.031.15zM18.748 15.18l-.005-.024a.585.585 0 0 1 .005.024zM18.712 15.004c-.021-.094-.013-.065 0 0z"></path><path d="M20.949 20.109c-.198-.521-.842-.409-1.277-.409l-.924-4.521c-.111-.541-.648-.979-1.2-.979h-2.854A6.115 6.115 0 0 0 12.74 12h3.888a.998.998 0 0 0 .999-.999c.047-.611-.34-1.201-.999-1.201h-5.751V7.397c1.307-.456 2.25-1.664 2.25-3.097 0-1.82-1.514-3.3-3.375-3.3S6.375 2.48 6.375 4.3c0 1.432.943 2.641 2.25 3.096v3.532C5.472 11.206 3 13.794 3 16.95 3 20.291 5.771 23 9.187 23c3.417 0 6.188-2.709 6.188-6.05 0-.187-.011-.368-.027-.55h1.355l.961 4.701c.213 1.012 2.409 1.151 3.043.506.313-.312.426-1.08.242-1.498zM7.7 4.25c0-1.129.921-2.05 2.05-2.05s2.05.921 2.05 2.05-.92 2.05-2.05 2.05S7.7 5.379 7.7 4.25zM9.15 21.2a4.25 4.25 0 1 1 0-8.5 4.25 4.25 0 0 1 0 8.5z"></path>
+</symbol>
+<symbol id="arrow-left" viewbox="0 0 24 24">
+<path d="M13.799 1.757 9.354 6.931l-2.853 3.322c-.415.482-1.301 1.205-1.167 1.923.119.645.945 1.313 1.343 1.775l2.924 3.404 2.959 3.444c.429.5.838 1.132 1.354 1.55.875.672 2.25-.642 2.617-1.389.403-.916-.913-1.986-1.429-2.6l-5.354-6.362 4.945-6.015c.539-.657 1.238-1.315 1.681-2.044.919-1.109-1.626-3.282-2.575-2.182z"></path>
+</symbol>
+<symbol id="arrow-right" viewbox="0 0 24 24">
+<path d="m10.188 2.708 4.568 5.076 2.839 3.155c.486.541 1.419 1.27.912 2.083-.349.617-1.021 1.16-1.487 1.681l-3.111 3.457-2.874 3.194c-.505.562-1.178 1.627-2.067 1.101-.771-.452-2.094-1.58-1.279-2.506l1.917-2.177 4.644-5.271L8.9 6.29c-.434-.502-1.379-1.25-1.467-1.967-.125-1.061 1.955-2.508 2.755-1.615 0 0-.042-.047 0 0z"></path>
+</symbol>
+<symbol id="arrows-top-bottom" viewbox="0 0 24 24">
+<path d="m12.922 3.69 2.573 2.027c.824.649 1.855 1.259 2.573 2.027.635.5.321 1.465-.411 1.657-.553.159-.952-.173-1.356-.478L12.82 6.298c-.147-.111-.631-.621-.824-.621-.223 0-.788.607-.957.738-1.122.863-2.243 1.727-3.363 2.591-.427.329-.897.566-1.443.323-.669-.287-.853-1.16-.255-1.631l2.921-2.301c.985-.775 2.667-2.724 4.023-1.707 0 0-.067-.05 0 0zm-1.856 17.398-2.574-2.026c-.824-.648-1.856-1.258-2.573-2.026-.638-.51-.318-1.456.412-1.656.556-.15.946.171 1.354.478l3.482 2.624c.147.111.631.621.824.621.223 0 .788-.607.957-.737l3.362-2.592c.43-.331.893-.558 1.443-.323.659.3.861 1.153.255 1.631l-2.922 2.301c-.959.754-2.696 2.748-4.02 1.705 0 0 .067.053 0 0z"></path>
+</symbol>
+<symbol id="person-with-headphones" viewbox="0 0 24 24">
+<path d="M19.266 7.5H20.4c1.158 0 2.1.896 2.1 2v2c0 1.104-.941 2-2.1 2h-3.15v-5c0-2.757-2.355-5-5.25-5s-5.25 2.243-5.25 5v5H3.6c-1.158 0-2.1-.896-2.1-2v-2c0-1.104.942-2 2.1-2h1.134c.511-3.387 3.57-6 7.266-6 3.695 0 6.755 2.613 7.266 6zm-2.766 3C16.5 8.02 14.482 6 12 6s-4.5 2.02-4.5 4.5c0 2.482 2.018 4.5 4.5 4.5-3.309 0-6 2.883-6 6.429V22.5h12v-1.071C18 17.883 15.309 15 12 15c2.482 0 4.5-2.018 4.5-4.5zm-6.75 0A2.251 2.251 0 0 1 12 8.25c1.24 0 2.25 1.008 2.25 2.25 0 1.241-1.01 2.25-2.25 2.25a2.252 2.252 0 0 1-2.25-2.25zm-6.15 1h1.05v-2H3.6v2zm15.75 0h1.052l-.001-2H19.35v2zM8.126 20.357c.445-1.846 2.013-3.215 3.874-3.215 1.859 0 3.428 1.369 3.873 3.215H8.126z"></path>
+</symbol>
+<symbol id="share" viewbox="0 0 24 24">
+<path d="M18.333 20.667A2.335 2.335 0 0 1 16 18.333 2.335 2.335 0 0 1 18.333 16a2.335 2.335 0 0 1 2.334 2.333 2.335 2.335 0 0 1-2.334 2.334m-12.8-6.269a2.334 2.334 0 1 1 .001-4.667 2.334 2.334 0 0 1-.001 4.667m12.8-11.065a2.334 2.334 0 0 1 0 4.667 2.334 2.334 0 0 1 0-4.667m.065 10.8a4.235 4.235 0 0 0-3.198 1.475l-5.43-2.715c.061-.289.096-.587.096-.893s-.035-.604-.097-.892L15.2 8.393a4.237 4.237 0 0 0 3.198 1.474 4.272 4.272 0 0 0 4.269-4.266 4.271 4.271 0 0 0-4.269-4.267 4.271 4.271 0 0 0-4.267 4.267c0 .306.036.604.099.892L8.799 9.208A4.234 4.234 0 0 0 5.6 7.733 4.272 4.272 0 0 0 1.333 12 4.272 4.272 0 0 0 5.6 16.268c1.28 0 2.417-.578 3.199-1.476l5.432 2.716a4.242 4.242 0 0 0-.098.893c0 2.354 1.914 4.268 4.268 4.268s4.268-1.914 4.268-4.268a4.275 4.275 0 0 0-4.271-4.268"></path>
+</symbol>
+<symbol id="printer" viewbox="0 0 24 24">
+<path d="M19.352 8.25H17.25v1.874H6.75V8.249h-2.1c-1.736 0-3.15 1.262-3.15 2.813V19.5h3.15v3.75h14.702V19.5H22.5v-8.437c0-1.551-1.414-2.813-3.148-2.813zM17.25 21.375H6.75v-3.75h10.5v3.75zm3.15-3.75h-1.049V15.75H4.65v1.876H3.6v-6.563c0-.518.472-.938 1.05-.938V12h14.702v-1.876c.578 0 1.049.42 1.049.938v6.563H20.4zM6.643 2.75h10.714v4H19.5v-6h-15v6h2.143z"></path><circle cx="17.25" cy="13.5" r=".75"></circle>
+</symbol>
+<symbol id="exclamation-circle" viewbox="0 0 24 24">
+<path d="M12 1c6.066 0 11 4.935 11 11 0 6.068-4.934 11-11 11-6.067 0-11-4.932-11-11C1 5.935 5.934 1 12 1zm0 2.2c-4.853 0-8.8 3.948-8.8 8.8 0 4.854 3.947 8.801 8.8 8.801 4.852 0 8.798-3.947 8.798-8.8.001-4.852-3.946-8.8-8.798-8.8zM12 15A1.5 1.5 0 1 1 11.999 18 1.5 1.5 0 0 1 12 15zm1.002-10v8.001H11v-8h2.002z"></path>
+</symbol>
+<symbol id="sm-facebook" viewbox="0 0 24 24">
+<path d="M17.344 4.922s-1.374-.234-2.687-.234c-2.741 0-4.532 1.661-4.532 4.668V12H7.078v3.469h3.047v8.385C4.388 22.954 0 17.99 0 12 0 5.372 5.372 0 12 0c6.627 0 12 5.372 12 12 0 5.99-4.389 10.954-10.125 11.854v-8.385h2.797L17.203 12h-3.328V9.749c0-.949.466-1.874 1.955-1.874h1.514V4.922z"></path>
+</symbol>
+<symbol id="sm-twitter" viewbox="0 0 24 24">
+<path d="M3 18.348c1.341.088 2.649-.123 3.869-.686a7.015 7.015 0 0 0 1.558-.939 3.743 3.743 0 0 1-1.611-.412c-.829-.416-1.416-1.103-1.766-2.008-.081-.197-.081-.197.135-.185.593.055 1.031.041 1.362-.097-.317-.108-.62-.172-.876-.35-1.233-.686-1.894-1.769-2.002-3.208-.013-.171.034-.192.182-.117.432.24.91.356 1.456.411-.236-.226-.445-.397-.627-.583-1.026-1.121-1.269-2.91-.588-4.274.095-.184.128-.184.249-.04 1.733 2.028 3.883 3.255 6.478 3.673.263.055.553.062.822.103.189.034.202-.048.182-.199a3.797 3.797 0 0 1 1.84-3.948c1.409-.836 3.242-.568 4.368.556.135.116.263.15.41.103a6.924 6.924 0 0 0 1.963-.781.349.349 0 0 0 .154-.096c-.264.891-.789 1.542-1.563 2.084.715-.076 1.36-.289 2.002-.542.014.096-.054.15-.095.226a7.338 7.338 0 0 1-1.536 1.597c-.115.096-.142.158-.142.308.047 2.762-.824 5.229-2.563 7.369-1.632 1.953-3.715 3.125-6.202 3.543-2.629.41-5.103-.041-7.381-1.467-.024-.022-.058-.041-.078-.041"></path>
+</symbol>
+<symbol id="sm-youtube" viewbox="0 0 24 24">
+<path d="M19.303 5.25H5.448c-1.764 0-3.198 1.457-3.198 3.257v7.735c0 1.798 1.434 3.258 3.198 3.258h13.854c1.769 0 3.197-1.46 3.197-3.258V8.507c.001-1.8-1.431-3.257-3.196-3.257zM9.75 16.5V9l6 3.75-6 3.75z"></path>
+</symbol>
+<symbol id="sm-linkedin" viewbox="0 0 24 24">
+<path d="M22.227 0C23.206 0 24 .771 24 1.719V22.28c0 .948-.794 1.72-1.773 1.72H1.774C.795 24 0 23.229 0 22.281V1.719C0 .771.795 0 1.774 0h20.453zM6.953 9.144H3.986V19.5h2.967V9.144zm9.067.02c-1.717 0-2.867.836-3.34 1.63h-.047v-1.38H9.25V19.5h3.525v-4.989c0-1.313.281-2.589 2.115-2.589 1.809 0 1.834 1.505 1.834 2.674V19.5h3.524v-5.531c.002-2.717-.657-4.805-4.228-4.805zM5.47 4.5c-.951 0-1.72.725-1.72 1.613 0 .892.769 1.617 1.72 1.617.949 0 1.718-.725 1.718-1.617 0-.888-.769-1.613-1.718-1.613z"></path>
+</symbol>
+<symbol id="sm-ig" viewbox="0 0 24 24">
+<path d="M18.641 3H5.397c-1.579 0-2.393.825-2.393 2.411C2.998 6.875 3 8.34 3.002 9.805l.002 2.193-.002 2.22c-.002 1.477-.004 2.956.001 4.436 0 1.504.838 2.344 2.328 2.344 2.957.004 5.914.002 8.872 0h4.438c1.541 0 2.359-.825 2.359-2.375V5.383c0-1.548-.816-2.381-2.359-2.383zm-6.263 6c1.832.003 3.388 1.568 3.372 3.393-.021 1.835-1.584 3.386-3.41 3.357-1.836-.025-3.377-1.607-3.339-3.426C9.046 10.502 10.572 9 12.378 9zm5.333 9.75H6.302c-.799 0-1.031-.238-1.034-1.036-.001-.644 0-1.287.002-1.93.004-1.519.008-3.032-.02-4.549-.008-.602.174-.742.726-.709.414.022.617.023.704.125.083.097.061.283.016.664l-.001.012c-.315 2.767 1.55 5.375 4.23 5.922 2.728.556 5.47-1.126 6.228-3.808.233-.84.281-1.694.115-2.543-.06-.292.004-.351.278-.366l.045-.003c.568-.038.857-.057 1.007.079.151.141.151.447.151 1.07v6.036h.001c-.005.804-.236 1.036-1.039 1.036zM16.895 9C15 9 15 9 15 7.138c0-1.888 0-1.888 1.861-1.888 1.889 0 1.889 0 1.889 1.921C18.75 9 18.75 9 16.895 9z"></path>
+</symbol>
+<symbol id="googleplay" viewbox="0 0 24 24">
+<path d="M3.086 1.397a.608.608 0 0 0-.41.575v20.056c0 .277.177.491.404.573l10.654-10.605L3.086 1.397z" fill="#00D6FF"></path><path d="M16.736 9.009 3.588 1.444a.6.6 0 0 0-.503-.048l10.649 10.6 3.002-2.987z" fill="#00F076"></path><path d="m3.588 22.557 13.153-7.567-3.007-2.993L3.08 22.602a.61.61 0 0 0 .508-.045" fill="#FF3A44"></path><path d="m16.741 14.989 4.278-2.461a.61.61 0 0 0 0-1.057l-4.283-2.462-3.002 2.987 3.007 2.993z" fill="#FFD000"></path>
+</symbol>
+<symbol id="apple-logo" viewbox="0 0 24 24">
+<path d="M21.824 17.341c-.537 1.191-.793 1.725-1.484 2.775-.966 1.469-2.324 3.297-4.011 3.314-1.498.01-1.881-.977-3.912-.965-2.033.01-2.457.98-3.955.967-1.685-.014-2.973-1.667-3.938-3.134-2.697-4.108-2.979-8.925-1.316-11.49 1.184-1.821 3.046-2.887 4.8-2.887 1.786 0 2.909.979 4.385.979 1.433 0 2.306-.981 4.369-.981 1.563 0 3.214.85 4.395 2.32-3.862 2.115-3.234 7.629.667 9.102M15.198 4.279c.75-.962 1.321-2.322 1.113-3.712-1.225.084-2.657.864-3.494 1.879-.76.923-1.387 2.292-1.144 3.622 1.338.042 2.723-.757 3.525-1.789" fill="#FFF"></path>
+</symbol>
+<symbol id="play-circle" viewbox="0 0 24 24">
+<path d="M12 .75C18.204.75 23.25 5.797 23.25 12c0 6.204-5.046 11.25-11.25 11.25S.75 18.204.75 12C.75 5.797 5.796.75 12 .75zM12 3c-4.962 0-9 4.038-9 9 0 4.963 4.038 9 9 9 4.963 0 9-4.037 9-9 0-4.962-4.037-9-9-9zM9.42 6.598a.76.76 0 0 1 .396.112l7.577 4.697a.75.75 0 0 1 0 1.275L9.816 17.38a.751.751 0 0 1-1.145-.639V7.348a.748.748 0 0 1 .749-.75z"></path>
+</symbol>
+<symbol id="magnifying-glass-sync" viewbox="0 0 24 24">
+<path d="M10.145 2.13a8 8 0 0 0-8 8 7.94 7.94 0 0 0 2.351 5.649l2.649-2.648v6h-6l1.939-1.939a9.916 9.916 0 0 1-2.939-7.061c0-5.522 4.478-10 10-10V2.13zm7.71 14.29 6 6-1.394 1.449-5.999-6a9.914 9.914 0 0 1-6.319 2.26v-1.998a7.995 7.995 0 0 0 7.375-4.939 7.994 7.994 0 0 0-1.729-8.709L13.146 7.13v-6h6l-1.974 1.91a10 10 0 0 1 .683 13.38z"></path>
+</symbol>
+<symbol id="flame-solid" viewbox="0 0 24 24">
+<path d="M7.56 23.896c-2.12-.924-3.803-2.899-4.503-5.287-.854-2.911-.914-5.549.487-8.775.23-.466.523-.891.858-1.285.185-.19.382-.369.652-.465a1.235 1.235 0 0 1 1.156.179c.311.243.444.61.373.957-.191 1.709 1.378 2.987 1.695 3.794-.136-1.434-.197-3.175.048-4.688 1.067-6.6 5.806-8.2 6.009-8.266a1.23 1.23 0 0 1 1.144.205.948.948 0 0 1 .336 1.002c-.004.017-.733 3.176 3.498 8.67 2.063 2.683 2.731 5.757 1.879 8.667-.699 2.386-2.385 4.361-4.504 5.287a1.237 1.237 0 0 1-1.297-.197c-.341-.311-.429-.777-.211-1.166 1.152-2.088.445-5.072-.356-6.559-.026.305-.073.6-.14.885-.397 1.715-1.916 2.965-3.87 3.187a5.035 5.035 0 0 1-2.653-.405c-.459 1.654.879 2.852.886 2.864a.936.936 0 0 1-.173 1.186 1.193 1.193 0 0 1-.82.314c-.167 0-.336-.033-.494-.104z"></path>
+</symbol>
+<symbol id="check-circle" viewbox="0 0 24 24">
+<path d="M12 22.667C6.112 22.66 1.34 17.889 1.333 12 1.34 6.112 6.112 1.34 12 1.333 17.889 1.34 22.66 6.112 22.667 12 22.66 17.889 17.889 22.66 12 22.667zm0-19.2A8.55 8.55 0 0 0 3.467 12 8.551 8.551 0 0 0 12 20.534 8.551 8.551 0 0 0 20.534 12 8.551 8.551 0 0 0 12 3.467zM10.16 13.97l3.005-3.066 1.981-2.023c.338-.344.715-.857 1.174-1.048.158-.067.33-.101.504-.099.35-.001.684.144.923.4 1.452 1.439-1.892 3.882-2.748 4.763l-2.73 2.805c-.443.455-.973 1.22-1.584 1.473a1.324 1.324 0 0 1-.534.104c-.183 0-.364-.035-.533-.106-.913-.374-1.75-1.687-2.405-2.374-.738-.773-2.095-1.865-.982-2.975.361-.382.937-.5 1.42-.293.955.407 1.786 1.728 2.487 2.464l.01-.022.014.004-.002-.007z"></path>
+</symbol>
+<symbol id="search" viewbox="0 0 24 24">
+<path d="m16.745 15.514 5.226 5.227a.996.996 0 0 1 0 1.412l-.143.144a1 1 0 0 1-1.413 0L15.2 17.068a8.72 8.72 0 0 1-5.4 1.854c-2.35 0-4.56-.915-6.222-2.578A8.737 8.737 0 0 1 1 10.123a8.741 8.741 0 0 1 2.578-6.222A8.739 8.739 0 0 1 9.8 1.323c2.35 0 4.56.915 6.222 2.578a8.733 8.733 0 0 1 2.578 6.222 8.722 8.722 0 0 1-1.855 5.391zM5.134 14.8A6.556 6.556 0 0 0 9.8 16.733a6.55 6.55 0 0 0 4.666-1.933 6.562 6.562 0 0 0 1.935-4.667 6.55 6.55 0 0 0-1.935-4.666A6.555 6.555 0 0 0 9.8 3.523a6.549 6.549 0 0 0-4.666 1.934A6.549 6.549 0 0 0 3.2 10.123c0 1.763.686 3.42 1.934 4.667v.01z"></path>
+</symbol>
+<symbol id="location" viewbox="0 0 24 24">
+<path d="M12 23c-2.36-3.197-7-9.889-7-13.887C5 5.2 8.14 2 12 2c3.859 0 7 3.2 7 7.113 0 4-4.641 10.7-7 13.887zm0-18.968c-2.757 0-5 2.28-5 5.08 0 2.633 3.107 7.707 5 10.457 1.893-2.752 5-7.824 5-10.457 0-2.8-2.243-5.08-5-5.08zM12 11c-1.287 0-2.333-1-2.333-2.25S10.713 6.5 12 6.5s2.334 1 2.334 2.25S13.287 11 12 11zm0-3c-.43 0-.778.337-.778.75s.35.75.778.75.777-.336.777-.75S12.43 8 12 8z"></path>
+</symbol>
+<symbol id="info" viewbox="0 0 24 24">
+<path d="M12 23C5.934 23 1 18.066 1 12S5.934 1 12 1s11 4.935 11 11c0 6.064-4.934 11-11 11zm0-19.8c-4.852 0-8.8 3.948-8.8 8.8s3.948 8.8 8.8 8.8 8.8-3.948 8.8-8.8-3.948-8.8-8.8-8.8zM12 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm1.666 6.715v-4.572c0-.63-.52-1.143-1.166-1.143h-2.333v2.286h1.167v3.43H9V17h7v-2.285h-2.334z"></path>
+</symbol>
+<symbol id="arrow-solid-bottom" viewbox="0 0 24 24">
+<path d="m1.45 6.8 9.485 10.841c1.151 1.314 1.937.221 2.801-.77 1.986-2.27 3.973-4.538 5.957-6.807l2.377-2.716c.305-.348.727-.702.727-1.203.057-1.37-2.066-1.002-2.859-1.002H3.101c-.404 0-.931-.08-1.313.09A1.01 1.01 0 0 0 1.45 6.8z"></path>
+</symbol>
+<symbol id="check" viewbox="0 0 24 24">
+<path d="M18.514 4.738 9.243 14.2l-2.486-2.61c-.488-.512-1.252-1.724-2.094-1.638-.423.043-.67.355-.943.642-.392.412-1.048.888-1.266 1.433-.356.897.922 1.814 1.449 2.368l3.264 3.426c.461.484 1.097 1.48 1.783 1.691.634.211 1.037-.275 1.426-.674l2.294-2.355 7.699-7.906c.577-.593 1.804-1.496.952-2.389-.596-.627-1.785-2.472-2.807-1.45z"></path>
+</symbol>
+<symbol id="arrow-solid-top" viewbox="0 0 24 24">
+<path d="M22.551 17.201 13.067 6.36c-1.151-1.315-1.938-.22-2.803.769l-5.956 6.809c-.792.904-1.584 1.811-2.377 2.715-.305.347-.728.702-.728 1.202 0 1.371 2.02 1.002 2.861 1.002H20.9c.401 0 .935.082 1.313-.092.598-.269.773-1.074.338-1.564z"></path>
+</symbol>
+<symbol id="salary" viewbox="0 0 24 24">
+<path d="M15.086 2.571c.567 0 1.028.445 1.028.993v1.985h2.058v-.992h2.057v.992c1.135 0 2.057.89 2.057 1.985v11.91c0 1.095-.922 1.985-2.057 1.985H3.771c-1.135 0-2.057-.891-2.057-1.985V7.534c0-1.095.922-1.985 2.057-1.985v-.992h2.057v.992h2.057V3.564c0-.548.461-.993 1.028-.993h6.173zm5.143 4.963H3.771v11.91h16.457V7.534zm-7.201.695v1.048h2.058v2.095h-3.6a.518.518 0 0 0-.514.523c0 .29.23.524.514.524h1.028c1.418 0 2.572 1.176 2.572 2.619 0 1.265-.885 2.323-2.058 2.565v1.102h-2.057v-1.048H8.914v-2.095h3.6c.285 0 .515-.235.515-.524s-.229-.524-.515-.524h-1.028c-1.417 0-2.572-1.175-2.572-2.619 0-1.264.885-2.322 2.058-2.565V8.229h2.056zm1.029-3.672H9.943v.992h4.114v-.992z"></path>
+</symbol>
+<symbol id="ring-bell-ringing" viewbox="0 0 24 24">
+<path d="M15.648 20.995C14.914 22.784 13.564 24 12 24c-1.563 0-2.915-1.216-3.649-3.005h7.297zM12 2.967c3.489 0 6.327 2.965 6.327 6.611v3.126c0 1.608.98 3.03 2.441 3.541.431.15.72.557.72 1.013v.737c0 .828-.672 1.497-1.499 1.497H4.012c-.828 0-1.5-.669-1.5-1.497v-.737c0-.406.229-.772.584-.953l.139-.06c1.459-.511 2.439-1.933 2.439-3.541V9.578c0-3.646 2.838-6.611 6.326-6.611zm0 2.204c-2.323 0-4.216 1.977-4.216 4.407v3.126c0 1.816-.785 3.48-2.072 4.585H18.29c-1.286-1.104-2.072-2.769-2.072-4.585V9.578c-.001-2.43-1.892-4.407-4.218-4.407zM15.801 0c4.75 1.67 7.839 6.227 7.51 11.083l-1.886-.137c.276-4.046-2.298-7.844-6.258-9.235L15.801 0zM8.202 0l.631 1.711C4.874 3.102 2.3 6.899 2.575 10.946l-1.885.137C.36 6.225 3.448 1.669 8.202 0z"></path>
+</symbol>
+<symbol id="plus" viewbox="0 0 24 24">
+<path d="M22.817 12.413c0-.954-.027-2.061-1.208-2.295a1.461 1.461 0 0 0-.291-.029h-7.405V2.682c0-.099-.011-.196-.03-.292-.336-1.656-3.449-1.691-3.765 0-.02.097-.029.195-.029.292v7.405H2.682c-.097 0-.196.01-.292.029-1.673.34-1.673 3.428 0 3.767.096.019.193.03.292.03l7.405.001.002 7.405c0 .098.01.195.028.293.14.693.761 1.208 1.47 1.208.955 0 2.066-.028 2.297-1.208.02-.096.03-.194.03-.291v-7.409h7.407a1.506 1.506 0 0 0 1.495-1.5s0 .1 0 0z"></path>
+</symbol>
+<symbol id="building" viewbox="0 0 24 24">
+<path d="M22.8 0c.7 0 1.2.5 1.2 1.2v21.6c0 .7-.5 1.2-1.2 1.2H1.2C.5 24 0 23.5 0 22.8V1.2C0 .5.5 0 1.2 0h21.6zm-1.2 2.4H2.4v19.2h6V18c0-.7.5-1.2 1.2-1.2h4.8c.7 0 1.2.5 1.2 1.2v3.6h6V2.4zm-8.4 16.8h-2.4v2.4h2.4v-2.4zm-2.9-8.1v3.4H5.1v-3.4h5.2zm8.6 0v3.4h-5.1v-3.4h5.1zm-8.6-6v3.4H5.1V5.1h5.2zm8.6 0v3.4h-5.1V5.1h5.1z"></path>
+</symbol>
+<symbol id="suitcase" viewbox="0 0 24 24">
+<path d="M21.4 4.5V3.4H19v1.2h-2.4V2.2c0-.6-.6-1.2-1.2-1.2H8.3c-.6 0-1.1.5-1.1 1.2v2.3H4.8V3.4H2.4v1.2C1.2 4.5 0 5.6 0 6.8v13.8C0 21.9 1 23 2.4 23h19.1c1.3 0 2.4-1 2.4-2.3V6.8c0-1.2-1.1-2.3-2.5-2.3zm-11.9-1h4.8v1.2H9.5V3.5zM2.4 20.6V6.8h19.1v13.8H2.4z"></path>
+</symbol>
+<symbol id="house-and-building" viewbox="0 0 24 24">
+<path d="M23 0c.551 0 1 .45 1 1v18c0 .551-.449 1-1 1h-7.699l.004 2.211c0 .984-.813 1.789-1.801 1.789h-1.803A1.8 1.8 0 0 1 9.9 22.211v-2.213L8.098 20l.002 2.211A1.8 1.8 0 0 1 6.299 24H4.497a1.8 1.8 0 0 1-1.801-1.789v-5.367h-1.8a.891.891 0 0 1-.829-.555.899.899 0 0 1 .198-.977l5.733-5.704L6 1c0-.55.45-1 1-1h16zM9 9l-6 5.871h.537c.501 0 .91.402.91.891V22h1.821v-2.564c0-.49.41-.891.91-.891h3.643c.5 0 .91.4.91.891V22h1.821v-6.238c0-.488.408-.891.91-.891H15L9 9zm13-7H8l-.002 5.62.362-.358a.902.902 0 0 1 1.271 0l8.104 8.051c.262.26.334.645.199.977a.907.907 0 0 1-.828.555h-1.801L15.301 18H22V2zm-3.5 7a1.5 1.5 0 0 1 0 3h-1a1.5 1.5 0 0 1 0-3h1zm-6-5a1.5 1.5 0 0 1 0 3h-1a1.5 1.5 0 0 1 0-3h1zm6 0a1.5 1.5 0 0 1 0 3h-1a1.5 1.5 0 0 1 0-3h1z"></path>
+</symbol>
+<symbol id="document-plus" viewbox="0 0 24 24">
+<path d="M22.286 21.714c0 1.261-.94 2.285-2.095 2.285H5.524c-1.156 0-2.095-1.024-2.095-2.285V1.959C3.429.88 4.368 0 5.524 0h11.958l4.805 4.493-.001 17.221zm-2.095 0V5.878h-4.192V1.959H5.524v19.755h14.667z"></path><path d="M12.758 9.707c.426 0 .746.319.746.746v2.773h2.773c.426 0 .746.32.746.747s-.32.746-.746.746h-2.773v2.773c0 .427-.32.747-.746.747a.73.73 0 0 1-.748-.747V14.72H9.237c-.427 0-.747-.319-.747-.746s.32-.747.747-.747h2.773v-2.773a.73.73 0 0 1 .748-.747z"></path>
+</symbol>
+</svg>
+<script>
+    const atName = 'public_area_list_vacancies';
+    const atLevel2 = 1;
+    const atCustomVars = {
+            page: null
+        };
+
+</script>
+<!-- GTM -->
+<script>
+    function getIdVacancy() {
+        let idVacancy = 0;
+        if (/^\/vaga-/i.test(location.pathname)) {
+            var nums = location.pathname.match(/\d+/g);
+            if (nums) {
+                idVacancy = nums[nums.length - 1];
+            }
+        } else {
+            const urlParams = new URLSearchParams(location.search);
+            idVacancy = urlParams.get('iv') || urlParams.get('fk_') || 0;
+            if (!idVacancy) {
+                const idVacancyElement = document.querySelector('#lnkReportVacancy');
+                idVacancy = idVacancyElement && idVacancyElement.dataset['idvacancy'] || 0;
+            }
+        }
+        return idVacancy;
+    }
+    const webSections = { // Reference InfoJobs.Microfrontend.Utils.Enumerators.XitiLevel.cs
+        '1': 'home',
+        '3': 'public_static',
+        '15': 'web_mobile'
+    };
+
+    const user_id = '0';
+    const user_category = '0';
+    const idCompanyEncryptedElement =  document.querySelector('#IdCompanyEncrypted');
+    const idCompanyEncrypted = idCompanyEncryptedElement ? idCompanyEncryptedElement.value : '0';
+
+    window.dataLayerProps = {
+        'site_section': webSections[atLevel2],
+        'page_name': atName
+    };
+    if (user_id && user_id != '0') {
+        window.dataLayerProps.user_id = user_id;
+        if (user_category && user_category != '0') {
+            window.dataLayerProps.user_category = user_category;
+        }
+    }
+    if (idCompanyEncrypted) {
+        window.dataLayerProps.id_company = idCompanyEncrypted;
+    }
+    window.dataLayerProps.id_vacancy = getIdVacancy();
+    //
+    if (!window.dataLayer || !window.dataLayer.length) {
+        window.dataLayer = [];
+    }
+    window.dataLayer.push(window.dataLayerProps);
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJRF6LP');
+</script>
+<script src="https://accounts.google.com/gsi/client"></script>
+<div data-client_id="445241175380-reeapd4i0gkerf9gqkmhuo38ik8g1vbo.apps.googleusercontent.com" data-login_uri="https://www.infojobs.com.br/RedirectIdentityServer.aspx?returnUrl=https%3a%2f%2fwww.infojobs.com.br%2fvagas%3fpalabra%3dAcre%26provincia%3d165%26categoria%3d74" id="g_id_onload">
+</div>
+</body>
+</html>
+
+
+                                Vagas de Emprego de Acre de Informática, TI, Telecomunicações em Acre
+
+Catho.com:   0%|                                          | 0/27 [00:00<?, ?%/s]--------
+ ------
+Traceback (most recent call last):
+  File "C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas\scraper.py", line 323, in <module>
+    registro, dicionario = pega_pagina(estado_infojobs,"catho.com");
+  File "C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas\scraper.py", line 150, in pega_pagina
+    dicionario[elemento] = int(temp);
+ValueError: invalid literal for int() with base 10: '\r\n'
+Catho.com:   0%|                                          | 0/27 [00:00<?, ?%/s]
+
+C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas>python scraper.py --estados > test.txt
+  0%|                                                     | 0/27 [00:00<?, ?%/s]Traceback (most recent call last):
+  File "C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas\scraper.py", line 323, in <module>
+    registro, dicionario = pega_pagina(estado_infojobs,"catho.com");
+  File "C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas\scraper.py", line 136, in pega_pagina
+    temp = parse_catho_com(catalogo[elemento]);
+  File "C:\meus_arquivos\python_rapido\web scraping\vagas-scraper\git_vagas\scraper.py", line 84, in parse_catho_com
+    print(soup)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u3010' in position 276: character maps to <undefined>
+  0%|                                                     | 0/27 [00:00<?, ?%/s]
