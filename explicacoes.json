@@ -308,5 +308,15 @@
         "id":"React.js",
         "exp":"<p align='justify'>O React permite construir interfaces de usuário a partir de peças individuais chamadas componentes. Crie seus próprios componentes React como Thumbnail, LikeButton e Video. Em seguida, combine-os em telas, páginas e aplicativos inteiros.<br><br> Quer você trabalhe sozinho ou com milhares de outros desenvolvedores, usar o React parece o mesmo. Ele foi projetado para permitir que você combine perfeitamente componentes escritos por pessoas, equipes e organizações independentes.<br><br>React components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data.</p>",
         "pagina":"https://react.dev/"
+    },
+    {
+        "id":"jQuery",
+        "exp":"<p align='justify'>jQuery é uma biblioteca JavaScript rápida, pequena e rica em recursos. Ele torna coisas como travessia e manipulação de documentos HTML, manipulação de eventos, animação e Ajax muito mais simples com uma API fácil de usar que funciona em vários navegadores. Com uma combinação de versatilidade e extensibilidade, o jQuery mudou a forma como milhões de pessoas escrevem JavaScript.</p>",
+        "pagina":"https://jquery.com/"
+    },
+    {
+        "id":"Express.js",
+        "exp":"<p align='justify'>Framework web rápido, flexível e minimalista para Node.js:<ul><li><b>Aplicativos da Web</b>: O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</li><li><b>APIs</b>: Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil.</li><li><b>Desempenho</b>: O Express fornece uma camada fina de recursos fundamentais para aplicativos da web, sem obscurecer os recursos do Node.js que você conhece e ama.</li><li><b>LoopBack</b>: Desenvolva aplicativos orientado a modelos com um framework baseado em Express.Descubra mais em loopback.io.</li></ul></p>",
+        "pagina":"https://expressjs.com/pt-br/"
     }
 ]
