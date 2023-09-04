@@ -318,5 +318,25 @@
         "id":"Express.js",
         "exp":"<p align='justify'>Framework web rápido, flexível e minimalista para Node.js:<ul><li><b>Aplicativos da Web</b>: O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.</li><li><b>APIs</b>: Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil.</li><li><b>Desempenho</b>: O Express fornece uma camada fina de recursos fundamentais para aplicativos da web, sem obscurecer os recursos do Node.js que você conhece e ama.</li><li><b>LoopBack</b>: Desenvolva aplicativos orientado a modelos com um framework baseado em Express.Descubra mais em loopback.io.</li></ul></p>",
         "pagina":"https://expressjs.com/pt-br/"
+    },
+    {
+        "id":"Angular.js",
+        "exp":"<p align='justify'>HTML é ótimo para declarar documentos estáticos, mas falha quando tentamos usá-lo para declarar visualizações dinâmicas em aplicações web. AngularJS permite estender o vocabulário HTML para seu aplicativo. O ambiente resultante é extraordinariamente expressivo, legível e rápido de desenvolver.<br><br>Outras estruturas lidam com as deficiências do HTML abstraindo HTML, CSS e/ou JavaScript ou fornecendo uma maneira imperativa de manipular o DOM. Nenhuma delas resolve o problema raiz de que o HTML não foi projetado para visualizações dinâmicas.<br><br>AngularJS é um conjunto de ferramentas para construir a estrutura mais adequada ao desenvolvimento de sua aplicação. É totalmente extensível e funciona bem com outras bibliotecas. Cada recurso pode ser modificado ou substituído para atender ao seu fluxo de trabalho de desenvolvimento e necessidades de recursos exclusivos. Leia mais para descobrir como.</p>",
+        "pagina":"https://angularjs.org/"
+    },
+    {
+        "id":"Vue.js",
+        "exp":"<p align='justify'>Uma estrutura acessível, de alto desempenho e versátil para a construção de interfaces de usuário da web.<br><br><b>Acessível</b>: baseia-se em HTML, CSS e JavaScript padrão com API intuitiva e documentação de classe mundial.<br><br><b>Desempenho</b>: Sistema de renderização verdadeiramente reativo e otimizado pelo compilador que raramente requer otimização manual.<br><br><b>Versátil</b>: um ecossistema rico e adotável de forma incremental que pode ser dimensionado entre uma biblioteca e uma estrutura completa.</p>",
+        "pagina":"https://vuejs.org/"
+    },
+    {
+        "id":"ASP.NET",
+        "exp":"<p align='justify'>O .NET é uma plataforma de desenvolvedor composta por ferramentas, linguagens de programação e bibliotecas para criar muitos tipos diferentes de aplicativos.<br><br>A plataforma base fornece componentes que se aplicam a todos os diferentes tipos de aplicativos. Estruturas adicionais, como o ASP.NET, estendem o .NET com componentes para a criação de tipos específicos de aplicativos.<br><br>Aqui estão algumas coisas incluídas na plataforma .NET:<br><ul><li>As linguagens de programação C#, F# e Visual Basic</li><li>Bibliotecas base para trabalhar com cadeias de caracteres, datas, arquivos/es e muito mais</li><li>Editores e ferramentas para Windows, Linux, macOS, and Docker</li></ul></p>",
+        "pagina":"https://dotnet.microsoft.com/pt-br/apps/aspnet"
+    },
+    {
+        "id":".NET",
+        "exp":"<p align='justify'>.NET é uma plataforma de desenvolvedor gratuita, multiplataforma e de código aberto para a construção de muitos tipos diferentes de aplicativos.<br><br>Com o .NET, você pode usar vários idiomas, editores e bibliotecas para criar para Web, dispositivos móveis, desktop, jogos, IoT e muito mais.<br><ul><li><b>Cross Platform</b>: Se você está trabalhando em C# , F# ou Visual Basic, seu código será executado nativamente em qualquer sistema operacional compatível. Você pode criar vários tipos de aplicativos com .NET. Alguns são multiplataforma e outros são direcionados a um conjunto específico de sistemas operacionais e dispositivos.</li ><li><b>Uma API consistente</b>: o .NET fornece um conjunto padrão de bibliotecas de classes base e APIs que são comuns a todos os aplicativos .NET. Cada modelo de aplicativo também pode expor APIs adicionais que são específicas para a operação. sistemas em que é executado ou os recursos que ele oferece. Por exemplo, ASP.NET é a estrutura da Web de plataforma cruzada que fornece APIs adicionais para a criação de aplicativos da Web executados em Linux ou Windows.</li></ul</p> ",
+        "pagina":"https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet"
     }
 ]
