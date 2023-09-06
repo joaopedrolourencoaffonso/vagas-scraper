@@ -346,7 +346,22 @@
     },
     {
         "id":"Flask",
-        "exp":"<p align='justify'>Flask é um framework leve de aplicativo da web WSGI. Ele foi projetado para tornar o início rápido e fácil, com a capacidade de escalar para aplicações complexas. Começou como um simples wrapper em torno de Werkzeug e Jinja e se tornou uma das estruturas de aplicativos web Python mais populares.</p><p>O Flask oferece sugestões, mas não impõe nenhuma dependência ou layout do projeto. Cabe ao desenvolvedor escolher as ferramentas e bibliotecas que deseja utilizar. Existem muitas extensões fornecidas pela comunidade que facilitam a adição de novas funcionalidades.</p>",
+        "exp":"<p align='justify'>Flask é um framework leve de aplicativo da web WSGI. Ele foi projetado para tornar o início rápido e fácil, com a capacidade de escalar para aplicações complexas. Começou como um simples wrapper em torno de Werkzeug e Jinja e se tornou uma das estruturas de aplicativos web Python mais populares.</p><p align='justify'>O Flask oferece sugestões, mas não impõe nenhuma dependência ou layout do projeto. Cabe ao desenvolvedor escolher as ferramentas e bibliotecas que deseja utilizar. Existem muitas extensões fornecidas pela comunidade que facilitam a adição de novas funcionalidades.</p>",
         "pagina":"https://flask.palletsprojects.com/en/2.3.x/"
+    },
+    {
+        "id":"Next.js",
+        "exp":"<p align='justify'>Usado por algumas das maiores empresas do mundo, Next.js permite que você crie aplicativos Web full-stack, estendendo os recursos mais recentes do React e integrando poderosas ferramentas JavaScript baseadas em Rust para compilações mais rápidas.</p><p align='justify'>Você pode usar o React para construir sua UI e, em seguida, adotar gradualmente os recursos do Next.js para resolver requisitos comuns de aplicativos, como roteamento, busca de dados, integrações - tudo isso enquanto melhora a experiência do desenvolvedor e do usuário final.</p><p align='justify'>Quer você seja um desenvolvedor individual ou parte de uma equipe maior, você pode aproveitar o React e o Next.js para construir aplicativos da web totalmente interativos, altamente dinâmicos e de alto desempenho.</p>",
+        "pagina":"https://nextjs.org/"
+    },
+    {
+        "id":"Laravel",
+        "exp":"<p align='justify'>Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Um framework web fornece uma estrutura e um ponto de partida para a criação de seu aplicativo, permitindo que você se concentre na criação de algo incrível enquanto nos preocupamos com os detalhes.</p><p align='justify'>O Laravel se esforça para fornecer uma experiência incrível ao desenvolvedor, ao mesmo tempo que fornece recursos poderosos, como injeção completa de dependência, uma camada expressiva de abstração de banco de dados, filas e trabalhos agendados, testes unitários e de integração e muito mais.</p><p align='justify'>Quer você seja novo em frameworks web PHP ou tenha anos de experiência, o Laravel é um framework que pode crescer com você. Nós o ajudaremos a dar os primeiros passos como desenvolvedor web ou lhe daremos um impulso à medida que você leva seu conhecimento para o próximo nível. Mal podemos esperar para ver o que você construirá.</p>",
+        "pagina":"https://laravel.com/"
+    },
+    {
+        "id":"FastAPI",
+        "exp":"<p align='justify'>FastAPI é um moderno e rápido (alta performance) framework web para construção de APIs com Python 3.6 ou superior, baseado nos type hints padrões do Python.</p><p>Os recursos chave são:</p><ul><li><b>Rápido</b>: alta performance, equivalente a NodeJS e Go (graças ao Starlette e Pydantic). Um dos frameworks mais rápidos disponíveis.</li><li><b>Rápido para codar</b>: Aumenta a velocidade para desenvolver recursos entre 200% a 300%.</li><li><b>Poucos bugs</b>: Reduz cerca de 40% de erros induzidos por humanos (desenvolvedores).</li><li><b>Intuitivo</b>: Grande suporte a IDEs. Auto-Complete em todos os lugares. Menos tempo debugando.</li><li><b>Fácil</b>: Projetado para ser fácil de aprender e usar. Menos tempo lendo documentação.</li><li><b>Enxuto</b>: Minimize duplicação de código. Múltiplos recursos para cada declaração de parâmetro. Menos bugs.</li><li><b>Robusto</b>: Tenha código pronto para produção. E com documentação interativa automática.</li><li><b>Baseado em padrões</b>: Baseado em (e totalmente compatível com) os padrões abertos para APIs: OpenAPI (anteriormente conhecido como Swagger) e JSON Schema</li></ul>",
+        "pagina":"https://fastapi.tiangolo.com/pt/"
     }
 ]
