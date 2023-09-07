@@ -106,7 +106,7 @@
     },
     {
         "id":"Bamboo",
-        "exp":"<p align='justify'>Entrega contínua, do código à implantação. <br><br> Automação do fluxo de trabalho: Libere o poder do desenvolvimento ágil com fluxos de trabalho automatizados do código à implantação.<br><br>Recuperação de desastres integrada: Mantenha as equipes online e no caminho certo com resiliência de compilação e alta disponibilidade. <br><br>Escale com confiança: Aumente a capacidade e mantenha o desempenho à medida que sua organização cresce.</p>",
+        "exp":"<p align='justify'>Entrega contínua, do código à implantação. </p> <ul><li><b>Automação do fluxo de trabalho</b>: Libere o poder do desenvolvimento ágil com fluxos de trabalho automatizados do código à implantação.</li><li><b>Recuperação de desastres integrada</b>: Mantenha as equipes online e no caminho certo com resiliência de compilação e alta disponibilidade.</li><li><b>Escale com confiança</b>: Aumente a capacidade e mantenha o desempenho à medida que sua organização cresce.</li></ul>",
         "pagina":"https://www.atlassian.com/software/bamboo"
     },
     {

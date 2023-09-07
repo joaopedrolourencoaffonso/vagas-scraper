@@ -222,7 +222,7 @@
         <br>
         <p id="texto"></p>
         <br>
-        <a href="" target="_blank"></a>
+        <a id="saibamais" href="" target="_blank"></a>
       </div>
 
 <script>
@@ -346,7 +346,7 @@
             const text = box.querySelector('p');
             text.innerHTML = matchingItem.exp;
 
-            const link = box.querySelector('a');
+            const link = box.querySelector('saibamais');
             link.textContent = 'Saiba mais!';
             link.href = matchingItem.pagina;
         } else {
