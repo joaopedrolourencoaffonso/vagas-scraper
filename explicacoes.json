@@ -106,7 +106,7 @@
     },
     {
         "id":"Bamboo",
-        "exp":"<p align='justify'>Entrega contínua, do código à implantação. </p> <ul><li><b>Automação do fluxo de trabalho</b>: Libere o poder do desenvolvimento ágil com fluxos de trabalho automatizados do código à implantação.</li><li><b>Recuperação de desastres integrada</b>: Mantenha as equipes online e no caminho certo com resiliência de compilação e alta disponibilidade.</li><li><b>Escale com confiança</b>: Aumente a capacidade e mantenha o desempenho à medida que sua organização cresce.</li></ul>",
+        "exp":"<br><p align='justify'>Entrega contínua, do código à implantação. </p> <ul><li><b>Automação do fluxo de trabalho</b>: Libere o poder do desenvolvimento ágil com fluxos de trabalho automatizados do código à implantação.</li><li><b>Recuperação de desastres integrada</b>: Mantenha as equipes online e no caminho certo com resiliência de compilação e alta disponibilidade.</li><li><b>Escale com confiança</b>: Aumente a capacidade e mantenha o desempenho à medida que sua organização cresce.</li></ul>",
         "pagina":"https://www.atlassian.com/software/bamboo"
     },
     {
@@ -378,5 +378,10 @@
         "id":"AC",
         "exp":"<p align='justify'>O setor de Tecnologia da Informação no estado da Acre tem experimentado um crescimento gradual nas últimas décadas. Embora seja uma região de menor destaque em comparação com centros tecnológicos mais estabelecidos no Brasil, o Acre demonstrou um aumento na demanda por serviços de TI e profissionais qualificados na área.</p><p align='justify'>No entanto, desafios como a infraestrutura de conectividade e a concorrência com polos tecnológicos mais consolidados ainda precisam ser superados, com iniciativas como o <a href='https://idesam.org/projetos/ppbio/'>Programa Prioritário de Bioeconomia</a> buscando o desenvolvimento economico do estado além do setor rural. Em resumo, o setor de Tecnologia da Informação no estado da Acre está em crescimento, oferecendo oportunidades promissoras para profissionais e empresas que desejam fazer parte desse desenvolvimento tecnológico.</p>",
         "pagina":"https://seplan.ac.gov.br/acreemnumeros/economia/"
+    },
+    {
+        "id":"AL",
+        "exp":"<p align='justify'>O setor de Tecnologia da Informação no estado de Alagoas tem experimentado um crescimento significativo nos últimos anos. A capital, Maceió, tem se destacado como um polo de desenvolvimento tecnológico e inovação. Empresas de software, startups e instituições de ensino superior têm desempenhado um papel fundamental no impulsionamento desse setor.</p><p align='justify'>O setor de TI em Alagoas também tem estabelecido parcerias com órgãos governamentais e empresas locais (<a href='https://alagoas.al.gov.br/noticia/paulo-se-reune-com-lideres-de-nantong-para-superar-600-milhoes-investidos-por-chineses-em-2022'>exemplo</a>), visando à modernização e à melhoria dos serviços públicos por meio da tecnologia. A presença de incubadoras e espaços de coworking tem fomentado o empreendedorismo e a inovação, permitindo que startups e empreendedores locais desenvolvam suas ideias e negócios, assim como programas de qualificação criados pelo próprio setor privado (<a href='https://g1.globo.com/al/alagoas/noticia/2023/02/08/programa-oferta-cerca-de-200-vagas-de-emprego-nas-areas-de-tecnologia-e-inovacao-em-al.ghtml'>exemplo</a>).</p><p align='justify'>Esse ambiente promissor cria oportunidades para o desenvolvimento econômico do estado e para profissionais que desejam fazer parte desse setor dinâmico. Porém, o estado ainda enfrenta vários desafios, como o alto índice de violência, o <a href='https://forumseguranca.org.br/wp-content/uploads/2023/07/anuario-2023.pdf'>quarto do país em 2022</a>.</p>",
+        "pagina":"https://pt.wikipedia.org/wiki/Alagoas#Economia"
     }
 ]
