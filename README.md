@@ -4,6 +4,9 @@
 
 Este script Python foi desenvolvido para web scraping de sites de empregos e geração de um relatório sobre o número de vagas abertas relacionadas a diferentes competências na área de TI. O script utiliza várias bibliotecas, incluindo `requests`, `BeautifulSoup`, `matplotlib`, `reportlab`, `PyPDF2`, `argparse` e `tqdm`.
 
+### NOTA
+Infelizmente, a catho.com adicionou algum controle que bloquea o webscraping, provavelmente contra ataques DDOS. No momento, não tenho tempo para desenvolver uma solução, então o projeto está hibernando no momento, se um dia conseguir tempo, volto a atualizar.
+
 ## Características
 
 - Extrai informações de sites de empregos como vagas.com, catho.com e infojobs.com.
